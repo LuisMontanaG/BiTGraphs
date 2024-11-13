@@ -3,6 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
 import pandas as pd
+from pyvis.network import Network
 
 def remake_graph(w, node_names, acronyms_dict, edges):
     DG.clear()
@@ -141,7 +142,8 @@ nx.set_edge_attributes(DG, edge_attributes)
 
 
 fig, ax = plt.subplots()
-pos = nx.spring_layout(DG, seed=42, k = 120/math.sqrt(DG.order()))
+pos = nx.circular_layout(DG, scale= 1000)
+
 #nx.draw_networkx(DG, pos, arrows=True, with_labels=True, node_size=freq.values / 1.0, node_color=colors)
 nx.draw_networkx_edges(DG, pos, ax=ax, node_size=sizes)# width=weights, arrowsize=20)
 #nx.draw_networkx_edge_labels(DG, pos, ax=ax)
@@ -170,3 +172,15 @@ freq_slider = Slider(
 freq_slider.on_changed(lambda new_val: update(new_val, node_names, acronyms_dict, freq, edges, colors))
 fig.canvas.mpl_connect("motion_notify_event", hover)
 plt.show()
+
+net = Network()
+
+for n in DG.nodes:
+    net.add_node(n,
+        size=5,
+        x = pos[n][0],
+        y = pos[n][1],
+        physics = False)
+
+net.toggle_physics(False)
+net.save_graph('net.html')
