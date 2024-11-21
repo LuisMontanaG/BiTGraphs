@@ -56,7 +56,7 @@ def hover(event):
 
 
 # Read csv file
-database = 'dbGEC2017'
+database = 'GEC2017'
 events = pd.read_csv(database + '/Events.csv')
 entities = pd.read_csv(database + '/EntityAttributes.csv')
 

@@ -1,0 +1,3861 @@
+sequenceId,entityId,ParameterKey,ParameterValue
+1_11A;2_11A;3_11A;4_11A;5_11A,5,name,XintianY
+1_11A;2_11A;3_11A;4_11A;5_11A,5,webpawed,
+1_11A;2_11A;3_11A;4_11A;5_11A,5,webpafri,0.0101
+1_11A;2_11A;3_11A;4_11A;5_11A,5,Sex,Female
+1_11A;2_11A;3_11A;4_11A;5_11A,5,Nationality,China
+1_11A;2_11A;3_11A;4_11A;5_11A,5,leader.1,leader
+1_11A;2_11A;3_11A;4_11A;5_11A,5,leader.2,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,5,leader.3,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,5,leader.4,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,5,leader.5,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,4,name,RyanG
+1_11A;2_11A;3_11A;4_11A;5_11A,4,webpawed,
+1_11A;2_11A;3_11A;4_11A;5_11A,4,webpafri,0.0103
+1_11A;2_11A;3_11A;4_11A;5_11A,4,Sex,Male
+1_11A;2_11A;3_11A;4_11A;5_11A,4,Nationality,United Kingdom
+1_11A;2_11A;3_11A;4_11A;5_11A,4,leader.1,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,4,leader.2,leader
+1_11A;2_11A;3_11A;4_11A;5_11A,4,leader.3,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,4,leader.4,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,4,leader.5,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,3,name,PollyN
+1_11A;2_11A;3_11A;4_11A;5_11A,3,webpawed,
+1_11A;2_11A;3_11A;4_11A;5_11A,3,webpafri,0.0101
+1_11A;2_11A;3_11A;4_11A;5_11A,3,Sex,Female
+1_11A;2_11A;3_11A;4_11A;5_11A,3,Nationality,United Kingdom
+1_11A;2_11A;3_11A;4_11A;5_11A,3,leader.1,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,3,leader.2,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,3,leader.3,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,3,leader.4,leader
+1_11A;2_11A;3_11A;4_11A;5_11A,3,leader.5,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,2,name,LukeR
+1_11A;2_11A;3_11A;4_11A;5_11A,2,webpawed,
+1_11A;2_11A;3_11A;4_11A;5_11A,2,webpafri,0.0103
+1_11A;2_11A;3_11A;4_11A;5_11A,2,Sex,Male
+1_11A;2_11A;3_11A;4_11A;5_11A,2,Nationality,United Kingdom
+1_11A;2_11A;3_11A;4_11A;5_11A,2,leader.1,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,2,leader.2,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,2,leader.3,leader
+1_11A;2_11A;3_11A;4_11A;5_11A,2,leader.4,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,2,leader.5,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,1,name,HopeW
+1_11A;2_11A;3_11A;4_11A;5_11A,1,webpawed,
+1_11A;2_11A;3_11A;4_11A;5_11A,1,webpafri,0.0101
+1_11A;2_11A;3_11A;4_11A;5_11A,1,Sex,Female
+1_11A;2_11A;3_11A;4_11A;5_11A,1,Nationality,United Kingdom
+1_11A;2_11A;3_11A;4_11A;5_11A,1,leader.1,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,1,leader.2,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,1,leader.3,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,1,leader.4,not leader
+1_11A;2_11A;3_11A;4_11A;5_11A,1,leader.5,leader
+1_11A;2_11A;3_11A;4_11A,0,name,ChaoceY
+1_11A;2_11A;3_11A;4_11A,0,webpawed,
+1_11A;2_11A;3_11A;4_11A,0,webpafri,0.0091
+1_11A;2_11A;3_11A;4_11A,0,Sex,Male
+1_11A;2_11A;3_11A;4_11A,0,Nationality,China
+1_11A;2_11A;3_11A;4_11A,0,leader.1,not leader
+1_11A;2_11A;3_11A;4_11A,0,leader.2,leader
+1_11A;2_11A;3_11A;4_11A,0,leader.3,not leader
+1_11A;2_11A;3_11A;4_11A,0,leader.4,not leader
+1_11A;2_11A;3_11A;4_11A,0,leader.5,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,7,name,EduardoS
+1_11B;2_11B;3_11B;4_11B;5_11B,7,webpawed,
+1_11B;2_11B;3_11B;4_11B;5_11B,7,webpafri,0.0102
+1_11B;2_11B;3_11B;4_11B;5_11B,7,Sex,Male
+1_11B;2_11B;3_11B;4_11B;5_11B,7,Nationality,Spain
+1_11B;2_11B;3_11B;4_11B;5_11B,7,leader.1,leader
+1_11B;2_11B;3_11B;4_11B;5_11B,7,leader.2,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,7,leader.3,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,7,leader.4,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,7,leader.5,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,9,name,NathpassornB
+1_11B;2_11B;3_11B;4_11B;5_11B,9,webpawed,
+1_11B;2_11B;3_11B;4_11B;5_11B,9,webpafri,0.0101
+1_11B;2_11B;3_11B;4_11B;5_11B,9,Sex,Female
+1_11B;2_11B;3_11B;4_11B;5_11B,9,Nationality,Thailand
+1_11B;2_11B;3_11B;4_11B;5_11B,9,leader.1,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,9,leader.2,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,9,leader.3,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,9,leader.4,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,9,leader.5,leader
+1_11B;2_11B;3_11B;4_11B;5_11B,10,name,QianqianL
+1_11B;2_11B;3_11B;4_11B;5_11B,10,webpawed,
+1_11B;2_11B;3_11B;4_11B;5_11B,10,webpafri,0.0099
+1_11B;2_11B;3_11B;4_11B;5_11B,10,Sex,Female
+1_11B;2_11B;3_11B;4_11B;5_11B,10,Nationality,China
+1_11B;2_11B;3_11B;4_11B;5_11B,10,leader.1,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,10,leader.2,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,10,leader.3,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,10,leader.4,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,10,leader.5,leader
+1_11B;2_11B;3_11B;4_11B;5_11B,11,name,TheoW
+1_11B;2_11B;3_11B;4_11B;5_11B,11,webpawed,
+1_11B;2_11B;3_11B;4_11B;5_11B,11,webpafri,0.0098
+1_11B;2_11B;3_11B;4_11B;5_11B,11,Sex,Male
+1_11B;2_11B;3_11B;4_11B;5_11B,11,Nationality,United Kingdom
+1_11B;2_11B;3_11B;4_11B;5_11B,11,leader.1,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,11,leader.2,leader
+1_11B;2_11B;3_11B;4_11B;5_11B,11,leader.3,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,11,leader.4,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,11,leader.5,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,6,name,DanielL
+1_11B;2_11B;3_11B;4_11B;5_11B,6,webpawed,
+1_11B;2_11B;3_11B;4_11B;5_11B,6,webpafri,0.0101
+1_11B;2_11B;3_11B;4_11B;5_11B,6,Sex,Male
+1_11B;2_11B;3_11B;4_11B;5_11B,6,Nationality,United Kingdom
+1_11B;2_11B;3_11B;4_11B;5_11B,6,leader.1,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,6,leader.2,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,6,leader.3,leader
+1_11B;2_11B;3_11B;4_11B;5_11B,6,leader.4,not leader
+1_11B;2_11B;3_11B;4_11B;5_11B,6,leader.5,not leader
+1_11B;2_11B;3_11B;4_11B,8,name,LauraC
+1_11B;2_11B;3_11B;4_11B,8,webpawed,
+1_11B;2_11B;3_11B;4_11B,8,webpafri,0.0099
+1_11B;2_11B;3_11B;4_11B,8,Sex,Female
+1_11B;2_11B;3_11B;4_11B,8,Nationality,United Kingdom
+1_11B;2_11B;3_11B;4_11B,8,leader.1,not leader
+1_11B;2_11B;3_11B;4_11B,8,leader.2,not leader
+1_11B;2_11B;3_11B;4_11B,8,leader.3,not leader
+1_11B;2_11B;3_11B;4_11B,8,leader.4,leader
+1_11B;2_11B;3_11B;4_11B,8,leader.5,not leader
+1_11D;2_11D;4_11D;5_11D,14,name,JulianE
+1_11D;2_11D;4_11D;5_11D,14,webpawed,
+1_11D;2_11D;4_11D;5_11D,14,webpafri,0.0102
+1_11D;2_11D;4_11D;5_11D,14,Sex,Male
+1_11D;2_11D;4_11D;5_11D,14,Nationality,United Kingdom
+1_11D;2_11D;4_11D;5_11D,14,leader.1,leader
+1_11D;2_11D;4_11D;5_11D,14,leader.2,not leader
+1_11D;2_11D;4_11D;5_11D,14,leader.3,not leader
+1_11D;2_11D;4_11D;5_11D,14,leader.4,not leader
+1_11D;2_11D;4_11D;5_11D,14,leader.5,not leader
+1_11D;2_11D;4_11D;5_11D,13,name,HennockK
+1_11D;2_11D;4_11D;5_11D,13,webpawed,
+1_11D;2_11D;4_11D;5_11D,13,webpafri,0.0102
+1_11D;2_11D;4_11D;5_11D,13,Sex,Male
+1_11D;2_11D;4_11D;5_11D,13,Nationality,United Kingdom
+1_11D;2_11D;4_11D;5_11D,13,leader.1,not leader
+1_11D;2_11D;4_11D;5_11D,13,leader.2,not leader
+1_11D;2_11D;4_11D;5_11D,13,leader.3,not leader
+1_11D;2_11D;4_11D;5_11D,13,leader.4,not leader
+1_11D;2_11D;4_11D;5_11D,13,leader.5,leader
+1_11D;2_11D;5_11D,17,name,YimengZ
+1_11D;2_11D;5_11D,17,webpawed,
+1_11D;2_11D;5_11D,17,webpafri,0.0096
+1_11D;2_11D;5_11D,17,Sex,Male
+1_11D;2_11D;5_11D,17,Nationality,China
+1_11D;2_11D;5_11D,17,leader.1,not leader
+1_11D;2_11D;5_11D,17,leader.2,leader
+1_11D;2_11D;5_11D,17,leader.3,not leader
+1_11D;2_11D;5_11D,17,leader.4,not leader
+1_11D;2_11D;5_11D,17,leader.5,not leader
+1_11D;2_11D;4_11D;5_11D,16,name,ShannonF
+1_11D;2_11D;4_11D;5_11D,16,webpawed,
+1_11D;2_11D;4_11D;5_11D,16,webpafri,0.0102
+1_11D;2_11D;4_11D;5_11D,16,Sex,Female
+1_11D;2_11D;4_11D;5_11D,16,Nationality,Gibraltar
+1_11D;2_11D;4_11D;5_11D,16,leader.1,not leader
+1_11D;2_11D;4_11D;5_11D,16,leader.2,not leader
+1_11D;2_11D;4_11D;5_11D,16,leader.3,not leader
+1_11D;2_11D;4_11D;5_11D,16,leader.4,leader
+1_11D;2_11D;4_11D;5_11D,16,leader.5,not leader
+1_11D;2_11D;4_11D;5_11D,15,name,LucyT
+1_11D;2_11D;4_11D;5_11D,15,webpawed,
+1_11D;2_11D;4_11D;5_11D,15,webpafri,0.0102
+1_11D;2_11D;4_11D;5_11D,15,Sex,Female
+1_11D;2_11D;4_11D;5_11D,15,Nationality,United Kingdom
+1_11D;2_11D;4_11D;5_11D,15,leader.1,not leader
+1_11D;2_11D;4_11D;5_11D,15,leader.2,not leader
+1_11D;2_11D;4_11D;5_11D,15,leader.3,leader
+1_11D;2_11D;4_11D;5_11D,15,leader.4,not leader
+1_11D;2_11D;4_11D;5_11D,15,leader.5,not leader
+1_11D;2_11D;4_11D,12,name,CharlieC
+1_11D;2_11D;4_11D,12,webpawed,
+1_11D;2_11D;4_11D,12,webpafri,0.0096
+1_11D;2_11D;4_11D,12,Sex,Male
+1_11D;2_11D;4_11D,12,Nationality,United Kingdom
+1_11D;2_11D;4_11D,12,leader.1,not leader
+1_11D;2_11D;4_11D,12,leader.2,not leader
+1_11D;2_11D;4_11D,12,leader.3,not leader
+1_11D;2_11D;4_11D,12,leader.4,not leader
+1_11D;2_11D;4_11D,12,leader.5,leader
+1_11E;2_11E;4_11E;5_11E,18,name,AyrtonB
+1_11E;2_11E;4_11E;5_11E,18,webpawed,
+1_11E;2_11E;4_11E;5_11E,18,webpafri,0.0112
+1_11E;2_11E;4_11E;5_11E,18,Sex,Male
+1_11E;2_11E;4_11E;5_11E,18,Nationality,United Kingdom
+1_11E;2_11E;4_11E;5_11E,18,leader.1,leader
+1_11E;2_11E;4_11E;5_11E,18,leader.2,not leader
+1_11E;2_11E;4_11E;5_11E,18,leader.3,not leader
+1_11E;2_11E;4_11E;5_11E,18,leader.4,not leader
+1_11E;2_11E;4_11E;5_11E,18,leader.5,not leader
+1_11E;2_11E;4_11E;5_11E,20,name,JackC
+1_11E;2_11E;4_11E;5_11E,20,webpawed,
+1_11E;2_11E;4_11E;5_11E,20,webpafri,0.0101
+1_11E;2_11E;4_11E;5_11E,20,Sex,Male
+1_11E;2_11E;4_11E;5_11E,20,Nationality,United Kingdom
+1_11E;2_11E;4_11E;5_11E,20,leader.1,not leader
+1_11E;2_11E;4_11E;5_11E,20,leader.2,not leader
+1_11E;2_11E;4_11E;5_11E,20,leader.3,not leader
+1_11E;2_11E;4_11E;5_11E,20,leader.4,not leader
+1_11E;2_11E;4_11E;5_11E,20,leader.5,leader
+1_11E;2_11E;4_11E;5_11E,22,name,MichaelA
+1_11E;2_11E;4_11E;5_11E,22,webpawed,
+1_11E;2_11E;4_11E;5_11E,22,webpafri,0.0086
+1_11E;2_11E;4_11E;5_11E,22,Sex,Male
+1_11E;2_11E;4_11E;5_11E,22,Nationality,Nigeria
+1_11E;2_11E;4_11E;5_11E,22,leader.1,not leader
+1_11E;2_11E;4_11E;5_11E,22,leader.2,not leader
+1_11E;2_11E;4_11E;5_11E,22,leader.3,leader
+1_11E;2_11E;4_11E;5_11E,22,leader.4,not leader
+1_11E;2_11E;4_11E;5_11E,22,leader.5,not leader
+1_11E;2_11E;4_11E;5_11E,23,name,ShivaS
+1_11E;2_11E;4_11E;5_11E,23,webpawed,
+1_11E;2_11E;4_11E;5_11E,23,webpafri,0.0104
+1_11E;2_11E;4_11E;5_11E,23,Sex,Female
+1_11E;2_11E;4_11E;5_11E,23,Nationality,France
+1_11E;2_11E;4_11E;5_11E,23,leader.1,not leader
+1_11E;2_11E;4_11E;5_11E,23,leader.2,leader
+1_11E;2_11E;4_11E;5_11E,23,leader.3,not leader
+1_11E;2_11E;4_11E;5_11E,23,leader.4,not leader
+1_11E;2_11E;4_11E;5_11E,23,leader.5,not leader
+1_11E;2_11E;4_11E;5_11E,19,name,FanY
+1_11E;2_11E;4_11E;5_11E,19,webpawed,
+1_11E;2_11E;4_11E;5_11E,19,webpafri,0.0093
+1_11E;2_11E;4_11E;5_11E,19,Sex,Male
+1_11E;2_11E;4_11E;5_11E,19,Nationality,China
+1_11E;2_11E;4_11E;5_11E,19,leader.1,not leader
+1_11E;2_11E;4_11E;5_11E,19,leader.2,not leader
+1_11E;2_11E;4_11E;5_11E,19,leader.3,not leader
+1_11E;2_11E;4_11E;5_11E,19,leader.4,leader
+1_11E;2_11E;4_11E;5_11E,19,leader.5,not leader
+1_11E;2_11E;4_11E;5_11E,21,name,LandeG
+1_11E;2_11E;4_11E;5_11E,21,webpawed,
+1_11E;2_11E;4_11E;5_11E,21,webpafri,0.0105
+1_11E;2_11E;4_11E;5_11E,21,Sex,Male
+1_11E;2_11E;4_11E;5_11E,21,Nationality,China
+1_11E;2_11E;4_11E;5_11E,21,leader.1,not leader
+1_11E;2_11E;4_11E;5_11E,21,leader.2,not leader
+1_11E;2_11E;4_11E;5_11E,21,leader.3,not leader
+1_11E;2_11E;4_11E;5_11E,21,leader.4,not leader
+1_11E;2_11E;4_11E;5_11E,21,leader.5,leader
+1_11F;2_11F;3_11F;4_11F;5_11F,27,name,MubarakaS
+1_11F;2_11F;3_11F;4_11F;5_11F,27,webpawed,
+1_11F;2_11F;3_11F;4_11F;5_11F,27,webpafri,0.0105
+1_11F;2_11F;3_11F;4_11F;5_11F,27,Sex,Female
+1_11F;2_11F;3_11F;4_11F;5_11F,27,Nationality,United Kingdom
+1_11F;2_11F;3_11F;4_11F;5_11F,27,leader.1,leader
+1_11F;2_11F;3_11F;4_11F;5_11F,27,leader.2,not leader
+1_11F;2_11F;3_11F;4_11F;5_11F,27,leader.3,not leader
+1_11F;2_11F;3_11F;4_11F;5_11F,27,leader.4,not leader
+1_11F;2_11F;3_11F;4_11F;5_11F,27,leader.5,not leader
+1_11F;2_11F;3_11F;4_11F;5_11F,25,name,AmberK
+1_11F;2_11F;3_11F;4_11F;5_11F,25,webpawed,
+1_11F;2_11F;3_11F;4_11F;5_11F,25,webpafri,0.0104
+1_11F;2_11F;3_11F;4_11F;5_11F,25,Sex,Female
+1_11F;2_11F;3_11F;4_11F;5_11F,25,Nationality,United Kingdom
+1_11F;2_11F;3_11F;4_11F;5_11F,25,leader.1,not leader
+1_11F;2_11F;3_11F;4_11F;5_11F,25,leader.2,not leader
+1_11F;2_11F;3_11F;4_11F;5_11F,25,leader.3,not leader
+1_11F;2_11F;3_11F;4_11F;5_11F,25,leader.4,not leader
+1_11F;2_11F;3_11F;4_11F;5_11F,25,leader.5,leader
+1_11F;2_11F;4_11F;5_11F,26,name,HugoC
+1_11F;2_11F;4_11F;5_11F,26,webpawed,
+1_11F;2_11F;4_11F;5_11F,26,webpafri,0.0103
+1_11F;2_11F;4_11F;5_11F,26,Sex,Male
+1_11F;2_11F;4_11F;5_11F,26,Nationality,United Kingdom
+1_11F;2_11F;4_11F;5_11F,26,leader.1,not leader
+1_11F;2_11F;4_11F;5_11F,26,leader.2,leader
+1_11F;2_11F;4_11F;5_11F,26,leader.3,not leader
+1_11F;2_11F;4_11F;5_11F,26,leader.4,not leader
+1_11F;2_11F;4_11F;5_11F,26,leader.5,not leader
+1_11F;2_11F;4_11F;5_11F,29,name,PrinceC
+1_11F;2_11F;4_11F;5_11F,29,webpawed,
+1_11F;2_11F;4_11F;5_11F,29,webpafri,0.0089
+1_11F;2_11F;4_11F;5_11F,29,Sex,Male
+1_11F;2_11F;4_11F;5_11F,29,Nationality,United Kingdom
+1_11F;2_11F;4_11F;5_11F,29,leader.1,not leader
+1_11F;2_11F;4_11F;5_11F,29,leader.2,not leader
+1_11F;2_11F;4_11F;5_11F,29,leader.3,not leader
+1_11F;2_11F;4_11F;5_11F,29,leader.4,leader
+1_11F;2_11F;4_11F;5_11F,29,leader.5,not leader
+1_11F;2_11F;3_11F;4_11F;5_11F,24,name,AznieO
+1_11F;2_11F;3_11F;4_11F;5_11F,24,webpawed,
+1_11F;2_11F;3_11F;4_11F;5_11F,24,webpafri,0.0096
+1_11F;2_11F;3_11F;4_11F;5_11F,24,Sex,Female
+1_11F;2_11F;3_11F;4_11F;5_11F,24,Nationality,Malaysia
+1_11F;2_11F;3_11F;4_11F;5_11F,24,leader.1,
+1_11F;2_11F;3_11F;4_11F;5_11F,24,leader.2,
+1_11F;2_11F;3_11F;4_11F;5_11F,24,leader.3,
+1_11F;2_11F;3_11F;4_11F;5_11F,24,leader.4,
+1_11F;2_11F;3_11F;4_11F;5_11F,24,leader.5,
+1_11F;2_11F;3_11F;4_11F;5_11F,28,name,MeganW
+1_11F;2_11F;3_11F;4_11F;5_11F,28,webpawed,
+1_11F;2_11F;3_11F;4_11F;5_11F,28,webpafri,0.0104
+1_11F;2_11F;3_11F;4_11F;5_11F,28,Sex,Female
+1_11F;2_11F;3_11F;4_11F;5_11F,28,Nationality,United Kingdom
+1_11F;2_11F;3_11F;4_11F;5_11F,28,leader.1,not leader
+1_11F;2_11F;3_11F;4_11F;5_11F,28,leader.2,not leader
+1_11F;2_11F;3_11F;4_11F;5_11F,28,leader.3,leader
+1_11F;2_11F;3_11F;4_11F;5_11F,28,leader.4,not leader
+1_11F;2_11F;3_11F;4_11F;5_11F,28,leader.5,not leader
+1_18A;2_18A;3_18A;4_18A;5_18A,32,name,JonathanK
+1_18A;2_18A;3_18A;4_18A;5_18A,32,webpawed,
+1_18A;2_18A;3_18A;4_18A;5_18A,32,webpafri,0.0135
+1_18A;2_18A;3_18A;4_18A;5_18A,32,Sex,Male
+1_18A;2_18A;3_18A;4_18A;5_18A,32,Nationality,United Kingdom
+1_18A;2_18A;3_18A;4_18A;5_18A,32,leader.1,leader
+1_18A;2_18A;3_18A;4_18A;5_18A,32,leader.2,not leader
+1_18A;2_18A;3_18A;4_18A;5_18A,32,leader.3,not leader
+1_18A;2_18A;3_18A;4_18A;5_18A,32,leader.4,not leader
+1_18A;2_18A;3_18A;4_18A;5_18A,32,leader.5,not leader
+1_18A;2_18A;5_18A,33,name,JamesW
+1_18A;2_18A;5_18A,33,webpawed,
+1_18A;2_18A;5_18A,33,webpafri,0.0004
+1_18A;2_18A;5_18A,33,Sex,Male
+1_18A;2_18A;5_18A,33,Nationality,United Kingdom
+1_18A;2_18A;5_18A,33,leader.1,not leader
+1_18A;2_18A;5_18A,33,leader.2,not leader
+1_18A;2_18A;5_18A,33,leader.3,not leader
+1_18A;2_18A;5_18A,33,leader.4,not leader
+1_18A;2_18A;5_18A,33,leader.5,leader
+1_18A;2_18A;3_18A;4_18A;5_18A,30,name,CraigF
+1_18A;2_18A;3_18A;4_18A;5_18A,30,webpawed,
+1_18A;2_18A;3_18A;4_18A;5_18A,30,webpafri,0.0135
+1_18A;2_18A;3_18A;4_18A;5_18A,30,Sex,Male
+1_18A;2_18A;3_18A;4_18A;5_18A,30,Nationality,United Kingdom
+1_18A;2_18A;3_18A;4_18A;5_18A,30,leader.1,not leader
+1_18A;2_18A;3_18A;4_18A;5_18A,30,leader.2,not leader
+1_18A;2_18A;3_18A;4_18A;5_18A,30,leader.3,not leader
+1_18A;2_18A;3_18A;4_18A;5_18A,30,leader.4,leader
+1_18A;2_18A;3_18A;4_18A;5_18A,30,leader.5,not leader
+1_18A;2_18A;3_18A;4_18A;5_18A,34,name,OliverM
+1_18A;2_18A;3_18A;4_18A;5_18A,34,webpawed,
+1_18A;2_18A;3_18A;4_18A;5_18A,34,webpafri,0.0135
+1_18A;2_18A;3_18A;4_18A;5_18A,34,Sex,Male
+1_18A;2_18A;3_18A;4_18A;5_18A,34,Nationality,United Kingdom
+1_18A;2_18A;3_18A;4_18A;5_18A,34,leader.1,not leader
+1_18A;2_18A;3_18A;4_18A;5_18A,34,leader.2,leader
+1_18A;2_18A;3_18A;4_18A;5_18A,34,leader.3,not leader
+1_18A;2_18A;3_18A;4_18A;5_18A,34,leader.4,not leader
+1_18A;2_18A;3_18A;4_18A;5_18A,34,leader.5,not leader
+1_18A;2_18A;3_18A;4_18A;5_18A,31,name,HarshaA
+1_18A;2_18A;3_18A;4_18A;5_18A,31,webpawed,
+1_18A;2_18A;3_18A;4_18A;5_18A,31,webpafri,0.0135
+1_18A;2_18A;3_18A;4_18A;5_18A,31,Sex,Male
+1_18A;2_18A;3_18A;4_18A;5_18A,31,Nationality,United Kingdom
+1_18A;2_18A;3_18A;4_18A;5_18A,31,leader.1,not leader
+1_18A;2_18A;3_18A;4_18A;5_18A,31,leader.2,not leader
+1_18A;2_18A;3_18A;4_18A;5_18A,31,leader.3,leader
+1_18A;2_18A;3_18A;4_18A;5_18A,31,leader.4,not leader
+1_18A;2_18A;3_18A;4_18A;5_18A,31,leader.5,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,37,name,AbhinavK
+1_18B;2_18B;3_18B;4_18B;5_18B,37,webpawed,
+1_18B;2_18B;3_18B;4_18B;5_18B,37,webpafri,0.0119
+1_18B;2_18B;3_18B;4_18B;5_18B,37,Sex,Male
+1_18B;2_18B;3_18B;4_18B;5_18B,37,Nationality,India
+1_18B;2_18B;3_18B;4_18B;5_18B,37,leader.1,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,37,leader.2,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,37,leader.3,leader
+1_18B;2_18B;3_18B;4_18B;5_18B,37,leader.4,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,37,leader.5,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,39,name,JackC
+1_18B;2_18B;3_18B;4_18B;5_18B,39,webpawed,
+1_18B;2_18B;3_18B;4_18B;5_18B,39,webpafri,0.0101
+1_18B;2_18B;3_18B;4_18B;5_18B,39,Sex,Male
+1_18B;2_18B;3_18B;4_18B;5_18B,39,Nationality,United Kingdom
+1_18B;2_18B;3_18B;4_18B;5_18B,39,leader.1,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,39,leader.2,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,39,leader.3,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,39,leader.4,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,39,leader.5,leader
+1_18B;2_18B,38,name,BenjaminC
+1_18B;2_18B,38,webpawed,
+1_18B;2_18B,38,webpafri,0.0012
+1_18B;2_18B,38,Sex,Male
+1_18B;2_18B,38,Nationality,United Kingdom
+1_18B;2_18B,38,leader.1,not leader
+1_18B;2_18B,38,leader.2,not leader
+1_18B;2_18B,38,leader.3,not leader
+1_18B;2_18B,38,leader.4,leader
+1_18B;2_18B,38,leader.5,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,41,name,MihaiC
+1_18B;2_18B;3_18B;4_18B;5_18B,41,webpawed,
+1_18B;2_18B;3_18B;4_18B;5_18B,41,webpafri,0.0112
+1_18B;2_18B;3_18B;4_18B;5_18B,41,Sex,Male
+1_18B;2_18B;3_18B;4_18B;5_18B,41,Nationality,Romania
+1_18B;2_18B;3_18B;4_18B;5_18B,41,leader.1,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,41,leader.2,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,41,leader.3,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,41,leader.4,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,41,leader.5,leader
+1_18B;2_18B;3_18B;4_18B;5_18B,36,name,AlexP
+1_18B;2_18B;3_18B;4_18B;5_18B,36,webpawed,
+1_18B;2_18B;3_18B;4_18B;5_18B,36,webpafri,0.0119
+1_18B;2_18B;3_18B;4_18B;5_18B,36,Sex,Male
+1_18B;2_18B;3_18B;4_18B;5_18B,36,Nationality,United Kingdom
+1_18B;2_18B;3_18B;4_18B;5_18B,36,leader.1,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,36,leader.2,leader
+1_18B;2_18B;3_18B;4_18B;5_18B,36,leader.3,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,36,leader.4,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,36,leader.5,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,40,name,KatieA
+1_18B;2_18B;3_18B;4_18B;5_18B,40,webpawed,
+1_18B;2_18B;3_18B;4_18B;5_18B,40,webpafri,0.0118
+1_18B;2_18B;3_18B;4_18B;5_18B,40,Sex,Female
+1_18B;2_18B;3_18B;4_18B;5_18B,40,Nationality,United Kingdom
+1_18B;2_18B;3_18B;4_18B;5_18B,40,leader.1,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,40,leader.2,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,40,leader.3,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,40,leader.4,not leader
+1_18B;2_18B;3_18B;4_18B;5_18B,40,leader.5,leader
+1_18C;2_18C;3_18C;4_18C;5_18C,45,name,JamieR
+1_18C;2_18C;3_18C;4_18C;5_18C,45,webpawed,
+1_18C;2_18C;3_18C;4_18C;5_18C,45,webpafri,0.0101
+1_18C;2_18C;3_18C;4_18C;5_18C,45,Sex,Male
+1_18C;2_18C;3_18C;4_18C;5_18C,45,Nationality,United Kingdom
+1_18C;2_18C;3_18C;4_18C;5_18C,45,leader.1,not leader
+1_18C;2_18C;3_18C;4_18C;5_18C,45,leader.2,not leader
+1_18C;2_18C;3_18C;4_18C;5_18C,45,leader.3,not leader
+1_18C;2_18C;3_18C;4_18C;5_18C,45,leader.4,leader
+1_18C;2_18C;3_18C;4_18C;5_18C,45,leader.5,not leader
+1_18C;2_18C;3_18C;5_18C,42,name,BenjaminW
+1_18C;2_18C;3_18C;5_18C,42,webpawed,
+1_18C;2_18C;3_18C;5_18C,42,webpafri,0.0106
+1_18C;2_18C;3_18C;5_18C,42,Sex,Male
+1_18C;2_18C;3_18C;5_18C,42,Nationality,United Kingdom
+1_18C;2_18C;3_18C;5_18C,42,leader.1,
+1_18C;2_18C;3_18C;5_18C,42,leader.2,
+1_18C;2_18C;3_18C;5_18C,42,leader.3,
+1_18C;2_18C;3_18C;5_18C,42,leader.4,
+1_18C;2_18C;3_18C;5_18C,42,leader.5,
+1_18C;2_18C;3_18C;4_18C;5_18C,46,name,SamuelB
+1_18C;2_18C;3_18C;4_18C;5_18C,46,webpawed,
+1_18C;2_18C;3_18C;4_18C;5_18C,46,webpafri,0.0099
+1_18C;2_18C;3_18C;4_18C;5_18C,46,Sex,Male
+1_18C;2_18C;3_18C;4_18C;5_18C,46,Nationality,United Kingdom
+1_18C;2_18C;3_18C;4_18C;5_18C,46,leader.1,leader
+1_18C;2_18C;3_18C;4_18C;5_18C,46,leader.2,not leader
+1_18C;2_18C;3_18C;4_18C;5_18C,46,leader.3,not leader
+1_18C;2_18C;3_18C;4_18C;5_18C,46,leader.4,not leader
+1_18C;2_18C;3_18C;4_18C;5_18C,46,leader.5,not leader
+1_18C;4_18C;5_18C,44,name,IdrisN
+1_18C;4_18C;5_18C,44,webpawed,
+1_18C;4_18C;5_18C,44,webpafri,0.0092
+1_18C;4_18C;5_18C,44,Sex,Male
+1_18C;4_18C;5_18C,44,Nationality,United Kingdom
+1_18C;4_18C;5_18C,44,leader.1,not leader
+1_18C;4_18C;5_18C,44,leader.2,not leader
+1_18C;4_18C;5_18C,44,leader.3,not leader
+1_18C;4_18C;5_18C,44,leader.4,not leader
+1_18C;4_18C;5_18C,44,leader.5,leader
+1_18C;2_18C;3_18C;4_18C;5_18C,43,name,ChinmayR
+1_18C;2_18C;3_18C;4_18C;5_18C,43,webpawed,
+1_18C;2_18C;3_18C;4_18C;5_18C,43,webpafri,0.0106
+1_18C;2_18C;3_18C;4_18C;5_18C,43,Sex,Male
+1_18C;2_18C;3_18C;4_18C;5_18C,43,Nationality,India
+1_18C;2_18C;3_18C;4_18C;5_18C,43,leader.1,not leader
+1_18C;2_18C;3_18C;4_18C;5_18C,43,leader.2,leader
+1_18C;2_18C;3_18C;4_18C;5_18C,43,leader.3,not leader
+1_18C;2_18C;3_18C;4_18C;5_18C,43,leader.4,not leader
+1_18C;2_18C;3_18C;4_18C;5_18C,43,leader.5,not leader
+1_18C;2_18C;3_18C;4_18C;5_18C,47,name,ZhiqiangX
+1_18C;2_18C;3_18C;4_18C;5_18C,47,webpawed,
+1_18C;2_18C;3_18C;4_18C;5_18C,47,webpafri,0.0097
+1_18C;2_18C;3_18C;4_18C;5_18C,47,Sex,Male
+1_18C;2_18C;3_18C;4_18C;5_18C,47,Nationality,China
+1_18C;2_18C;3_18C;4_18C;5_18C,47,leader.1,not leader
+1_18C;2_18C;3_18C;4_18C;5_18C,47,leader.2,not leader
+1_18C;2_18C;3_18C;4_18C;5_18C,47,leader.3,leader
+1_18C;2_18C;3_18C;4_18C;5_18C,47,leader.4,not leader
+1_18C;2_18C;3_18C;4_18C;5_18C,47,leader.5,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,48,name,KhaledS
+1_18D;2_18D;3_18D;4_18D;5_18D,48,webpawed,
+1_18D;2_18D;3_18D;4_18D;5_18D,48,webpafri,0.01
+1_18D;2_18D;3_18D;4_18D;5_18D,48,Sex,Male
+1_18D;2_18D;3_18D;4_18D;5_18D,48,Nationality,Egypt
+1_18D;2_18D;3_18D;4_18D;5_18D,48,leader.1,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,48,leader.2,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,48,leader.3,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,48,leader.4,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,48,leader.5,leader
+1_18D;2_18D;3_18D;4_18D;5_18D,53,name,StephanieM
+1_18D;2_18D;3_18D;4_18D;5_18D,53,webpawed,
+1_18D;2_18D;3_18D;4_18D;5_18D,53,webpafri,0.01
+1_18D;2_18D;3_18D;4_18D;5_18D,53,Sex,Female
+1_18D;2_18D;3_18D;4_18D;5_18D,53,Nationality,United Kingdom
+1_18D;2_18D;3_18D;4_18D;5_18D,53,leader.1,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,53,leader.2,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,53,leader.3,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,53,leader.4,leader
+1_18D;2_18D;3_18D;4_18D;5_18D,53,leader.5,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,52,name,NicholasW
+1_18D;2_18D;3_18D;4_18D;5_18D,52,webpawed,
+1_18D;2_18D;3_18D;4_18D;5_18D,52,webpafri,0.01
+1_18D;2_18D;3_18D;4_18D;5_18D,52,Sex,Male
+1_18D;2_18D;3_18D;4_18D;5_18D,52,Nationality,United Kingdom
+1_18D;2_18D;3_18D;4_18D;5_18D,52,leader.1,leader
+1_18D;2_18D;3_18D;4_18D;5_18D,52,leader.2,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,52,leader.3,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,52,leader.4,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,52,leader.5,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,51,name,MikalaS
+1_18D;2_18D;3_18D;4_18D;5_18D,51,webpawed,
+1_18D;2_18D;3_18D;4_18D;5_18D,51,webpafri,0.01
+1_18D;2_18D;3_18D;4_18D;5_18D,51,Sex,Female
+1_18D;2_18D;3_18D;4_18D;5_18D,51,Nationality,United Kingdom
+1_18D;2_18D;3_18D;4_18D;5_18D,51,leader.1,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,51,leader.2,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,51,leader.3,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,51,leader.4,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,51,leader.5,leader
+1_18D;2_18D;3_18D;4_18D;5_18D,50,name,MaxK
+1_18D;2_18D;3_18D;4_18D;5_18D,50,webpawed,
+1_18D;2_18D;3_18D;4_18D;5_18D,50,webpafri,0.01
+1_18D;2_18D;3_18D;4_18D;5_18D,50,Sex,Male
+1_18D;2_18D;3_18D;4_18D;5_18D,50,Nationality,United Kingdom
+1_18D;2_18D;3_18D;4_18D;5_18D,50,leader.1,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,50,leader.2,leader
+1_18D;2_18D;3_18D;4_18D;5_18D,50,leader.3,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,50,leader.4,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,50,leader.5,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,49,name,MohamedE
+1_18D;2_18D;3_18D;4_18D;5_18D,49,webpawed,
+1_18D;2_18D;3_18D;4_18D;5_18D,49,webpafri,0.01
+1_18D;2_18D;3_18D;4_18D;5_18D,49,Sex,Male
+1_18D;2_18D;3_18D;4_18D;5_18D,49,Nationality,Sudan
+1_18D;2_18D;3_18D;4_18D;5_18D,49,leader.1,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,49,leader.2,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,49,leader.3,leader
+1_18D;2_18D;3_18D;4_18D;5_18D,49,leader.4,not leader
+1_18D;2_18D;3_18D;4_18D;5_18D,49,leader.5,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,55,name,JamesH
+1_18E;2_18E;3_18E;4_18E;5_18E,55,webpawed,
+1_18E;2_18E;3_18E;4_18E;5_18E,55,webpafri,0.0103
+1_18E;2_18E;3_18E;4_18E;5_18E,55,Sex,Male
+1_18E;2_18E;3_18E;4_18E;5_18E,55,Nationality,United Kingdom
+1_18E;2_18E;3_18E;4_18E;5_18E,55,leader.1,leader
+1_18E;2_18E;3_18E;4_18E;5_18E,55,leader.2,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,55,leader.3,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,55,leader.4,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,55,leader.5,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,56,name,Jose_FranciscoD
+1_18E;2_18E;3_18E;4_18E;5_18E,56,webpawed,
+1_18E;2_18E;3_18E;4_18E;5_18E,56,webpafri,0.0103
+1_18E;2_18E;3_18E;4_18E;5_18E,56,Sex,Male
+1_18E;2_18E;3_18E;4_18E;5_18E,56,Nationality,Spain
+1_18E;2_18E;3_18E;4_18E;5_18E,56,leader.1,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,56,leader.2,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,56,leader.3,leader
+1_18E;2_18E;3_18E;4_18E;5_18E,56,leader.4,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,56,leader.5,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,58,name,NathanielS
+1_18E;2_18E;3_18E;4_18E;5_18E,58,webpawed,
+1_18E;2_18E;3_18E;4_18E;5_18E,58,webpafri,0.01
+1_18E;2_18E;3_18E;4_18E;5_18E,58,Sex,Male
+1_18E;2_18E;3_18E;4_18E;5_18E,58,Nationality,United Kingdom
+1_18E;2_18E;3_18E;4_18E;5_18E,58,leader.1,
+1_18E;2_18E;3_18E;4_18E;5_18E,58,leader.2,
+1_18E;2_18E;3_18E;4_18E;5_18E,58,leader.3,
+1_18E;2_18E;3_18E;4_18E;5_18E,58,leader.4,
+1_18E;2_18E;3_18E;4_18E;5_18E,58,leader.5,
+1_18E;2_18E;3_18E;4_18E;5_18E,54,name,BokunQ
+1_18E;2_18E;3_18E;4_18E;5_18E,54,webpawed,
+1_18E;2_18E;3_18E;4_18E;5_18E,54,webpafri,0.0097
+1_18E;2_18E;3_18E;4_18E;5_18E,54,Sex,Male
+1_18E;2_18E;3_18E;4_18E;5_18E,54,Nationality,China
+1_18E;2_18E;3_18E;4_18E;5_18E,54,leader.1,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,54,leader.2,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,54,leader.3,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,54,leader.4,leader
+1_18E;2_18E;3_18E;4_18E;5_18E,54,leader.5,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,59,name,OluwatobiO
+1_18E;2_18E;3_18E;4_18E;5_18E,59,webpawed,
+1_18E;2_18E;3_18E;4_18E;5_18E,59,webpafri,0.0097
+1_18E;2_18E;3_18E;4_18E;5_18E,59,Sex,Male
+1_18E;2_18E;3_18E;4_18E;5_18E,59,Nationality,United Kingdom
+1_18E;2_18E;3_18E;4_18E;5_18E,59,leader.1,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,59,leader.2,leader
+1_18E;2_18E;3_18E;4_18E;5_18E,59,leader.3,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,59,leader.4,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,59,leader.5,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,57,name,NicolasM
+1_18E;2_18E;3_18E;4_18E;5_18E,57,webpawed,
+1_18E;2_18E;3_18E;4_18E;5_18E,57,webpafri,0.01
+1_18E;2_18E;3_18E;4_18E;5_18E,57,Sex,Male
+1_18E;2_18E;3_18E;4_18E;5_18E,57,Nationality,United Kingdom
+1_18E;2_18E;3_18E;4_18E;5_18E,57,leader.1,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,57,leader.2,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,57,leader.3,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,57,leader.4,not leader
+1_18E;2_18E;3_18E;4_18E;5_18E,57,leader.5,leader
+1_18F;2_18F;3_18F;4_18F;5_18F,61,name,BrandonO
+1_18F;2_18F;3_18F;4_18F;5_18F,61,webpawed,
+1_18F;2_18F;3_18F;4_18F;5_18F,61,webpafri,0.0103
+1_18F;2_18F;3_18F;4_18F;5_18F,61,Sex,Male
+1_18F;2_18F;3_18F;4_18F;5_18F,61,Nationality,United Kingdom
+1_18F;2_18F;3_18F;4_18F;5_18F,61,leader.1,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,61,leader.2,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,61,leader.3,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,61,leader.4,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,61,leader.5,leader
+1_18F;2_18F;3_18F;4_18F;5_18F,63,name,JinK
+1_18F;2_18F;3_18F;4_18F;5_18F,63,webpawed,
+1_18F;2_18F;3_18F;4_18F;5_18F,63,webpafri,0.0099
+1_18F;2_18F;3_18F;4_18F;5_18F,63,Sex,Male
+1_18F;2_18F;3_18F;4_18F;5_18F,63,Nationality,Korea (South)
+1_18F;2_18F;3_18F;4_18F;5_18F,63,leader.1,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,63,leader.2,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,63,leader.3,leader
+1_18F;2_18F;3_18F;4_18F;5_18F,63,leader.4,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,63,leader.5,not leader
+1_18F;3_18F;4_18F;5_18F,62,name,JaredG
+1_18F;3_18F;4_18F;5_18F,62,webpawed,
+1_18F;3_18F;4_18F;5_18F,62,webpafri,0.0099
+1_18F;3_18F;4_18F;5_18F,62,Sex,Male
+1_18F;3_18F;4_18F;5_18F,62,Nationality,United Kingdom
+1_18F;3_18F;4_18F;5_18F,62,leader.1,not leader
+1_18F;3_18F;4_18F;5_18F,62,leader.2,not leader
+1_18F;3_18F;4_18F;5_18F,62,leader.3,not leader
+1_18F;3_18F;4_18F;5_18F,62,leader.4,not leader
+1_18F;3_18F;4_18F;5_18F,62,leader.5,leader
+1_18F;2_18F;3_18F;4_18F;5_18F,64,name,MindaugasP
+1_18F;2_18F;3_18F;4_18F;5_18F,64,webpawed,
+1_18F;2_18F;3_18F;4_18F;5_18F,64,webpafri,0.0099
+1_18F;2_18F;3_18F;4_18F;5_18F,64,Sex,Male
+1_18F;2_18F;3_18F;4_18F;5_18F,64,Nationality,Lithuania
+1_18F;2_18F;3_18F;4_18F;5_18F,64,leader.1,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,64,leader.2,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,64,leader.3,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,64,leader.4,leader
+1_18F;2_18F;3_18F;4_18F;5_18F,64,leader.5,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,60,name,AlexanderP
+1_18F;2_18F;3_18F;4_18F;5_18F,60,webpawed,
+1_18F;2_18F;3_18F;4_18F;5_18F,60,webpafri,0.0099
+1_18F;2_18F;3_18F;4_18F;5_18F,60,Sex,Male
+1_18F;2_18F;3_18F;4_18F;5_18F,60,Nationality,United Kingdom
+1_18F;2_18F;3_18F;4_18F;5_18F,60,leader.1,leader
+1_18F;2_18F;3_18F;4_18F;5_18F,60,leader.2,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,60,leader.3,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,60,leader.4,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,60,leader.5,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,65,name,PeterK
+1_18F;2_18F;3_18F;4_18F;5_18F,65,webpawed,
+1_18F;2_18F;3_18F;4_18F;5_18F,65,webpafri,0.0099
+1_18F;2_18F;3_18F;4_18F;5_18F,65,Sex,Male
+1_18F;2_18F;3_18F;4_18F;5_18F,65,Nationality,United Kingdom
+1_18F;2_18F;3_18F;4_18F;5_18F,65,leader.1,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,65,leader.2,leader
+1_18F;2_18F;3_18F;4_18F;5_18F,65,leader.3,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,65,leader.4,not leader
+1_18F;2_18F;3_18F;4_18F;5_18F,65,leader.5,not leader
+1_19B;2_19B;3_19B;4_19B;5_19B,68,name,JamesW
+1_19B;2_19B;3_19B;4_19B;5_19B,68,webpawed,
+1_19B;2_19B;3_19B;4_19B;5_19B,68,webpafri,0.0004
+1_19B;2_19B;3_19B;4_19B;5_19B,68,Sex,Male
+1_19B;2_19B;3_19B;4_19B;5_19B,68,Nationality,United Kingdom
+1_19B;2_19B;3_19B;4_19B;5_19B,68,leader.1,not leader
+1_19B;2_19B;3_19B;4_19B;5_19B,68,leader.2,not leader
+1_19B;2_19B;3_19B;4_19B;5_19B,68,leader.3,not leader
+1_19B;2_19B;3_19B;4_19B;5_19B,68,leader.4,not leader
+1_19B;2_19B;3_19B;4_19B;5_19B,68,leader.5,leader
+1_19B;2_19B;4_19B;5_19B,69,name,JustasV
+1_19B;2_19B;4_19B;5_19B,69,webpawed,
+1_19B;2_19B;4_19B;5_19B,69,webpafri,0.0103
+1_19B;2_19B;4_19B;5_19B,69,Sex,Male
+1_19B;2_19B;4_19B;5_19B,69,Nationality,Lithuania
+1_19B;2_19B;4_19B;5_19B,69,leader.1,leader
+1_19B;2_19B;4_19B;5_19B,69,leader.2,not leader
+1_19B;2_19B;4_19B;5_19B,69,leader.3,not leader
+1_19B;2_19B;4_19B;5_19B,69,leader.4,not leader
+1_19B;2_19B;4_19B;5_19B,69,leader.5,not leader
+1_19B;2_19B;3_19B;4_19B;5_19B,67,name,JoelG
+1_19B;2_19B;3_19B;4_19B;5_19B,67,webpawed,
+1_19B;2_19B;3_19B;4_19B;5_19B,67,webpafri,0.0112
+1_19B;2_19B;3_19B;4_19B;5_19B,67,Sex,Male
+1_19B;2_19B;3_19B;4_19B;5_19B,67,Nationality,United Kingdom
+1_19B;2_19B;3_19B;4_19B;5_19B,67,leader.1,
+1_19B;2_19B;3_19B;4_19B;5_19B,67,leader.2,
+1_19B;2_19B;3_19B;4_19B;5_19B,67,leader.3,
+1_19B;2_19B;3_19B;4_19B;5_19B,67,leader.4,
+1_19B;2_19B;3_19B;4_19B;5_19B,67,leader.5,
+1_19B;2_19B;3_19B;4_19B;5_19B,70,name,RuolingP
+1_19B;2_19B;3_19B;4_19B;5_19B,70,webpawed,
+1_19B;2_19B;3_19B;4_19B;5_19B,70,webpafri,0.0089
+1_19B;2_19B;3_19B;4_19B;5_19B,70,Sex,Male
+1_19B;2_19B;3_19B;4_19B;5_19B,70,Nationality,China
+1_19B;2_19B;3_19B;4_19B;5_19B,70,leader.1,not leader
+1_19B;2_19B;3_19B;4_19B;5_19B,70,leader.2,not leader
+1_19B;2_19B;3_19B;4_19B;5_19B,70,leader.3,not leader
+1_19B;2_19B;3_19B;4_19B;5_19B,70,leader.4,leader
+1_19B;2_19B;3_19B;4_19B;5_19B,70,leader.5,not leader
+1_19B;2_19B;3_19B;4_19B;5_19B,66,name,ChaoranH
+1_19B;2_19B;3_19B;4_19B;5_19B,66,webpawed,
+1_19B;2_19B;3_19B;4_19B;5_19B,66,webpafri,0.0089
+1_19B;2_19B;3_19B;4_19B;5_19B,66,Sex,Male
+1_19B;2_19B;3_19B;4_19B;5_19B,66,Nationality,China
+1_19B;2_19B;3_19B;4_19B;5_19B,66,leader.1,not leader
+1_19B;2_19B;3_19B;4_19B;5_19B,66,leader.2,not leader
+1_19B;2_19B;3_19B;4_19B;5_19B,66,leader.3,leader
+1_19B;2_19B;3_19B;4_19B;5_19B,66,leader.4,not leader
+1_19B;2_19B;3_19B;4_19B;5_19B,66,leader.5,not leader
+1_19C;2_19C;4_19C;5_19C,77,name,LawrenceT
+1_19C;2_19C;4_19C;5_19C,77,webpawed,
+1_19C;2_19C;4_19C;5_19C,77,webpafri,0.0124
+1_19C;2_19C;4_19C;5_19C,77,Sex,Male
+1_19C;2_19C;4_19C;5_19C,77,Nationality,United Kingdom
+1_19C;2_19C;4_19C;5_19C,77,leader.1,not leader
+1_19C;2_19C;4_19C;5_19C,77,leader.2,not leader
+1_19C;2_19C;4_19C;5_19C,77,leader.3,not leader
+1_19C;2_19C;4_19C;5_19C,77,leader.4,leader
+1_19C;2_19C;4_19C;5_19C,77,leader.5,not leader
+1_19C;2_19C;4_19C;5_19C,72,name,HeatherC
+1_19C;2_19C;4_19C;5_19C,72,webpawed,
+1_19C;2_19C;4_19C;5_19C,72,webpafri,0.0121
+1_19C;2_19C;4_19C;5_19C,72,Sex,Female
+1_19C;2_19C;4_19C;5_19C,72,Nationality,United Kingdom
+1_19C;2_19C;4_19C;5_19C,72,leader.1,not leader
+1_19C;2_19C;4_19C;5_19C,72,leader.2,not leader
+1_19C;2_19C;4_19C;5_19C,72,leader.3,leader
+1_19C;2_19C;4_19C;5_19C,72,leader.4,not leader
+1_19C;2_19C;4_19C;5_19C,72,leader.5,not leader
+1_19C;4_19C,75,name,JakeR
+1_19C;4_19C,75,webpawed,
+1_19C;4_19C,75,webpafri,0.0127
+1_19C;4_19C,75,Sex,
+1_19C;4_19C,75,Nationality,
+1_19C;4_19C,75,leader.1,not leader
+1_19C;4_19C,75,leader.2,leader
+1_19C;4_19C,75,leader.3,not leader
+1_19C;4_19C,75,leader.4,not leader
+1_19C;4_19C,75,leader.5,not leader
+1_19C;2_19C;3_19C;4_19C,76,name,JacobS
+1_19C;2_19C;3_19C;4_19C,76,webpawed,
+1_19C;2_19C;3_19C;4_19C,76,webpafri,0.0121
+1_19C;2_19C;3_19C;4_19C,76,Sex,Male
+1_19C;2_19C;3_19C;4_19C,76,Nationality,United Kingdom
+1_19C;2_19C;3_19C;4_19C,76,leader.1,leader
+1_19C;2_19C;3_19C;4_19C,76,leader.2,not leader
+1_19C;2_19C;3_19C;4_19C,76,leader.3,not leader
+1_19C;2_19C;3_19C;4_19C,76,leader.4,not leader
+1_19C;2_19C;3_19C;4_19C,76,leader.5,not leader
+1_19C,73,name,HoTingL
+1_19C,73,webpawed,
+1_19C,73,webpafri,0.0
+1_19C,73,Sex,Male
+1_19C,73,Nationality,Hong Kong
+1_19C,73,leader.1,
+1_19C,73,leader.2,
+1_19C,73,leader.3,
+1_19C,73,leader.4,
+1_19C,73,leader.5,
+1_19C;2_19C;3_19C;4_19C;5_19C,74,name,JunxiangD
+1_19C;2_19C;3_19C;4_19C;5_19C,74,webpawed,
+1_19C;2_19C;3_19C;4_19C;5_19C,74,webpafri,0.0106
+1_19C;2_19C;3_19C;4_19C;5_19C,74,Sex,Male
+1_19C;2_19C;3_19C;4_19C;5_19C,74,Nationality,China
+1_19C;2_19C;3_19C;4_19C;5_19C,74,leader.1,not leader
+1_19C;2_19C;3_19C;4_19C;5_19C,74,leader.2,not leader
+1_19C;2_19C;3_19C;4_19C;5_19C,74,leader.3,not leader
+1_19C;2_19C;3_19C;4_19C;5_19C,74,leader.4,not leader
+1_19C;2_19C;3_19C;4_19C;5_19C,74,leader.5,leader
+1_19D;2_19D;3_19D;4_19D,79,name,AbhinandanS
+1_19D;2_19D;3_19D;4_19D,79,webpawed,
+1_19D;2_19D;3_19D;4_19D,79,webpafri,0.01
+1_19D;2_19D;3_19D;4_19D,79,Sex,Male
+1_19D;2_19D;3_19D;4_19D,79,Nationality,India
+1_19D;2_19D;3_19D;4_19D,79,leader.1,not leader
+1_19D;2_19D;3_19D;4_19D,79,leader.2,not leader
+1_19D;2_19D;3_19D;4_19D,79,leader.3,not leader
+1_19D;2_19D;3_19D;4_19D,79,leader.4,leader
+1_19D;2_19D;3_19D;4_19D,79,leader.5,not leader
+1_19D;2_19D;3_19D;4_19D,78,name,AsfandyarK
+1_19D;2_19D;3_19D;4_19D,78,webpawed,
+1_19D;2_19D;3_19D;4_19D,78,webpafri,0.0101
+1_19D;2_19D;3_19D;4_19D,78,Sex,Male
+1_19D;2_19D;3_19D;4_19D,78,Nationality,United Kingdom
+1_19D;2_19D;3_19D;4_19D,78,leader.1,
+1_19D;2_19D;3_19D;4_19D,78,leader.2,
+1_19D;2_19D;3_19D;4_19D,78,leader.3,
+1_19D;2_19D;3_19D;4_19D,78,leader.4,
+1_19D;2_19D;3_19D;4_19D,78,leader.5,
+1_19D;2_19D;3_19D;4_19D,81,name,JohanP
+1_19D;2_19D;3_19D;4_19D,81,webpawed,
+1_19D;2_19D;3_19D;4_19D,81,webpafri,0.0099
+1_19D;2_19D;3_19D;4_19D,81,Sex,Male
+1_19D;2_19D;3_19D;4_19D,81,Nationality,United Kingdom
+1_19D;2_19D;3_19D;4_19D,81,leader.1,leader
+1_19D;2_19D;3_19D;4_19D,81,leader.2,not leader
+1_19D;2_19D;3_19D;4_19D,81,leader.3,not leader
+1_19D;2_19D;3_19D;4_19D,81,leader.4,not leader
+1_19D;2_19D;3_19D;4_19D,81,leader.5,not leader
+1_19D;2_19D;3_19D;4_19D,83,name,NeilS
+1_19D;2_19D;3_19D;4_19D,83,webpawed,
+1_19D;2_19D;3_19D;4_19D,83,webpafri,0.01
+1_19D;2_19D;3_19D;4_19D,83,Sex,Male
+1_19D;2_19D;3_19D;4_19D,83,Nationality,United Kingdom
+1_19D;2_19D;3_19D;4_19D,83,leader.1,not leader
+1_19D;2_19D;3_19D;4_19D,83,leader.2,leader
+1_19D;2_19D;3_19D;4_19D,83,leader.3,not leader
+1_19D;2_19D;3_19D;4_19D,83,leader.4,not leader
+1_19D;2_19D;3_19D;4_19D,83,leader.5,not leader
+1_19D;2_19D;3_19D;4_19D,82,name,LouisR
+1_19D;2_19D;3_19D;4_19D,82,webpawed,
+1_19D;2_19D;3_19D;4_19D,82,webpafri,0.0101
+1_19D;2_19D;3_19D;4_19D,82,Sex,Male
+1_19D;2_19D;3_19D;4_19D,82,Nationality,United Kingdom
+1_19D;2_19D;3_19D;4_19D,82,leader.1,not leader
+1_19D;2_19D;3_19D;4_19D,82,leader.2,not leader
+1_19D;2_19D;3_19D;4_19D,82,leader.3,leader
+1_19D;2_19D;3_19D;4_19D,82,leader.4,not leader
+1_19D;2_19D;3_19D;4_19D,82,leader.5,not leader
+1_19D;2_19D;3_19D;4_19D,80,name,ChonC
+1_19D;2_19D;3_19D;4_19D,80,webpawed,
+1_19D;2_19D;3_19D;4_19D,80,webpafri,0.0099
+1_19D;2_19D;3_19D;4_19D,80,Sex,Male
+1_19D;2_19D;3_19D;4_19D,80,Nationality,Portugal
+1_19D;2_19D;3_19D;4_19D,80,leader.1,
+1_19D;2_19D;3_19D;4_19D,80,leader.2,
+1_19D;2_19D;3_19D;4_19D,80,leader.3,
+1_19D;2_19D;3_19D;4_19D,80,leader.4,
+1_19D;2_19D;3_19D;4_19D,80,leader.5,
+1_19E;2_19E;3_19E;4_19E;5_19E,85,name,AdelaideD
+1_19E;2_19E;3_19E;4_19E;5_19E,85,webpawed,
+1_19E;2_19E;3_19E;4_19E;5_19E,85,webpafri,0.01
+1_19E;2_19E;3_19E;4_19E;5_19E,85,Sex,Female
+1_19E;2_19E;3_19E;4_19E;5_19E,85,Nationality,France
+1_19E;2_19E;3_19E;4_19E;5_19E,85,leader.1,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,85,leader.2,leader
+1_19E;2_19E;3_19E;4_19E;5_19E,85,leader.3,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,85,leader.4,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,85,leader.5,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,87,name,OwainP
+1_19E;2_19E;3_19E;4_19E;5_19E,87,webpawed,
+1_19E;2_19E;3_19E;4_19E;5_19E,87,webpafri,0.01
+1_19E;2_19E;3_19E;4_19E;5_19E,87,Sex,Male
+1_19E;2_19E;3_19E;4_19E;5_19E,87,Nationality,United Kingdom
+1_19E;2_19E;3_19E;4_19E;5_19E,87,leader.1,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,87,leader.2,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,87,leader.3,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,87,leader.4,leader
+1_19E;2_19E;3_19E;4_19E;5_19E,87,leader.5,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,88,name,TimothyP
+1_19E;2_19E;3_19E;4_19E;5_19E,88,webpawed,
+1_19E;2_19E;3_19E;4_19E;5_19E,88,webpafri,0.01
+1_19E;2_19E;3_19E;4_19E;5_19E,88,Sex,Male
+1_19E;2_19E;3_19E;4_19E;5_19E,88,Nationality,United Kingdom
+1_19E;2_19E;3_19E;4_19E;5_19E,88,leader.1,leader
+1_19E;2_19E;3_19E;4_19E;5_19E,88,leader.2,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,88,leader.3,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,88,leader.4,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,88,leader.5,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,89,name,ValerieM
+1_19E;2_19E;3_19E;4_19E;5_19E,89,webpawed,
+1_19E;2_19E;3_19E;4_19E;5_19E,89,webpafri,0.01
+1_19E;2_19E;3_19E;4_19E;5_19E,89,Sex,Male
+1_19E;2_19E;3_19E;4_19E;5_19E,89,Nationality,United Kingdom
+1_19E;2_19E;3_19E;4_19E;5_19E,89,leader.1,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,89,leader.2,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,89,leader.3,leader
+1_19E;2_19E;3_19E;4_19E;5_19E,89,leader.4,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,89,leader.5,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,86,name,KausarR
+1_19E;2_19E;3_19E;4_19E;5_19E,86,webpawed,
+1_19E;2_19E;3_19E;4_19E;5_19E,86,webpafri,0.01
+1_19E;2_19E;3_19E;4_19E;5_19E,86,Sex,Male
+1_19E;2_19E;3_19E;4_19E;5_19E,86,Nationality,Italy
+1_19E;2_19E;3_19E;4_19E;5_19E,86,leader.1,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,86,leader.2,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,86,leader.3,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,86,leader.4,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,86,leader.5,leader
+1_19E;2_19E;3_19E;4_19E;5_19E,84,name,AmroA
+1_19E;2_19E;3_19E;4_19E;5_19E,84,webpawed,
+1_19E;2_19E;3_19E;4_19E;5_19E,84,webpafri,0.01
+1_19E;2_19E;3_19E;4_19E;5_19E,84,Sex,Male
+1_19E;2_19E;3_19E;4_19E;5_19E,84,Nationality,Egypt
+1_19E;2_19E;3_19E;4_19E;5_19E,84,leader.1,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,84,leader.2,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,84,leader.3,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,84,leader.4,not leader
+1_19E;2_19E;3_19E;4_19E;5_19E,84,leader.5,leader
+1_19F;2_19F;3_19F;4_19F;5_19F,95,name,ReganP
+1_19F;2_19F;3_19F;4_19F;5_19F,95,webpawed,
+1_19F;2_19F;3_19F;4_19F;5_19F,95,webpafri,0.01
+1_19F;2_19F;3_19F;4_19F;5_19F,95,Sex,Male
+1_19F;2_19F;3_19F;4_19F;5_19F,95,Nationality,United Kingdom
+1_19F;2_19F;3_19F;4_19F;5_19F,95,leader.1,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,95,leader.2,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,95,leader.3,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,95,leader.4,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,95,leader.5,leader
+1_19F;2_19F;3_19F;4_19F;5_19F,90,name,AidanC
+1_19F;2_19F;3_19F;4_19F;5_19F,90,webpawed,
+1_19F;2_19F;3_19F;4_19F;5_19F,90,webpafri,0.0101
+1_19F;2_19F;3_19F;4_19F;5_19F,90,Sex,Male
+1_19F;2_19F;3_19F;4_19F;5_19F,90,Nationality,United Kingdom
+1_19F;2_19F;3_19F;4_19F;5_19F,90,leader.1,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,90,leader.2,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,90,leader.3,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,90,leader.4,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,90,leader.5,leader
+1_19F;2_19F;3_19F;5_19F,94,name,PollyH
+1_19F;2_19F;3_19F;5_19F,94,webpawed,
+1_19F;2_19F;3_19F;5_19F,94,webpafri,0.0101
+1_19F;2_19F;3_19F;5_19F,94,Sex,Female
+1_19F;2_19F;3_19F;5_19F,94,Nationality,United Kingdom
+1_19F;2_19F;3_19F;5_19F,94,leader.1,not leader
+1_19F;2_19F;3_19F;5_19F,94,leader.2,not leader
+1_19F;2_19F;3_19F;5_19F,94,leader.3,leader
+1_19F;2_19F;3_19F;5_19F,94,leader.4,not leader
+1_19F;2_19F;3_19F;5_19F,94,leader.5,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,93,name,JosephC
+1_19F;2_19F;3_19F;4_19F;5_19F,93,webpawed,
+1_19F;2_19F;3_19F;4_19F;5_19F,93,webpafri,0.0099
+1_19F;2_19F;3_19F;4_19F;5_19F,93,Sex,Male
+1_19F;2_19F;3_19F;4_19F;5_19F,93,Nationality,United Kingdom
+1_19F;2_19F;3_19F;4_19F;5_19F,93,leader.1,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,93,leader.2,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,93,leader.3,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,93,leader.4,leader
+1_19F;2_19F;3_19F;4_19F;5_19F,93,leader.5,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,92,name,HenryN
+1_19F;2_19F;3_19F;4_19F;5_19F,92,webpawed,
+1_19F;2_19F;3_19F;4_19F;5_19F,92,webpafri,0.0101
+1_19F;2_19F;3_19F;4_19F;5_19F,92,Sex,Male
+1_19F;2_19F;3_19F;4_19F;5_19F,92,Nationality,United Kingdom
+1_19F;2_19F;3_19F;4_19F;5_19F,92,leader.1,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,92,leader.2,leader
+1_19F;2_19F;3_19F;4_19F;5_19F,92,leader.3,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,92,leader.4,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,92,leader.5,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,91,name,EkenedilichukwuN
+1_19F;2_19F;3_19F;4_19F;5_19F,91,webpawed,
+1_19F;2_19F;3_19F;4_19F;5_19F,91,webpafri,0.0098
+1_19F;2_19F;3_19F;4_19F;5_19F,91,Sex,Male
+1_19F;2_19F;3_19F;4_19F;5_19F,91,Nationality,Nigeria
+1_19F;2_19F;3_19F;4_19F;5_19F,91,leader.1,leader
+1_19F;2_19F;3_19F;4_19F;5_19F,91,leader.2,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,91,leader.3,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,91,leader.4,not leader
+1_19F;2_19F;3_19F;4_19F;5_19F,91,leader.5,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,98,name,IanV
+1_20A;2_20A;3_20A;4_20A;5_20A,98,webpawed,
+1_20A;2_20A;3_20A;4_20A;5_20A,98,webpafri,0.0101
+1_20A;2_20A;3_20A;4_20A;5_20A,98,Sex,Male
+1_20A;2_20A;3_20A;4_20A;5_20A,98,Nationality,United Kingdom
+1_20A;2_20A;3_20A;4_20A;5_20A,98,leader.1,leader
+1_20A;2_20A;3_20A;4_20A;5_20A,98,leader.2,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,98,leader.3,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,98,leader.4,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,98,leader.5,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,96,name,BrynW
+1_20A;2_20A;3_20A;4_20A;5_20A,96,webpawed,
+1_20A;2_20A;3_20A;4_20A;5_20A,96,webpafri,0.0101
+1_20A;2_20A;3_20A;4_20A;5_20A,96,Sex,Male
+1_20A;2_20A;3_20A;4_20A;5_20A,96,Nationality,United Kingdom
+1_20A;2_20A;3_20A;4_20A;5_20A,96,leader.1,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,96,leader.2,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,96,leader.3,leader
+1_20A;2_20A;3_20A;4_20A;5_20A,96,leader.4,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,96,leader.5,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,101,name,WilliamD
+1_20A;2_20A;3_20A;4_20A;5_20A,101,webpawed,
+1_20A;2_20A;3_20A;4_20A;5_20A,101,webpafri,0.0101
+1_20A;2_20A;3_20A;4_20A;5_20A,101,Sex,Male
+1_20A;2_20A;3_20A;4_20A;5_20A,101,Nationality,United Kingdom
+1_20A;2_20A;3_20A;4_20A;5_20A,101,leader.1,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,101,leader.2,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,101,leader.3,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,101,leader.4,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,101,leader.5,leader
+1_20A;2_20A;4_20A;5_20A,99,name,MylesK
+1_20A;2_20A;4_20A;5_20A,99,webpawed,
+1_20A;2_20A;4_20A;5_20A,99,webpafri,0.01
+1_20A;2_20A;4_20A;5_20A,99,Sex,Male
+1_20A;2_20A;4_20A;5_20A,99,Nationality,United Kingdom
+1_20A;2_20A;4_20A;5_20A,99,leader.1,not leader
+1_20A;2_20A;4_20A;5_20A,99,leader.2,leader
+1_20A;2_20A;4_20A;5_20A,99,leader.3,not leader
+1_20A;2_20A;4_20A;5_20A,99,leader.4,not leader
+1_20A;2_20A;4_20A;5_20A,99,leader.5,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,97,name,ChibuikeO
+1_20A;2_20A;3_20A;4_20A;5_20A,97,webpawed,
+1_20A;2_20A;3_20A;4_20A;5_20A,97,webpafri,0.0099
+1_20A;2_20A;3_20A;4_20A;5_20A,97,Sex,Male
+1_20A;2_20A;3_20A;4_20A;5_20A,97,Nationality,Nigeria
+1_20A;2_20A;3_20A;4_20A;5_20A,97,leader.1,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,97,leader.2,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,97,leader.3,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,97,leader.4,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,97,leader.5,leader
+1_20A;2_20A;3_20A;4_20A;5_20A,100,name,ShunziW
+1_20A;2_20A;3_20A;4_20A;5_20A,100,webpawed,
+1_20A;2_20A;3_20A;4_20A;5_20A,100,webpafri,0.0099
+1_20A;2_20A;3_20A;4_20A;5_20A,100,Sex,Female
+1_20A;2_20A;3_20A;4_20A;5_20A,100,Nationality,China
+1_20A;2_20A;3_20A;4_20A;5_20A,100,leader.1,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,100,leader.2,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,100,leader.3,not leader
+1_20A;2_20A;3_20A;4_20A;5_20A,100,leader.4,leader
+1_20A;2_20A;3_20A;4_20A;5_20A,100,leader.5,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,106,name,ThamiraJ
+1_20B;2_20B;3_20B;4_20B;5_20B,106,webpawed,
+1_20B;2_20B;3_20B;4_20B;5_20B,106,webpafri,0.01
+1_20B;2_20B;3_20B;4_20B;5_20B,106,Sex,Female
+1_20B;2_20B;3_20B;4_20B;5_20B,106,Nationality,Norway
+1_20B;2_20B;3_20B;4_20B;5_20B,106,leader.1,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,106,leader.2,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,106,leader.3,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,106,leader.4,leader
+1_20B;2_20B;3_20B;4_20B;5_20B,106,leader.5,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,104,name,JaffarS
+1_20B;2_20B;3_20B;4_20B;5_20B,104,webpawed,
+1_20B;2_20B;3_20B;4_20B;5_20B,104,webpafri,0.01
+1_20B;2_20B;3_20B;4_20B;5_20B,104,Sex,Male
+1_20B;2_20B;3_20B;4_20B;5_20B,104,Nationality,United Kingdom
+1_20B;2_20B;3_20B;4_20B;5_20B,104,leader.1,leader
+1_20B;2_20B;3_20B;4_20B;5_20B,104,leader.2,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,104,leader.3,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,104,leader.4,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,104,leader.5,not leader
+1_20B;2_20B;4_20B;5_20B,103,name,EthanR
+1_20B;2_20B;4_20B;5_20B,103,webpawed,
+1_20B;2_20B;4_20B;5_20B,103,webpafri,0.01
+1_20B;2_20B;4_20B;5_20B,103,Sex,Male
+1_20B;2_20B;4_20B;5_20B,103,Nationality,United Kingdom
+1_20B;2_20B;4_20B;5_20B,103,leader.1,not leader
+1_20B;2_20B;4_20B;5_20B,103,leader.2,not leader
+1_20B;2_20B;4_20B;5_20B,103,leader.3,not leader
+1_20B;2_20B;4_20B;5_20B,103,leader.4,not leader
+1_20B;2_20B;4_20B;5_20B,103,leader.5,leader
+1_20B;2_20B;3_20B;4_20B;5_20B,102,name,CharlieD
+1_20B;2_20B;3_20B;4_20B;5_20B,102,webpawed,
+1_20B;2_20B;3_20B;4_20B;5_20B,102,webpafri,0.01
+1_20B;2_20B;3_20B;4_20B;5_20B,102,Sex,Male
+1_20B;2_20B;3_20B;4_20B;5_20B,102,Nationality,United Kingdom
+1_20B;2_20B;3_20B;4_20B;5_20B,102,leader.1,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,102,leader.2,leader
+1_20B;2_20B;3_20B;4_20B;5_20B,102,leader.3,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,102,leader.4,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,102,leader.5,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,107,name,WilliamB
+1_20B;2_20B;3_20B;4_20B;5_20B,107,webpawed,
+1_20B;2_20B;3_20B;4_20B;5_20B,107,webpafri,0.01
+1_20B;2_20B;3_20B;4_20B;5_20B,107,Sex,Male
+1_20B;2_20B;3_20B;4_20B;5_20B,107,Nationality,United Kingdom
+1_20B;2_20B;3_20B;4_20B;5_20B,107,leader.1,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,107,leader.2,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,107,leader.3,leader
+1_20B;2_20B;3_20B;4_20B;5_20B,107,leader.4,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,107,leader.5,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,105,name,Ka_WaiL
+1_20B;2_20B;3_20B;4_20B;5_20B,105,webpawed,
+1_20B;2_20B;3_20B;4_20B;5_20B,105,webpafri,0.01
+1_20B;2_20B;3_20B;4_20B;5_20B,105,Sex,Male
+1_20B;2_20B;3_20B;4_20B;5_20B,105,Nationality,Hong Kong
+1_20B;2_20B;3_20B;4_20B;5_20B,105,leader.1,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,105,leader.2,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,105,leader.3,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,105,leader.4,not leader
+1_20B;2_20B;3_20B;4_20B;5_20B,105,leader.5,leader
+1_20D;2_20D;3_20D;4_20D;5_20D,109,name,BradleyB
+1_20D;2_20D;3_20D;4_20D;5_20D,109,webpawed,
+1_20D;2_20D;3_20D;4_20D;5_20D,109,webpafri,0.0103
+1_20D;2_20D;3_20D;4_20D;5_20D,109,Sex,Male
+1_20D;2_20D;3_20D;4_20D;5_20D,109,Nationality,United Kingdom
+1_20D;2_20D;3_20D;4_20D;5_20D,109,leader.1,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,109,leader.2,leader
+1_20D;2_20D;3_20D;4_20D;5_20D,109,leader.3,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,109,leader.4,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,109,leader.5,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,111,name,FavourO
+1_20D;2_20D;3_20D;4_20D;5_20D,111,webpawed,
+1_20D;2_20D;3_20D;4_20D;5_20D,111,webpafri,0.0105
+1_20D;2_20D;3_20D;4_20D;5_20D,111,Sex,Female
+1_20D;2_20D;3_20D;4_20D;5_20D,111,Nationality,United Kingdom
+1_20D;2_20D;3_20D;4_20D;5_20D,111,leader.1,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,111,leader.2,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,111,leader.3,leader
+1_20D;2_20D;3_20D;4_20D;5_20D,111,leader.4,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,111,leader.5,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,110,name,ElakkeyaJ
+1_20D;2_20D;3_20D;4_20D;5_20D,110,webpawed,
+1_20D;2_20D;3_20D;4_20D;5_20D,110,webpafri,0.0103
+1_20D;2_20D;3_20D;4_20D;5_20D,110,Sex,Female
+1_20D;2_20D;3_20D;4_20D;5_20D,110,Nationality,United Kingdom
+1_20D;2_20D;3_20D;4_20D;5_20D,110,leader.1,leader
+1_20D;2_20D;3_20D;4_20D;5_20D,110,leader.2,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,110,leader.3,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,110,leader.4,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,110,leader.5,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,112,name,MateL
+1_20D;2_20D;3_20D;4_20D;5_20D,112,webpawed,
+1_20D;2_20D;3_20D;4_20D;5_20D,112,webpafri,0.0106
+1_20D;2_20D;3_20D;4_20D;5_20D,112,Sex,Male
+1_20D;2_20D;3_20D;4_20D;5_20D,112,Nationality,Hungary
+1_20D;2_20D;3_20D;4_20D;5_20D,112,leader.1,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,112,leader.2,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,112,leader.3,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,112,leader.4,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,112,leader.5,leader
+1_20D;2_20D;3_20D;4_20D;5_20D,113,name,WentianF
+1_20D;2_20D;3_20D;4_20D;5_20D,113,webpawed,
+1_20D;2_20D;3_20D;4_20D;5_20D,113,webpafri,0.0091
+1_20D;2_20D;3_20D;4_20D;5_20D,113,Sex,Male
+1_20D;2_20D;3_20D;4_20D;5_20D,113,Nationality,China
+1_20D;2_20D;3_20D;4_20D;5_20D,113,leader.1,
+1_20D;2_20D;3_20D;4_20D;5_20D,113,leader.2,
+1_20D;2_20D;3_20D;4_20D;5_20D,113,leader.3,
+1_20D;2_20D;3_20D;4_20D;5_20D,113,leader.4,
+1_20D;2_20D;3_20D;4_20D;5_20D,113,leader.5,
+1_20D;2_20D;3_20D;4_20D;5_20D,108,name,AbdelrahmanE
+1_20D;2_20D;3_20D;4_20D;5_20D,108,webpawed,
+1_20D;2_20D;3_20D;4_20D;5_20D,108,webpafri,0.0092
+1_20D;2_20D;3_20D;4_20D;5_20D,108,Sex,Male
+1_20D;2_20D;3_20D;4_20D;5_20D,108,Nationality,Egypt
+1_20D;2_20D;3_20D;4_20D;5_20D,108,leader.1,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,108,leader.2,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,108,leader.3,not leader
+1_20D;2_20D;3_20D;4_20D;5_20D,108,leader.4,leader
+1_20D;2_20D;3_20D;4_20D;5_20D,108,leader.5,not leader
+1_20E;2_20E;3_20E;4_20E;5_20E,118,name,TomT
+1_20E;2_20E;3_20E;4_20E;5_20E,118,webpawed,
+1_20E;2_20E;3_20E;4_20E;5_20E,118,webpafri,0.01
+1_20E;2_20E;3_20E;4_20E;5_20E,118,Sex,Male
+1_20E;2_20E;3_20E;4_20E;5_20E,118,Nationality,United Kingdom
+1_20E;2_20E;3_20E;4_20E;5_20E,118,leader.1,
+1_20E;2_20E;3_20E;4_20E;5_20E,118,leader.2,
+1_20E;2_20E;3_20E;4_20E;5_20E,118,leader.3,
+1_20E;2_20E;3_20E;4_20E;5_20E,118,leader.4,
+1_20E;2_20E;3_20E;4_20E;5_20E,118,leader.5,
+1_20E;2_20E;3_20E;4_20E;5_20E,116,name,IsaacL
+1_20E;2_20E;3_20E;4_20E;5_20E,116,webpawed,
+1_20E;2_20E;3_20E;4_20E;5_20E,116,webpafri,0.0103
+1_20E;2_20E;3_20E;4_20E;5_20E,116,Sex,Male
+1_20E;2_20E;3_20E;4_20E;5_20E,116,Nationality,United Kingdom
+1_20E;2_20E;3_20E;4_20E;5_20E,116,leader.1,leader
+1_20E;2_20E;3_20E;4_20E;5_20E,116,leader.2,not leader
+1_20E;2_20E;3_20E;4_20E;5_20E,116,leader.3,not leader
+1_20E;2_20E;3_20E;4_20E;5_20E,116,leader.4,not leader
+1_20E;2_20E;3_20E;4_20E;5_20E,116,leader.5,not leader
+1_20E;2_20E;3_20E;4_20E;5_20E,115,name,IfeoluwaA
+1_20E;2_20E;3_20E;4_20E;5_20E,115,webpawed,
+1_20E;2_20E;3_20E;4_20E;5_20E,115,webpafri,0.0097
+1_20E;2_20E;3_20E;4_20E;5_20E,115,Sex,Male
+1_20E;2_20E;3_20E;4_20E;5_20E,115,Nationality,Nigeria
+1_20E;2_20E;3_20E;4_20E;5_20E,115,leader.1,not leader
+1_20E;2_20E;3_20E;4_20E;5_20E,115,leader.2,leader
+1_20E;2_20E;3_20E;4_20E;5_20E,115,leader.3,not leader
+1_20E;2_20E;3_20E;4_20E;5_20E,115,leader.4,not leader
+1_20E;2_20E;3_20E;4_20E;5_20E,115,leader.5,not leader
+1_20E;2_20E;3_20E;4_20E;5_20E,117,name,StefanK
+1_20E;2_20E;3_20E;4_20E;5_20E,117,webpawed,
+1_20E;2_20E;3_20E;4_20E;5_20E,117,webpafri,0.01
+1_20E;2_20E;3_20E;4_20E;5_20E,117,Sex,Male
+1_20E;2_20E;3_20E;4_20E;5_20E,117,Nationality,Bulgaria
+1_20E;2_20E;3_20E;4_20E;5_20E,117,leader.1,not leader
+1_20E;2_20E;3_20E;4_20E;5_20E,117,leader.2,not leader
+1_20E;2_20E;3_20E;4_20E;5_20E,117,leader.3,not leader
+1_20E;2_20E;3_20E;4_20E;5_20E,117,leader.4,not leader
+1_20E;2_20E;3_20E;4_20E;5_20E,117,leader.5,leader
+1_20E;2_20E;3_20E;4_20E;5_20E,114,name,FernandoA
+1_20E;2_20E;3_20E;4_20E;5_20E,114,webpawed,
+1_20E;2_20E;3_20E;4_20E;5_20E,114,webpafri,0.0103
+1_20E;2_20E;3_20E;4_20E;5_20E,114,Sex,Male
+1_20E;2_20E;3_20E;4_20E;5_20E,114,Nationality,Spain
+1_20E;2_20E;3_20E;4_20E;5_20E,114,leader.1,not leader
+1_20E;2_20E;3_20E;4_20E;5_20E,114,leader.2,not leader
+1_20E;2_20E;3_20E;4_20E;5_20E,114,leader.3,not leader
+1_20E;2_20E;3_20E;4_20E;5_20E,114,leader.4,leader
+1_20E;2_20E;3_20E;4_20E;5_20E,114,leader.5,not leader
+1_20E;2_20E;3_20E;5_20E,119,name,YupengC
+1_20E;2_20E;3_20E;5_20E,119,webpawed,
+1_20E;2_20E;3_20E;5_20E,119,webpafri,0.0097
+1_20E;2_20E;3_20E;5_20E,119,Sex,Male
+1_20E;2_20E;3_20E;5_20E,119,Nationality,China
+1_20E;2_20E;3_20E;5_20E,119,leader.1,not leader
+1_20E;2_20E;3_20E;5_20E,119,leader.2,not leader
+1_20E;2_20E;3_20E;5_20E,119,leader.3,leader
+1_20E;2_20E;3_20E;5_20E,119,leader.4,not leader
+1_20E;2_20E;3_20E;5_20E,119,leader.5,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,120,name,AndriusA
+1_20F;2_20F;3_20F;4_20F;5_20F,120,webpawed,
+1_20F;2_20F;3_20F;4_20F;5_20F,120,webpafri,0.0114
+1_20F;2_20F;3_20F;4_20F;5_20F,120,Sex,Male
+1_20F;2_20F;3_20F;4_20F;5_20F,120,Nationality,Lithuania
+1_20F;2_20F;3_20F;4_20F;5_20F,120,leader.1,
+1_20F;2_20F;3_20F;4_20F;5_20F,120,leader.2,
+1_20F;2_20F;3_20F;4_20F;5_20F,120,leader.3,
+1_20F;2_20F;3_20F;4_20F;5_20F,120,leader.4,
+1_20F;2_20F;3_20F;4_20F;5_20F,120,leader.5,
+1_20F;2_20F;3_20F;4_20F;5_20F,124,name,OliverJ
+1_20F;2_20F;3_20F;4_20F;5_20F,124,webpawed,
+1_20F;2_20F;3_20F;4_20F;5_20F,124,webpafri,0.012
+1_20F;2_20F;3_20F;4_20F;5_20F,124,Sex,Male
+1_20F;2_20F;3_20F;4_20F;5_20F,124,Nationality,United Kingdom
+1_20F;2_20F;3_20F;4_20F;5_20F,124,leader.1,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,124,leader.2,leader
+1_20F;2_20F;3_20F;4_20F;5_20F,124,leader.3,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,124,leader.4,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,124,leader.5,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,125,name,RasmusK
+1_20F;2_20F;3_20F;4_20F;5_20F,125,webpawed,
+1_20F;2_20F;3_20F;4_20F;5_20F,125,webpafri,0.0115
+1_20F;2_20F;3_20F;4_20F;5_20F,125,Sex,Male
+1_20F;2_20F;3_20F;4_20F;5_20F,125,Nationality,Estonia
+1_20F;2_20F;3_20F;4_20F;5_20F,125,leader.1,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,125,leader.2,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,125,leader.3,leader
+1_20F;2_20F;3_20F;4_20F;5_20F,125,leader.4,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,125,leader.5,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,123,name,JosephF
+1_20F;2_20F;3_20F;4_20F;5_20F,123,webpawed,
+1_20F;2_20F;3_20F;4_20F;5_20F,123,webpafri,0.0087
+1_20F;2_20F;3_20F;4_20F;5_20F,123,Sex,Male
+1_20F;2_20F;3_20F;4_20F;5_20F,123,Nationality,United Kingdom
+1_20F;2_20F;3_20F;4_20F;5_20F,123,leader.1,leader
+1_20F;2_20F;3_20F;4_20F;5_20F,123,leader.2,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,123,leader.3,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,123,leader.4,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,123,leader.5,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,121,name,HazemA
+1_20F;2_20F;3_20F;4_20F;5_20F,121,webpawed,
+1_20F;2_20F;3_20F;4_20F;5_20F,121,webpafri,0.0103
+1_20F;2_20F;3_20F;4_20F;5_20F,121,Sex,Male
+1_20F;2_20F;3_20F;4_20F;5_20F,121,Nationality,Egypt
+1_20F;2_20F;3_20F;4_20F;5_20F,121,leader.1,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,121,leader.2,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,121,leader.3,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,121,leader.4,leader
+1_20F;2_20F;3_20F;4_20F;5_20F,121,leader.5,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,122,name,HaoyiL
+1_20F;2_20F;3_20F;4_20F;5_20F,122,webpawed,
+1_20F;2_20F;3_20F;4_20F;5_20F,122,webpafri,0.0061
+1_20F;2_20F;3_20F;4_20F;5_20F,122,Sex,Male
+1_20F;2_20F;3_20F;4_20F;5_20F,122,Nationality,China
+1_20F;2_20F;3_20F;4_20F;5_20F,122,leader.1,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,122,leader.2,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,122,leader.3,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,122,leader.4,not leader
+1_20F;2_20F;3_20F;4_20F;5_20F,122,leader.5,leader
+1_21A;2_21A;3_21A;4_21A;5_21A,131,name,TolaN
+1_21A;2_21A;3_21A;4_21A;5_21A,131,webpawed,
+1_21A;2_21A;3_21A;4_21A;5_21A,131,webpafri,0.012
+1_21A;2_21A;3_21A;4_21A;5_21A,131,Sex,Male
+1_21A;2_21A;3_21A;4_21A;5_21A,131,Nationality,United Kingdom
+1_21A;2_21A;3_21A;4_21A;5_21A,131,leader.1,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,131,leader.2,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,131,leader.3,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,131,leader.4,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,131,leader.5,leader
+1_21A;2_21A;3_21A;4_21A;5_21A,127,name,HardipD
+1_21A;2_21A;3_21A;4_21A;5_21A,127,webpawed,
+1_21A;2_21A;3_21A;4_21A;5_21A,127,webpafri,0.012
+1_21A;2_21A;3_21A;4_21A;5_21A,127,Sex,Male
+1_21A;2_21A;3_21A;4_21A;5_21A,127,Nationality,United Kingdom
+1_21A;2_21A;3_21A;4_21A;5_21A,127,leader.1,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,127,leader.2,leader
+1_21A;2_21A;3_21A;4_21A;5_21A,127,leader.3,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,127,leader.4,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,127,leader.5,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,129,name,PhilipO
+1_21A;2_21A;3_21A;4_21A;5_21A,129,webpawed,
+1_21A;2_21A;3_21A;4_21A;5_21A,129,webpafri,0.012
+1_21A;2_21A;3_21A;4_21A;5_21A,129,Sex,Male
+1_21A;2_21A;3_21A;4_21A;5_21A,129,Nationality,United Kingdom
+1_21A;2_21A;3_21A;4_21A;5_21A,129,leader.1,leader
+1_21A;2_21A;3_21A;4_21A;5_21A,129,leader.2,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,129,leader.3,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,129,leader.4,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,129,leader.5,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,128,name,MenghuiZ
+1_21A;2_21A;3_21A;4_21A;5_21A,128,webpawed,
+1_21A;2_21A;3_21A;4_21A;5_21A,128,webpafri,0.012
+1_21A;2_21A;3_21A;4_21A;5_21A,128,Sex,Male
+1_21A;2_21A;3_21A;4_21A;5_21A,128,Nationality,China
+1_21A;2_21A;3_21A;4_21A;5_21A,128,leader.1,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,128,leader.2,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,128,leader.3,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,128,leader.4,leader
+1_21A;2_21A;3_21A;4_21A;5_21A,128,leader.5,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,130,name,ThomasO
+1_21A;2_21A;3_21A;4_21A;5_21A,130,webpawed,
+1_21A;2_21A;3_21A;4_21A;5_21A,130,webpafri,0.012
+1_21A;2_21A;3_21A;4_21A;5_21A,130,Sex,Male
+1_21A;2_21A;3_21A;4_21A;5_21A,130,Nationality,United Kingdom
+1_21A;2_21A;3_21A;4_21A;5_21A,130,leader.1,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,130,leader.2,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,130,leader.3,leader
+1_21A;2_21A;3_21A;4_21A;5_21A,130,leader.4,not leader
+1_21A;2_21A;3_21A;4_21A;5_21A,130,leader.5,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,137,name,ZaraT
+1_21B;2_21B;3_21B;4_21B;5_21B,137,webpawed,
+1_21B;2_21B;3_21B;4_21B;5_21B,137,webpafri,0.0103
+1_21B;2_21B;3_21B;4_21B;5_21B,137,Sex,Female
+1_21B;2_21B;3_21B;4_21B;5_21B,137,Nationality,United Kingdom
+1_21B;2_21B;3_21B;4_21B;5_21B,137,leader.1,leader
+1_21B;2_21B;3_21B;4_21B;5_21B,137,leader.2,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,137,leader.3,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,137,leader.4,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,137,leader.5,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,136,name,VincentC
+1_21B;2_21B;3_21B;4_21B;5_21B,136,webpawed,
+1_21B;2_21B;3_21B;4_21B;5_21B,136,webpafri,0.0103
+1_21B;2_21B;3_21B;4_21B;5_21B,136,Sex,Male
+1_21B;2_21B;3_21B;4_21B;5_21B,136,Nationality,Netherlands
+1_21B;2_21B;3_21B;4_21B;5_21B,136,leader.1,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,136,leader.2,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,136,leader.3,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,136,leader.4,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,136,leader.5,leader
+1_21B;2_21B;3_21B;4_21B;5_21B,135,name,SubodhK
+1_21B;2_21B;3_21B;4_21B;5_21B,135,webpawed,
+1_21B;2_21B;3_21B;4_21B;5_21B,135,webpafri,0.0102
+1_21B;2_21B;3_21B;4_21B;5_21B,135,Sex,Male
+1_21B;2_21B;3_21B;4_21B;5_21B,135,Nationality,United Kingdom
+1_21B;2_21B;3_21B;4_21B;5_21B,135,leader.1,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,135,leader.2,leader
+1_21B;2_21B;3_21B;4_21B;5_21B,135,leader.3,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,135,leader.4,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,135,leader.5,not leader
+1_21B;2_21B;3_21B;4_21B,134,name,RizwanM
+1_21B;2_21B;3_21B;4_21B,134,webpawed,
+1_21B;2_21B;3_21B;4_21B,134,webpafri,0.0088
+1_21B;2_21B;3_21B;4_21B,134,Sex,Male
+1_21B;2_21B;3_21B;4_21B,134,Nationality,United Kingdom
+1_21B;2_21B;3_21B;4_21B,134,leader.1,not leader
+1_21B;2_21B;3_21B;4_21B,134,leader.2,not leader
+1_21B;2_21B;3_21B;4_21B,134,leader.3,leader
+1_21B;2_21B;3_21B;4_21B,134,leader.4,not leader
+1_21B;2_21B;3_21B;4_21B,134,leader.5,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,133,name,Ho_CheongN
+1_21B;2_21B;3_21B;4_21B;5_21B,133,webpawed,
+1_21B;2_21B;3_21B;4_21B;5_21B,133,webpafri,0.0102
+1_21B;2_21B;3_21B;4_21B;5_21B,133,Sex,Male
+1_21B;2_21B;3_21B;4_21B;5_21B,133,Nationality,Hong Kong
+1_21B;2_21B;3_21B;4_21B;5_21B,133,leader.1,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,133,leader.2,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,133,leader.3,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,133,leader.4,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,133,leader.5,leader
+1_21B;2_21B;3_21B;4_21B;5_21B,132,name,Dasun_CharukaR
+1_21B;2_21B;3_21B;4_21B;5_21B,132,webpawed,
+1_21B;2_21B;3_21B;4_21B;5_21B,132,webpafri,0.0102
+1_21B;2_21B;3_21B;4_21B;5_21B,132,Sex,Male
+1_21B;2_21B;3_21B;4_21B;5_21B,132,Nationality,Sri Lanka
+1_21B;2_21B;3_21B;4_21B;5_21B,132,leader.1,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,132,leader.2,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,132,leader.3,not leader
+1_21B;2_21B;3_21B;4_21B;5_21B,132,leader.4,leader
+1_21B;2_21B;3_21B;4_21B;5_21B,132,leader.5,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,141,name,Diana-KarinaB
+1_21C;2_21C;3_21C;4_21C;5_21C,141,webpawed,
+1_21C;2_21C;3_21C;4_21C;5_21C,141,webpafri,0.011
+1_21C;2_21C;3_21C;4_21C;5_21C,141,Sex,Female
+1_21C;2_21C;3_21C;4_21C;5_21C,141,Nationality,Romania
+1_21C;2_21C;3_21C;4_21C;5_21C,141,leader.1,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,141,leader.2,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,141,leader.3,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,141,leader.4,leader
+1_21C;2_21C;3_21C;4_21C;5_21C,141,leader.5,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,139,name,AugustinR
+1_21C;2_21C;3_21C;4_21C;5_21C,139,webpawed,
+1_21C;2_21C;3_21C;4_21C;5_21C,139,webpafri,0.0084
+1_21C;2_21C;3_21C;4_21C;5_21C,139,Sex,Male
+1_21C;2_21C;3_21C;4_21C;5_21C,139,Nationality,France
+1_21C;2_21C;3_21C;4_21C;5_21C,139,leader.1,leader
+1_21C;2_21C;3_21C;4_21C;5_21C,139,leader.2,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,139,leader.3,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,139,leader.4,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,139,leader.5,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,138,name,AliE
+1_21C;2_21C;3_21C;4_21C;5_21C,138,webpawed,
+1_21C;2_21C;3_21C;4_21C;5_21C,138,webpafri,0.0106
+1_21C;2_21C;3_21C;4_21C;5_21C,138,Sex,Male
+1_21C;2_21C;3_21C;4_21C;5_21C,138,Nationality,Egypt
+1_21C;2_21C;3_21C;4_21C;5_21C,138,leader.1,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,138,leader.2,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,138,leader.3,leader
+1_21C;2_21C;3_21C;4_21C;5_21C,138,leader.4,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,138,leader.5,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,143,name,YuandaZ
+1_21C;2_21C;3_21C;4_21C;5_21C,143,webpawed,
+1_21C;2_21C;3_21C;4_21C;5_21C,143,webpafri,0.01
+1_21C;2_21C;3_21C;4_21C;5_21C,143,Sex,Male
+1_21C;2_21C;3_21C;4_21C;5_21C,143,Nationality,China
+1_21C;2_21C;3_21C;4_21C;5_21C,143,leader.1,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,143,leader.2,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,143,leader.3,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,143,leader.4,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,143,leader.5,leader
+1_21C;2_21C;3_21C;4_21C;5_21C,140,name,DanielF
+1_21C;2_21C;3_21C;4_21C;5_21C,140,webpawed,
+1_21C;2_21C;3_21C;4_21C;5_21C,140,webpafri,0.0108
+1_21C;2_21C;3_21C;4_21C;5_21C,140,Sex,Male
+1_21C;2_21C;3_21C;4_21C;5_21C,140,Nationality,United Kingdom
+1_21C;2_21C;3_21C;4_21C;5_21C,140,leader.1,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,140,leader.2,leader
+1_21C;2_21C;3_21C;4_21C;5_21C,140,leader.3,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,140,leader.4,not leader
+1_21C;2_21C;3_21C;4_21C;5_21C,140,leader.5,not leader
+1_21C;3_21C;4_21C;5_21C,142,name,IslaM
+1_21C;3_21C;4_21C;5_21C,142,webpawed,
+1_21C;3_21C;4_21C;5_21C,142,webpafri,0.0093
+1_21C;3_21C;4_21C;5_21C,142,Sex,Female
+1_21C;3_21C;4_21C;5_21C,142,Nationality,United Kingdom
+1_21C;3_21C;4_21C;5_21C,142,leader.1,not leader
+1_21C;3_21C;4_21C;5_21C,142,leader.2,not leader
+1_21C;3_21C;4_21C;5_21C,142,leader.3,not leader
+1_21C;3_21C;4_21C;5_21C,142,leader.4,not leader
+1_21C;3_21C;4_21C;5_21C,142,leader.5,leader
+1_21D;2_21D;3_21D;4_21D;5_21D,144,name,GuillermoW
+1_21D;2_21D;3_21D;4_21D;5_21D,144,webpawed,
+1_21D;2_21D;3_21D;4_21D;5_21D,144,webpafri,0.01
+1_21D;2_21D;3_21D;4_21D;5_21D,144,Sex,Male
+1_21D;2_21D;3_21D;4_21D;5_21D,144,Nationality,Spain
+1_21D;2_21D;3_21D;4_21D;5_21D,144,leader.1,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,144,leader.2,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,144,leader.3,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,144,leader.4,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,144,leader.5,leader
+1_21D;2_21D;3_21D;4_21D;5_21D,145,name,Hui_MingH
+1_21D;2_21D;3_21D;4_21D;5_21D,145,webpawed,
+1_21D;2_21D;3_21D;4_21D;5_21D,145,webpafri,0.01
+1_21D;2_21D;3_21D;4_21D;5_21D,145,Sex,Male
+1_21D;2_21D;3_21D;4_21D;5_21D,145,Nationality,Singapore
+1_21D;2_21D;3_21D;4_21D;5_21D,145,leader.1,leader
+1_21D;2_21D;3_21D;4_21D;5_21D,145,leader.2,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,145,leader.3,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,145,leader.4,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,145,leader.5,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,146,name,HarryS
+1_21D;2_21D;3_21D;4_21D;5_21D,146,webpawed,
+1_21D;2_21D;3_21D;4_21D;5_21D,146,webpafri,0.01
+1_21D;2_21D;3_21D;4_21D;5_21D,146,Sex,Male
+1_21D;2_21D;3_21D;4_21D;5_21D,146,Nationality,United Kingdom
+1_21D;2_21D;3_21D;4_21D;5_21D,146,leader.1,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,146,leader.2,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,146,leader.3,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,146,leader.4,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,146,leader.5,leader
+1_21D;2_21D;3_21D;4_21D;5_21D,149,name,PatrickS
+1_21D;2_21D;3_21D;4_21D;5_21D,149,webpawed,
+1_21D;2_21D;3_21D;4_21D;5_21D,149,webpafri,0.01
+1_21D;2_21D;3_21D;4_21D;5_21D,149,Sex,Male
+1_21D;2_21D;3_21D;4_21D;5_21D,149,Nationality,United Kingdom
+1_21D;2_21D;3_21D;4_21D;5_21D,149,leader.1,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,149,leader.2,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,149,leader.3,leader
+1_21D;2_21D;3_21D;4_21D;5_21D,149,leader.4,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,149,leader.5,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,148,name,MatthewF
+1_21D;2_21D;3_21D;4_21D;5_21D,148,webpawed,
+1_21D;2_21D;3_21D;4_21D;5_21D,148,webpafri,0.01
+1_21D;2_21D;3_21D;4_21D;5_21D,148,Sex,Male
+1_21D;2_21D;3_21D;4_21D;5_21D,148,Nationality,United Kingdom
+1_21D;2_21D;3_21D;4_21D;5_21D,148,leader.1,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,148,leader.2,leader
+1_21D;2_21D;3_21D;4_21D;5_21D,148,leader.3,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,148,leader.4,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,148,leader.5,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,147,name,LingxiaoX
+1_21D;2_21D;3_21D;4_21D;5_21D,147,webpawed,
+1_21D;2_21D;3_21D;4_21D;5_21D,147,webpafri,0.01
+1_21D;2_21D;3_21D;4_21D;5_21D,147,Sex,Male
+1_21D;2_21D;3_21D;4_21D;5_21D,147,Nationality,China
+1_21D;2_21D;3_21D;4_21D;5_21D,147,leader.1,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,147,leader.2,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,147,leader.3,not leader
+1_21D;2_21D;3_21D;4_21D;5_21D,147,leader.4,leader
+1_21D;2_21D;3_21D;4_21D;5_21D,147,leader.5,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,151,name,MantasS
+1_21E;2_21E;3_21E;4_21E;5_21E,151,webpawed,
+1_21E;2_21E;3_21E;4_21E;5_21E,151,webpafri,0.0073
+1_21E;2_21E;3_21E;4_21E;5_21E,151,Sex,Male
+1_21E;2_21E;3_21E;4_21E;5_21E,151,Nationality,Lithuania
+1_21E;2_21E;3_21E;4_21E;5_21E,151,leader.1,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,151,leader.2,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,151,leader.3,leader
+1_21E;2_21E;3_21E;4_21E;5_21E,151,leader.4,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,151,leader.5,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,154,name,ThomasB
+1_21E;2_21E;3_21E;4_21E;5_21E,154,webpawed,
+1_21E;2_21E;3_21E;4_21E;5_21E,154,webpafri,0.0123
+1_21E;2_21E;3_21E;4_21E;5_21E,154,Sex,Male
+1_21E;2_21E;3_21E;4_21E;5_21E,154,Nationality,United Kingdom
+1_21E;2_21E;3_21E;4_21E;5_21E,154,leader.1,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,154,leader.2,leader
+1_21E;2_21E;3_21E;4_21E;5_21E,154,leader.3,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,154,leader.4,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,154,leader.5,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,152,name,PhakphumT
+1_21E;2_21E;3_21E;4_21E;5_21E,152,webpawed,
+1_21E;2_21E;3_21E;4_21E;5_21E,152,webpafri,0.0104
+1_21E;2_21E;3_21E;4_21E;5_21E,152,Sex,Male
+1_21E;2_21E;3_21E;4_21E;5_21E,152,Nationality,Thailand
+1_21E;2_21E;3_21E;4_21E;5_21E,152,leader.1,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,152,leader.2,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,152,leader.3,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,152,leader.4,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,152,leader.5,leader
+1_21E;2_21E;3_21E;4_21E;5_21E,153,name,SamuelO
+1_21E;2_21E;3_21E;4_21E;5_21E,153,webpawed,
+1_21E;2_21E;3_21E;4_21E;5_21E,153,webpafri,0.0123
+1_21E;2_21E;3_21E;4_21E;5_21E,153,Sex,Male
+1_21E;2_21E;3_21E;4_21E;5_21E,153,Nationality,United Kingdom
+1_21E;2_21E;3_21E;4_21E;5_21E,153,leader.1,leader
+1_21E;2_21E;3_21E;4_21E;5_21E,153,leader.2,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,153,leader.3,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,153,leader.4,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,153,leader.5,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,150,name,GianmarcoP
+1_21E;2_21E;3_21E;4_21E;5_21E,150,webpawed,
+1_21E;2_21E;3_21E;4_21E;5_21E,150,webpafri,0.0106
+1_21E;2_21E;3_21E;4_21E;5_21E,150,Sex,Male
+1_21E;2_21E;3_21E;4_21E;5_21E,150,Nationality,Italy
+1_21E;2_21E;3_21E;4_21E;5_21E,150,leader.1,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,150,leader.2,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,150,leader.3,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,150,leader.4,leader
+1_21E;2_21E;3_21E;4_21E;5_21E,150,leader.5,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,155,name,YanT
+1_21E;2_21E;3_21E;4_21E;5_21E,155,webpawed,
+1_21E;2_21E;3_21E;4_21E;5_21E,155,webpafri,0.007
+1_21E;2_21E;3_21E;4_21E;5_21E,155,Sex,Female
+1_21E;2_21E;3_21E;4_21E;5_21E,155,Nationality,Hong Kong
+1_21E;2_21E;3_21E;4_21E;5_21E,155,leader.1,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,155,leader.2,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,155,leader.3,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,155,leader.4,not leader
+1_21E;2_21E;3_21E;4_21E;5_21E,155,leader.5,leader
+1_21F;2_21F;4_21F;5_21F,160,name,ThomasA
+1_21F;2_21F;4_21F;5_21F,160,webpawed,
+1_21F;2_21F;4_21F;5_21F,160,webpafri,0.0101
+1_21F;2_21F;4_21F;5_21F,160,Sex,Male
+1_21F;2_21F;4_21F;5_21F,160,Nationality,United Kingdom
+1_21F;2_21F;4_21F;5_21F,160,leader.1,not leader
+1_21F;2_21F;4_21F;5_21F,160,leader.2,not leader
+1_21F;2_21F;4_21F;5_21F,160,leader.3,not leader
+1_21F;2_21F;4_21F;5_21F,160,leader.4,leader
+1_21F;2_21F;4_21F;5_21F,160,leader.5,not leader
+1_21F;2_21F;4_21F;5_21F,156,name,ChristopherJ
+1_21F;2_21F;4_21F;5_21F,156,webpawed,
+1_21F;2_21F;4_21F;5_21F,156,webpafri,0.0101
+1_21F;2_21F;4_21F;5_21F,156,Sex,Male
+1_21F;2_21F;4_21F;5_21F,156,Nationality,United Kingdom
+1_21F;2_21F;4_21F;5_21F,156,leader.1,leader
+1_21F;2_21F;4_21F;5_21F,156,leader.2,not leader
+1_21F;2_21F;4_21F;5_21F,156,leader.3,not leader
+1_21F;2_21F;4_21F;5_21F,156,leader.4,not leader
+1_21F;2_21F;4_21F;5_21F,156,leader.5,not leader
+1_21F;2_21F;4_21F;5_21F,157,name,EdenB
+1_21F;2_21F;4_21F;5_21F,157,webpawed,
+1_21F;2_21F;4_21F;5_21F,157,webpafri,0.0101
+1_21F;2_21F;4_21F;5_21F,157,Sex,Male
+1_21F;2_21F;4_21F;5_21F,157,Nationality,United Kingdom
+1_21F;2_21F;4_21F;5_21F,157,leader.1,not leader
+1_21F;2_21F;4_21F;5_21F,157,leader.2,not leader
+1_21F;2_21F;4_21F;5_21F,157,leader.3,not leader
+1_21F;2_21F;4_21F;5_21F,157,leader.4,not leader
+1_21F;2_21F;4_21F;5_21F,157,leader.5,leader
+1_21F;2_21F;4_21F;5_21F,158,name,MartinP
+1_21F;2_21F;4_21F;5_21F,158,webpawed,
+1_21F;2_21F;4_21F;5_21F,158,webpafri,0.0098
+1_21F;2_21F;4_21F;5_21F,158,Sex,Male
+1_21F;2_21F;4_21F;5_21F,158,Nationality,Bulgaria
+1_21F;2_21F;4_21F;5_21F,158,leader.1,not leader
+1_21F;2_21F;4_21F;5_21F,158,leader.2,leader
+1_21F;2_21F;4_21F;5_21F,158,leader.3,not leader
+1_21F;2_21F;4_21F;5_21F,158,leader.4,not leader
+1_21F;2_21F;4_21F;5_21F,158,leader.5,not leader
+1_21F;2_21F;4_21F;5_21F,161,name,Zhi_YangP
+1_21F;2_21F;4_21F;5_21F,161,webpawed,
+1_21F;2_21F;4_21F;5_21F,161,webpafri,0.0099
+1_21F;2_21F;4_21F;5_21F,161,Sex,Male
+1_21F;2_21F;4_21F;5_21F,161,Nationality,Singapore
+1_21F;2_21F;4_21F;5_21F,161,leader.1,not leader
+1_21F;2_21F;4_21F;5_21F,161,leader.2,not leader
+1_21F;2_21F;4_21F;5_21F,161,leader.3,not leader
+1_21F;2_21F;4_21F;5_21F,161,leader.4,not leader
+1_21F;2_21F;4_21F;5_21F,161,leader.5,leader
+1_21F;2_21F;4_21F;5_21F,159,name,ShuoL
+1_21F;2_21F;4_21F;5_21F,159,webpawed,
+1_21F;2_21F;4_21F;5_21F,159,webpafri,0.0099
+1_21F;2_21F;4_21F;5_21F,159,Sex,Male
+1_21F;2_21F;4_21F;5_21F,159,Nationality,China
+1_21F;2_21F;4_21F;5_21F,159,leader.1,not leader
+1_21F;2_21F;4_21F;5_21F,159,leader.2,not leader
+1_21F;2_21F;4_21F;5_21F,159,leader.3,leader
+1_21F;2_21F;4_21F;5_21F,159,leader.4,not leader
+1_21F;2_21F;4_21F;5_21F,159,leader.5,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,163,name,Ashley_NolaJ
+1_22A;2_22A;3_22A;4_22A;5_22A,163,webpawed,
+1_22A;2_22A;3_22A;4_22A;5_22A,163,webpafri,0.0104
+1_22A;2_22A;3_22A;4_22A;5_22A,163,Sex,
+1_22A;2_22A;3_22A;4_22A;5_22A,163,Nationality,
+1_22A;2_22A;3_22A;4_22A;5_22A,163,leader.1,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,163,leader.2,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,163,leader.3,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,163,leader.4,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,163,leader.5,leader
+1_22A;2_22A;3_22A;4_22A;5_22A,162,name,AftabC
+1_22A;2_22A;3_22A;4_22A;5_22A,162,webpawed,
+1_22A;2_22A;3_22A;4_22A;5_22A,162,webpafri,0.0094
+1_22A;2_22A;3_22A;4_22A;5_22A,162,Sex,Male
+1_22A;2_22A;3_22A;4_22A;5_22A,162,Nationality,Italy
+1_22A;2_22A;3_22A;4_22A;5_22A,162,leader.1,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,162,leader.2,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,162,leader.3,leader
+1_22A;2_22A;3_22A;4_22A;5_22A,162,leader.4,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,162,leader.5,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,166,name,IntuornW
+1_22A;2_22A;3_22A;4_22A;5_22A,166,webpawed,
+1_22A;2_22A;3_22A;4_22A;5_22A,166,webpafri,0.0097
+1_22A;2_22A;3_22A;4_22A;5_22A,166,Sex,Female
+1_22A;2_22A;3_22A;4_22A;5_22A,166,Nationality,Thailand
+1_22A;2_22A;3_22A;4_22A;5_22A,166,leader.1,leader
+1_22A;2_22A;3_22A;4_22A;5_22A,166,leader.2,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,166,leader.3,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,166,leader.4,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,166,leader.5,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,167,name,NatashaP
+1_22A;2_22A;3_22A;4_22A;5_22A,167,webpawed,
+1_22A;2_22A;3_22A;4_22A;5_22A,167,webpafri,0.0105
+1_22A;2_22A;3_22A;4_22A;5_22A,167,Sex,Female
+1_22A;2_22A;3_22A;4_22A;5_22A,167,Nationality,United Kingdom
+1_22A;2_22A;3_22A;4_22A;5_22A,167,leader.1,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,167,leader.2,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,167,leader.3,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,167,leader.4,leader
+1_22A;2_22A;3_22A;4_22A;5_22A,167,leader.5,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,165,name,BoS
+1_22A;2_22A;3_22A;4_22A;5_22A,165,webpawed,
+1_22A;2_22A;3_22A;4_22A;5_22A,165,webpafri,0.0103
+1_22A;2_22A;3_22A;4_22A;5_22A,165,Sex,Male
+1_22A;2_22A;3_22A;4_22A;5_22A,165,Nationality,United Kingdom
+1_22A;2_22A;3_22A;4_22A;5_22A,165,leader.1,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,165,leader.2,leader
+1_22A;2_22A;3_22A;4_22A;5_22A,165,leader.3,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,165,leader.4,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,165,leader.5,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,164,name,BenjaminH
+1_22A;2_22A;3_22A;4_22A;5_22A,164,webpawed,
+1_22A;2_22A;3_22A;4_22A;5_22A,164,webpafri,0.0097
+1_22A;2_22A;3_22A;4_22A;5_22A,164,Sex,Male
+1_22A;2_22A;3_22A;4_22A;5_22A,164,Nationality,United Kingdom
+1_22A;2_22A;3_22A;4_22A;5_22A,164,leader.1,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,164,leader.2,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,164,leader.3,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,164,leader.4,not leader
+1_22A;2_22A;3_22A;4_22A;5_22A,164,leader.5,leader
+1_22B;2_22B;3_22B;5_22B,172,name,MatthewH
+1_22B;2_22B;3_22B;5_22B,172,webpawed,
+1_22B;2_22B;3_22B;5_22B,172,webpafri,0.0092
+1_22B;2_22B;3_22B;5_22B,172,Sex,Male
+1_22B;2_22B;3_22B;5_22B,172,Nationality,United Kingdom
+1_22B;2_22B;3_22B;5_22B,172,leader.1,leader
+1_22B;2_22B;3_22B;5_22B,172,leader.2,not leader
+1_22B;2_22B;3_22B;5_22B,172,leader.3,not leader
+1_22B;2_22B;3_22B;5_22B,172,leader.4,not leader
+1_22B;2_22B;3_22B;5_22B,172,leader.5,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,171,name,JordanY
+1_22B;2_22B;3_22B;4_22B;5_22B,171,webpawed,
+1_22B;2_22B;3_22B;4_22B;5_22B,171,webpafri,0.0078
+1_22B;2_22B;3_22B;4_22B;5_22B,171,Sex,Male
+1_22B;2_22B;3_22B;4_22B;5_22B,171,Nationality,United Kingdom
+1_22B;2_22B;3_22B;4_22B;5_22B,171,leader.1,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,171,leader.2,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,171,leader.3,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,171,leader.4,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,171,leader.5,leader
+1_22B;2_22B;3_22B;4_22B;5_22B,168,name,BuseO
+1_22B;2_22B;3_22B;4_22B;5_22B,168,webpawed,
+1_22B;2_22B;3_22B;4_22B;5_22B,168,webpafri,0.0105
+1_22B;2_22B;3_22B;4_22B;5_22B,168,Sex,Female
+1_22B;2_22B;3_22B;4_22B;5_22B,168,Nationality,Cyprus
+1_22B;2_22B;3_22B;4_22B;5_22B,168,leader.1,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,168,leader.2,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,168,leader.3,leader
+1_22B;2_22B;3_22B;4_22B;5_22B,168,leader.4,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,168,leader.5,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,169,name,EtaM
+1_22B;2_22B;3_22B;4_22B;5_22B,169,webpawed,
+1_22B;2_22B;3_22B;4_22B;5_22B,169,webpafri,0.0124
+1_22B;2_22B;3_22B;4_22B;5_22B,169,Sex,Female
+1_22B;2_22B;3_22B;4_22B;5_22B,169,Nationality,Botswana
+1_22B;2_22B;3_22B;4_22B;5_22B,169,leader.1,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,169,leader.2,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,169,leader.3,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,169,leader.4,leader
+1_22B;2_22B;3_22B;4_22B;5_22B,169,leader.5,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,170,name,JulesH
+1_22B;2_22B;3_22B;4_22B;5_22B,170,webpawed,
+1_22B;2_22B;3_22B;4_22B;5_22B,170,webpafri,0.011
+1_22B;2_22B;3_22B;4_22B;5_22B,170,Sex,Male
+1_22B;2_22B;3_22B;4_22B;5_22B,170,Nationality,United Kingdom
+1_22B;2_22B;3_22B;4_22B;5_22B,170,leader.1,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,170,leader.2,leader
+1_22B;2_22B;3_22B;4_22B;5_22B,170,leader.3,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,170,leader.4,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,170,leader.5,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,173,name,MonishV
+1_22B;2_22B;3_22B;4_22B;5_22B,173,webpawed,
+1_22B;2_22B;3_22B;4_22B;5_22B,173,webpafri,0.0092
+1_22B;2_22B;3_22B;4_22B;5_22B,173,Sex,Male
+1_22B;2_22B;3_22B;4_22B;5_22B,173,Nationality,United Kingdom
+1_22B;2_22B;3_22B;4_22B;5_22B,173,leader.1,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,173,leader.2,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,173,leader.3,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,173,leader.4,not leader
+1_22B;2_22B;3_22B;4_22B;5_22B,173,leader.5,leader
+1_22C;2_22C;3_22C;4_22C;5_22C,178,name,MathewE
+1_22C;2_22C;3_22C;4_22C;5_22C,178,webpawed,
+1_22C;2_22C;3_22C;4_22C;5_22C,178,webpafri,0.01
+1_22C;2_22C;3_22C;4_22C;5_22C,178,Sex,Male
+1_22C;2_22C;3_22C;4_22C;5_22C,178,Nationality,United Kingdom
+1_22C;2_22C;3_22C;4_22C;5_22C,178,leader.1,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,178,leader.2,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,178,leader.3,leader
+1_22C;2_22C;3_22C;4_22C;5_22C,178,leader.4,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,178,leader.5,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,176,name,GeorgeosH
+1_22C;2_22C;3_22C;4_22C;5_22C,176,webpawed,
+1_22C;2_22C;3_22C;4_22C;5_22C,176,webpafri,0.01
+1_22C;2_22C;3_22C;4_22C;5_22C,176,Sex,Male
+1_22C;2_22C;3_22C;4_22C;5_22C,176,Nationality,United Kingdom
+1_22C;2_22C;3_22C;4_22C;5_22C,176,leader.1,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,176,leader.2,leader
+1_22C;2_22C;3_22C;4_22C;5_22C,176,leader.3,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,176,leader.4,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,176,leader.5,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,177,name,HaydnT
+1_22C;2_22C;3_22C;4_22C;5_22C,177,webpawed,
+1_22C;2_22C;3_22C;4_22C;5_22C,177,webpafri,0.01
+1_22C;2_22C;3_22C;4_22C;5_22C,177,Sex,Male
+1_22C;2_22C;3_22C;4_22C;5_22C,177,Nationality,United Kingdom
+1_22C;2_22C;3_22C;4_22C;5_22C,177,leader.1,
+1_22C;2_22C;3_22C;4_22C;5_22C,177,leader.2,
+1_22C;2_22C;3_22C;4_22C;5_22C,177,leader.3,
+1_22C;2_22C;3_22C;4_22C;5_22C,177,leader.4,
+1_22C;2_22C;3_22C;4_22C;5_22C,177,leader.5,
+1_22C;2_22C;3_22C;4_22C;5_22C,175,name,ChimmakwaG
+1_22C;2_22C;3_22C;4_22C;5_22C,175,webpawed,
+1_22C;2_22C;3_22C;4_22C;5_22C,175,webpafri,0.01
+1_22C;2_22C;3_22C;4_22C;5_22C,175,Sex,Female
+1_22C;2_22C;3_22C;4_22C;5_22C,175,Nationality,Nigeria
+1_22C;2_22C;3_22C;4_22C;5_22C,175,leader.1,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,175,leader.2,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,175,leader.3,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,175,leader.4,leader
+1_22C;2_22C;3_22C;4_22C;5_22C,175,leader.5,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,179,name,WilliamH
+1_22C;2_22C;3_22C;4_22C;5_22C,179,webpawed,
+1_22C;2_22C;3_22C;4_22C;5_22C,179,webpafri,0.01
+1_22C;2_22C;3_22C;4_22C;5_22C,179,Sex,Male
+1_22C;2_22C;3_22C;4_22C;5_22C,179,Nationality,United Kingdom
+1_22C;2_22C;3_22C;4_22C;5_22C,179,leader.1,leader
+1_22C;2_22C;3_22C;4_22C;5_22C,179,leader.2,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,179,leader.3,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,179,leader.4,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,179,leader.5,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,174,name,AhmadM
+1_22C;2_22C;3_22C;4_22C;5_22C,174,webpawed,
+1_22C;2_22C;3_22C;4_22C;5_22C,174,webpafri,0.01
+1_22C;2_22C;3_22C;4_22C;5_22C,174,Sex,Male
+1_22C;2_22C;3_22C;4_22C;5_22C,174,Nationality,Malaysia
+1_22C;2_22C;3_22C;4_22C;5_22C,174,leader.1,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,174,leader.2,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,174,leader.3,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,174,leader.4,not leader
+1_22C;2_22C;3_22C;4_22C;5_22C,174,leader.5,leader
+1_22D;4_22D;5_22D,181,name,AidanC
+1_22D;4_22D;5_22D,181,webpawed,
+1_22D;4_22D;5_22D,181,webpafri,0.0101
+1_22D;4_22D;5_22D,181,Sex,Male
+1_22D;4_22D;5_22D,181,Nationality,United Kingdom
+1_22D;4_22D;5_22D,181,leader.1,not leader
+1_22D;4_22D;5_22D,181,leader.2,not leader
+1_22D;4_22D;5_22D,181,leader.3,not leader
+1_22D;4_22D;5_22D,181,leader.4,not leader
+1_22D;4_22D;5_22D,181,leader.5,leader
+1_22D;2_22D;3_22D;4_22D;5_22D,182,name,BenedictC
+1_22D;2_22D;3_22D;4_22D;5_22D,182,webpawed,
+1_22D;2_22D;3_22D;4_22D;5_22D,182,webpafri,0.0103
+1_22D;2_22D;3_22D;4_22D;5_22D,182,Sex,Male
+1_22D;2_22D;3_22D;4_22D;5_22D,182,Nationality,United Kingdom
+1_22D;2_22D;3_22D;4_22D;5_22D,182,leader.1,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,182,leader.2,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,182,leader.3,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,182,leader.4,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,182,leader.5,leader
+1_22D;2_22D;3_22D;4_22D;5_22D,185,name,ZackM
+1_22D;2_22D;3_22D;4_22D;5_22D,185,webpawed,
+1_22D;2_22D;3_22D;4_22D;5_22D,185,webpafri,0.0103
+1_22D;2_22D;3_22D;4_22D;5_22D,185,Sex,Male
+1_22D;2_22D;3_22D;4_22D;5_22D,185,Nationality,United Kingdom
+1_22D;2_22D;3_22D;4_22D;5_22D,185,leader.1,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,185,leader.2,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,185,leader.3,leader
+1_22D;2_22D;3_22D;4_22D;5_22D,185,leader.4,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,185,leader.5,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,183,name,ChukwunoyemI
+1_22D;2_22D;3_22D;4_22D;5_22D,183,webpawed,
+1_22D;2_22D;3_22D;4_22D;5_22D,183,webpafri,0.0099
+1_22D;2_22D;3_22D;4_22D;5_22D,183,Sex,Female
+1_22D;2_22D;3_22D;4_22D;5_22D,183,Nationality,United Kingdom
+1_22D;2_22D;3_22D;4_22D;5_22D,183,leader.1,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,183,leader.2,leader
+1_22D;2_22D;3_22D;4_22D;5_22D,183,leader.3,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,183,leader.4,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,183,leader.5,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,180,name,Ahmad_FirdausB
+1_22D;2_22D;3_22D;4_22D;5_22D,180,webpawed,
+1_22D;2_22D;3_22D;4_22D;5_22D,180,webpafri,0.0098
+1_22D;2_22D;3_22D;4_22D;5_22D,180,Sex,Male
+1_22D;2_22D;3_22D;4_22D;5_22D,180,Nationality,Malaysia
+1_22D;2_22D;3_22D;4_22D;5_22D,180,leader.1,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,180,leader.2,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,180,leader.3,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,180,leader.4,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,180,leader.5,leader
+1_22D;2_22D;3_22D;4_22D;5_22D,184,name,MuhammadB
+1_22D;2_22D;3_22D;4_22D;5_22D,184,webpawed,
+1_22D;2_22D;3_22D;4_22D;5_22D,184,webpafri,0.0098
+1_22D;2_22D;3_22D;4_22D;5_22D,184,Sex,Male
+1_22D;2_22D;3_22D;4_22D;5_22D,184,Nationality,Malaysia
+1_22D;2_22D;3_22D;4_22D;5_22D,184,leader.1,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,184,leader.2,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,184,leader.3,not leader
+1_22D;2_22D;3_22D;4_22D;5_22D,184,leader.4,leader
+1_22D;2_22D;3_22D;4_22D;5_22D,184,leader.5,not leader
+1_22E;2_22E;3_22E;4_22E;5_22E,189,name,KieranW
+1_22E;2_22E;3_22E;4_22E;5_22E,189,webpawed,
+1_22E;2_22E;3_22E;4_22E;5_22E,189,webpafri,0.0101
+1_22E;2_22E;3_22E;4_22E;5_22E,189,Sex,Male
+1_22E;2_22E;3_22E;4_22E;5_22E,189,Nationality,United Kingdom
+1_22E;2_22E;3_22E;4_22E;5_22E,189,leader.1,leader
+1_22E;2_22E;3_22E;4_22E;5_22E,189,leader.2,not leader
+1_22E;2_22E;3_22E;4_22E;5_22E,189,leader.3,not leader
+1_22E;2_22E;3_22E;4_22E;5_22E,189,leader.4,not leader
+1_22E;2_22E;3_22E;4_22E;5_22E,189,leader.5,not leader
+1_22E;2_22E;3_22E;4_22E;5_22E,186,name,AlexM
+1_22E;2_22E;3_22E;4_22E;5_22E,186,webpawed,
+1_22E;2_22E;3_22E;4_22E;5_22E,186,webpafri,0.0101
+1_22E;2_22E;3_22E;4_22E;5_22E,186,Sex,Male
+1_22E;2_22E;3_22E;4_22E;5_22E,186,Nationality,United Kingdom
+1_22E;2_22E;3_22E;4_22E;5_22E,186,leader.1,not leader
+1_22E;2_22E;3_22E;4_22E;5_22E,186,leader.2,not leader
+1_22E;2_22E;3_22E;4_22E;5_22E,186,leader.3,not leader
+1_22E;2_22E;3_22E;4_22E;5_22E,186,leader.4,leader
+1_22E;2_22E;3_22E;4_22E;5_22E,186,leader.5,not leader
+1_22E;2_22E;4_22E;5_22E,188,name,JosephB
+1_22E;2_22E;4_22E;5_22E,188,webpawed,
+1_22E;2_22E;4_22E;5_22E,188,webpafri,0.0098
+1_22E;2_22E;4_22E;5_22E,188,Sex,Male
+1_22E;2_22E;4_22E;5_22E,188,Nationality,United Kingdom
+1_22E;2_22E;4_22E;5_22E,188,leader.1,not leader
+1_22E;2_22E;4_22E;5_22E,188,leader.2,leader
+1_22E;2_22E;4_22E;5_22E,188,leader.3,not leader
+1_22E;2_22E;4_22E;5_22E,188,leader.4,not leader
+1_22E;2_22E;4_22E;5_22E,188,leader.5,not leader
+1_22E;2_22E;3_22E;4_22E;5_22E,187,name,HannahT
+1_22E;2_22E;3_22E;4_22E;5_22E,187,webpawed,
+1_22E;2_22E;3_22E;4_22E;5_22E,187,webpafri,0.0102
+1_22E;2_22E;3_22E;4_22E;5_22E,187,Sex,Female
+1_22E;2_22E;3_22E;4_22E;5_22E,187,Nationality,United Kingdom
+1_22E;2_22E;3_22E;4_22E;5_22E,187,leader.1,not leader
+1_22E;2_22E;3_22E;4_22E;5_22E,187,leader.2,not leader
+1_22E;2_22E;3_22E;4_22E;5_22E,187,leader.3,not leader
+1_22E;2_22E;3_22E;4_22E;5_22E,187,leader.4,not leader
+1_22E;2_22E;3_22E;4_22E;5_22E,187,leader.5,leader
+1_22E;2_22E;3_22E;4_22E;5_22E,191,name,SengL
+1_22E;2_22E;3_22E;4_22E;5_22E,191,webpawed,
+1_22E;2_22E;3_22E;4_22E;5_22E,191,webpafri,0.0101
+1_22E;2_22E;3_22E;4_22E;5_22E,191,Sex,Male
+1_22E;2_22E;3_22E;4_22E;5_22E,191,Nationality,Malaysia
+1_22E;2_22E;3_22E;4_22E;5_22E,191,leader.1,not leader
+1_22E;2_22E;3_22E;4_22E;5_22E,191,leader.2,not leader
+1_22E;2_22E;3_22E;4_22E;5_22E,191,leader.3,leader
+1_22E;2_22E;3_22E;4_22E;5_22E,191,leader.4,not leader
+1_22E;2_22E;3_22E;4_22E;5_22E,191,leader.5,not leader
+1_22E;2_22E;3_22E;4_22E;5_22E,190,name,PhilipB
+1_22E;2_22E;3_22E;4_22E;5_22E,190,webpawed,
+1_22E;2_22E;3_22E;4_22E;5_22E,190,webpafri,0.0097
+1_22E;2_22E;3_22E;4_22E;5_22E,190,Sex,Male
+1_22E;2_22E;3_22E;4_22E;5_22E,190,Nationality,United Kingdom
+1_22E;2_22E;3_22E;4_22E;5_22E,190,leader.1,
+1_22E;2_22E;3_22E;4_22E;5_22E,190,leader.2,
+1_22E;2_22E;3_22E;4_22E;5_22E,190,leader.3,
+1_22E;2_22E;3_22E;4_22E;5_22E,190,leader.4,
+1_22E;2_22E;3_22E;4_22E;5_22E,190,leader.5,
+1_22F;2_22F;3_22F;4_22F;5_22F,192,name,EdwardP
+1_22F;2_22F;3_22F;4_22F;5_22F,192,webpawed,
+1_22F;2_22F;3_22F;4_22F;5_22F,192,webpafri,0.0105
+1_22F;2_22F;3_22F;4_22F;5_22F,192,Sex,Male
+1_22F;2_22F;3_22F;4_22F;5_22F,192,Nationality,United Kingdom
+1_22F;2_22F;3_22F;4_22F;5_22F,192,leader.1,leader
+1_22F;2_22F;3_22F;4_22F;5_22F,192,leader.2,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,192,leader.3,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,192,leader.4,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,192,leader.5,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,197,name,SyedA
+1_22F;2_22F;3_22F;4_22F;5_22F,197,webpawed,
+1_22F;2_22F;3_22F;4_22F;5_22F,197,webpafri,0.0105
+1_22F;2_22F;3_22F;4_22F;5_22F,197,Sex,Male
+1_22F;2_22F;3_22F;4_22F;5_22F,197,Nationality,United Kingdom
+1_22F;2_22F;3_22F;4_22F;5_22F,197,leader.1,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,197,leader.2,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,197,leader.3,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,197,leader.4,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,197,leader.5,leader
+1_22F;2_22F;3_22F;4_22F;5_22F,196,name,RaresR
+1_22F;2_22F;3_22F;4_22F;5_22F,196,webpawed,
+1_22F;2_22F;3_22F;4_22F;5_22F,196,webpafri,0.0099
+1_22F;2_22F;3_22F;4_22F;5_22F,196,Sex,Male
+1_22F;2_22F;3_22F;4_22F;5_22F,196,Nationality,Romania
+1_22F;2_22F;3_22F;4_22F;5_22F,196,leader.1,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,196,leader.2,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,196,leader.3,leader
+1_22F;2_22F;3_22F;4_22F;5_22F,196,leader.4,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,196,leader.5,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,195,name,RamanM
+1_22F;2_22F;3_22F;4_22F;5_22F,195,webpawed,
+1_22F;2_22F;3_22F;4_22F;5_22F,195,webpafri,0.0099
+1_22F;2_22F;3_22F;4_22F;5_22F,195,Sex,Male
+1_22F;2_22F;3_22F;4_22F;5_22F,195,Nationality,United Kingdom
+1_22F;2_22F;3_22F;4_22F;5_22F,195,leader.1,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,195,leader.2,leader
+1_22F;2_22F;3_22F;4_22F;5_22F,195,leader.3,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,195,leader.4,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,195,leader.5,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,193,name,MohamedT
+1_22F;2_22F;3_22F;4_22F;5_22F,193,webpawed,
+1_22F;2_22F;3_22F;4_22F;5_22F,193,webpafri,0.0101
+1_22F;2_22F;3_22F;4_22F;5_22F,193,Sex,Male
+1_22F;2_22F;3_22F;4_22F;5_22F,193,Nationality,Ireland
+1_22F;2_22F;3_22F;4_22F;5_22F,193,leader.1,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,193,leader.2,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,193,leader.3,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,193,leader.4,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,193,leader.5,leader
+1_22F;2_22F;3_22F;4_22F;5_22F,194,name,MaksymT
+1_22F;2_22F;3_22F;4_22F;5_22F,194,webpawed,
+1_22F;2_22F;3_22F;4_22F;5_22F,194,webpafri,0.0092
+1_22F;2_22F;3_22F;4_22F;5_22F,194,Sex,Male
+1_22F;2_22F;3_22F;4_22F;5_22F,194,Nationality,Ukraine
+1_22F;2_22F;3_22F;4_22F;5_22F,194,leader.1,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,194,leader.2,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,194,leader.3,not leader
+1_22F;2_22F;3_22F;4_22F;5_22F,194,leader.4,leader
+1_22F;2_22F;3_22F;4_22F;5_22F,194,leader.5,not leader
+1_24A;2_24A;4_24A;5_24A,201,name,MajedG
+1_24A;2_24A;4_24A;5_24A,201,webpawed,
+1_24A;2_24A;4_24A;5_24A,201,webpafri,0.0108
+1_24A;2_24A;4_24A;5_24A,201,Sex,Male
+1_24A;2_24A;4_24A;5_24A,201,Nationality,United Kingdom
+1_24A;2_24A;4_24A;5_24A,201,leader.1,not leader
+1_24A;2_24A;4_24A;5_24A,201,leader.2,not leader
+1_24A;2_24A;4_24A;5_24A,201,leader.3,not leader
+1_24A;2_24A;4_24A;5_24A,201,leader.4,not leader
+1_24A;2_24A;4_24A;5_24A,201,leader.5,leader
+1_24A;2_24A;4_24A;5_24A,199,name,ChijiokeO
+1_24A;2_24A;4_24A;5_24A,199,webpawed,
+1_24A;2_24A;4_24A;5_24A,199,webpafri,0.0091
+1_24A;2_24A;4_24A;5_24A,199,Sex,Male
+1_24A;2_24A;4_24A;5_24A,199,Nationality,Nigeria
+1_24A;2_24A;4_24A;5_24A,199,leader.1,not leader
+1_24A;2_24A;4_24A;5_24A,199,leader.2,not leader
+1_24A;2_24A;4_24A;5_24A,199,leader.3,not leader
+1_24A;2_24A;4_24A;5_24A,199,leader.4,not leader
+1_24A;2_24A;4_24A;5_24A,199,leader.5,leader
+1_24A;2_24A;4_24A;5_24A,200,name,CarlyJ
+1_24A;2_24A;4_24A;5_24A,200,webpawed,
+1_24A;2_24A;4_24A;5_24A,200,webpafri,0.0106
+1_24A;2_24A;4_24A;5_24A,200,Sex,Female
+1_24A;2_24A;4_24A;5_24A,200,Nationality,United Kingdom
+1_24A;2_24A;4_24A;5_24A,200,leader.1,not leader
+1_24A;2_24A;4_24A;5_24A,200,leader.2,not leader
+1_24A;2_24A;4_24A;5_24A,200,leader.3,not leader
+1_24A;2_24A;4_24A;5_24A,200,leader.4,leader
+1_24A;2_24A;4_24A;5_24A,200,leader.5,not leader
+1_24A;2_24A;4_24A;5_24A,198,name,AdamB
+1_24A;2_24A;4_24A;5_24A,198,webpawed,
+1_24A;2_24A;4_24A;5_24A,198,webpafri,0.008
+1_24A;2_24A;4_24A;5_24A,198,Sex,Male
+1_24A;2_24A;4_24A;5_24A,198,Nationality,United Kingdom
+1_24A;2_24A;4_24A;5_24A,198,leader.1,leader
+1_24A;2_24A;4_24A;5_24A,198,leader.2,not leader
+1_24A;2_24A;4_24A;5_24A,198,leader.3,not leader
+1_24A;2_24A;4_24A;5_24A,198,leader.4,not leader
+1_24A;2_24A;4_24A;5_24A,198,leader.5,not leader
+1_24A;2_24A;4_24A;5_24A,202,name,VincentC
+1_24A;2_24A;4_24A;5_24A,202,webpawed,
+1_24A;2_24A;4_24A;5_24A,202,webpafri,0.0103
+1_24A;2_24A;4_24A;5_24A,202,Sex,Male
+1_24A;2_24A;4_24A;5_24A,202,Nationality,Netherlands
+1_24A;2_24A;4_24A;5_24A,202,leader.1,not leader
+1_24A;2_24A;4_24A;5_24A,202,leader.2,not leader
+1_24A;2_24A;4_24A;5_24A,202,leader.3,not leader
+1_24A;2_24A;4_24A;5_24A,202,leader.4,not leader
+1_24A;2_24A;4_24A;5_24A,202,leader.5,leader
+1_24A;2_24A;5_24A,203,name,XuantingD
+1_24A;2_24A;5_24A,203,webpawed,
+1_24A;2_24A;5_24A,203,webpafri,0.0107
+1_24A;2_24A;5_24A,203,Sex,Female
+1_24A;2_24A;5_24A,203,Nationality,China
+1_24A;2_24A;5_24A,203,leader.1,not leader
+1_24A;2_24A;5_24A,203,leader.2,leader
+1_24A;2_24A;5_24A,203,leader.3,not leader
+1_24A;2_24A;5_24A,203,leader.4,not leader
+1_24A;2_24A;5_24A,203,leader.5,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,208,name,MatthewS
+1_24B;2_24B;3_24B;4_24B;5_24B,208,webpawed,
+1_24B;2_24B;3_24B;4_24B;5_24B,208,webpafri,0.0105
+1_24B;2_24B;3_24B;4_24B;5_24B,208,Sex,Male
+1_24B;2_24B;3_24B;4_24B;5_24B,208,Nationality,United Kingdom
+1_24B;2_24B;3_24B;4_24B;5_24B,208,leader.1,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,208,leader.2,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,208,leader.3,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,208,leader.4,leader
+1_24B;2_24B;3_24B;4_24B;5_24B,208,leader.5,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,209,name,RobertM
+1_24B;2_24B;3_24B;4_24B;5_24B,209,webpawed,
+1_24B;2_24B;3_24B;4_24B;5_24B,209,webpafri,0.0099
+1_24B;2_24B;3_24B;4_24B;5_24B,209,Sex,Male
+1_24B;2_24B;3_24B;4_24B;5_24B,209,Nationality,United Kingdom
+1_24B;2_24B;3_24B;4_24B;5_24B,209,leader.1,leader
+1_24B;2_24B;3_24B;4_24B;5_24B,209,leader.2,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,209,leader.3,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,209,leader.4,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,209,leader.5,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,204,name,ChristopherC
+1_24B;2_24B;3_24B;4_24B;5_24B,204,webpawed,
+1_24B;2_24B;3_24B;4_24B;5_24B,204,webpafri,0.0106
+1_24B;2_24B;3_24B;4_24B;5_24B,204,Sex,Male
+1_24B;2_24B;3_24B;4_24B;5_24B,204,Nationality,Nepal
+1_24B;2_24B;3_24B;4_24B;5_24B,204,leader.1,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,204,leader.2,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,204,leader.3,leader
+1_24B;2_24B;3_24B;4_24B;5_24B,204,leader.4,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,204,leader.5,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,207,name,MohamadM
+1_24B;2_24B;3_24B;4_24B;5_24B,207,webpawed,
+1_24B;2_24B;3_24B;4_24B;5_24B,207,webpafri,0.0099
+1_24B;2_24B;3_24B;4_24B;5_24B,207,Sex,Male
+1_24B;2_24B;3_24B;4_24B;5_24B,207,Nationality,Malaysia
+1_24B;2_24B;3_24B;4_24B;5_24B,207,leader.1,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,207,leader.2,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,207,leader.3,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,207,leader.4,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,207,leader.5,leader
+1_24B;2_24B;3_24B;4_24B;5_24B,205,name,JunjinC
+1_24B;2_24B;3_24B;4_24B;5_24B,205,webpawed,
+1_24B;2_24B;3_24B;4_24B;5_24B,205,webpafri,0.0095
+1_24B;2_24B;3_24B;4_24B;5_24B,205,Sex,Male
+1_24B;2_24B;3_24B;4_24B;5_24B,205,Nationality,China
+1_24B;2_24B;3_24B;4_24B;5_24B,205,leader.1,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,205,leader.2,leader
+1_24B;2_24B;3_24B;4_24B;5_24B,205,leader.3,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,205,leader.4,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,205,leader.5,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,206,name,JooyulY
+1_24B;2_24B;3_24B;4_24B;5_24B,206,webpawed,
+1_24B;2_24B;3_24B;4_24B;5_24B,206,webpafri,0.0095
+1_24B;2_24B;3_24B;4_24B;5_24B,206,Sex,Male
+1_24B;2_24B;3_24B;4_24B;5_24B,206,Nationality,Korea (South)
+1_24B;2_24B;3_24B;4_24B;5_24B,206,leader.1,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,206,leader.2,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,206,leader.3,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,206,leader.4,not leader
+1_24B;2_24B;3_24B;4_24B;5_24B,206,leader.5,leader
+1_24C;2_24C;3_24C;4_24C,211,name,DanielJ
+1_24C;2_24C;3_24C;4_24C,211,webpawed,
+1_24C;2_24C;3_24C;4_24C,211,webpafri,0.0101
+1_24C;2_24C;3_24C;4_24C,211,Sex,Male
+1_24C;2_24C;3_24C;4_24C,211,Nationality,United Kingdom
+1_24C;2_24C;3_24C;4_24C,211,leader.1,
+1_24C;2_24C;3_24C;4_24C,211,leader.2,
+1_24C;2_24C;3_24C;4_24C,211,leader.3,
+1_24C;2_24C;3_24C;4_24C,211,leader.4,
+1_24C;2_24C;3_24C;4_24C,211,leader.5,
+1_24C;2_24C;3_24C;4_24C,210,name,AliZ
+1_24C;2_24C;3_24C;4_24C,210,webpawed,
+1_24C;2_24C;3_24C;4_24C,210,webpafri,0.0101
+1_24C;2_24C;3_24C;4_24C,210,Sex,Male
+1_24C;2_24C;3_24C;4_24C,210,Nationality,Egypt
+1_24C;2_24C;3_24C;4_24C,210,leader.1,
+1_24C;2_24C;3_24C;4_24C,210,leader.2,
+1_24C;2_24C;3_24C;4_24C,210,leader.3,
+1_24C;2_24C;3_24C;4_24C,210,leader.4,
+1_24C;2_24C;3_24C;4_24C,210,leader.5,
+1_24C;2_24C;3_24C;4_24C,214,name,MohanJ
+1_24C;2_24C;3_24C;4_24C,214,webpawed,
+1_24C;2_24C;3_24C;4_24C,214,webpafri,0.0099
+1_24C;2_24C;3_24C;4_24C,214,Sex,Male
+1_24C;2_24C;3_24C;4_24C,214,Nationality,China
+1_24C;2_24C;3_24C;4_24C,214,leader.1,
+1_24C;2_24C;3_24C;4_24C,214,leader.2,
+1_24C;2_24C;3_24C;4_24C,214,leader.3,
+1_24C;2_24C;3_24C;4_24C,214,leader.4,
+1_24C;2_24C;3_24C;4_24C,214,leader.5,
+1_24C;2_24C;3_24C;4_24C,215,name,PriyeshP
+1_24C;2_24C;3_24C;4_24C,215,webpawed,
+1_24C;2_24C;3_24C;4_24C,215,webpafri,0.0099
+1_24C;2_24C;3_24C;4_24C,215,Sex,Male
+1_24C;2_24C;3_24C;4_24C,215,Nationality,United Kingdom
+1_24C;2_24C;3_24C;4_24C,215,leader.1,
+1_24C;2_24C;3_24C;4_24C,215,leader.2,
+1_24C;2_24C;3_24C;4_24C,215,leader.3,
+1_24C;2_24C;3_24C;4_24C,215,leader.4,
+1_24C;2_24C;3_24C;4_24C,215,leader.5,
+1_24C;2_24C;3_24C;4_24C,212,name,GiorgioR
+1_24C;2_24C;3_24C;4_24C,212,webpawed,
+1_24C;2_24C;3_24C;4_24C,212,webpafri,0.0099
+1_24C;2_24C;3_24C;4_24C,212,Sex,Male
+1_24C;2_24C;3_24C;4_24C,212,Nationality,Italy
+1_24C;2_24C;3_24C;4_24C,212,leader.1,
+1_24C;2_24C;3_24C;4_24C,212,leader.2,
+1_24C;2_24C;3_24C;4_24C,212,leader.3,
+1_24C;2_24C;3_24C;4_24C,212,leader.4,
+1_24C;2_24C;3_24C;4_24C,212,leader.5,
+1_24C;2_24C;3_24C;4_24C,213,name,LaraL
+1_24C;2_24C;3_24C;4_24C,213,webpawed,
+1_24C;2_24C;3_24C;4_24C,213,webpafri,0.0101
+1_24C;2_24C;3_24C;4_24C,213,Sex,Female
+1_24C;2_24C;3_24C;4_24C,213,Nationality,United Kingdom
+1_24C;2_24C;3_24C;4_24C,213,leader.1,
+1_24C;2_24C;3_24C;4_24C,213,leader.2,
+1_24C;2_24C;3_24C;4_24C,213,leader.3,
+1_24C;2_24C;3_24C;4_24C,213,leader.4,
+1_24C;2_24C;3_24C;4_24C,213,leader.5,
+1_24D;2_24D;3_24D;4_24D;5_24D,218,name,HarbirS
+1_24D;2_24D;3_24D;4_24D;5_24D,218,webpawed,
+1_24D;2_24D;3_24D;4_24D;5_24D,218,webpafri,0.0101
+1_24D;2_24D;3_24D;4_24D;5_24D,218,Sex,Male
+1_24D;2_24D;3_24D;4_24D;5_24D,218,Nationality,United Kingdom
+1_24D;2_24D;3_24D;4_24D;5_24D,218,leader.1,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,218,leader.2,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,218,leader.3,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,218,leader.4,leader
+1_24D;2_24D;3_24D;4_24D;5_24D,218,leader.5,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,217,name,GretaR
+1_24D;2_24D;3_24D;4_24D;5_24D,217,webpawed,
+1_24D;2_24D;3_24D;4_24D;5_24D,217,webpafri,0.0101
+1_24D;2_24D;3_24D;4_24D;5_24D,217,Sex,Female
+1_24D;2_24D;3_24D;4_24D;5_24D,217,Nationality,Lithuania
+1_24D;2_24D;3_24D;4_24D;5_24D,217,leader.1,leader
+1_24D;2_24D;3_24D;4_24D;5_24D,217,leader.2,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,217,leader.3,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,217,leader.4,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,217,leader.5,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,216,name,AnimeshA
+1_24D;2_24D;3_24D;4_24D;5_24D,216,webpawed,
+1_24D;2_24D;3_24D;4_24D;5_24D,216,webpafri,0.0101
+1_24D;2_24D;3_24D;4_24D;5_24D,216,Sex,Male
+1_24D;2_24D;3_24D;4_24D;5_24D,216,Nationality,United Kingdom
+1_24D;2_24D;3_24D;4_24D;5_24D,216,leader.1,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,216,leader.2,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,216,leader.3,leader
+1_24D;2_24D;3_24D;4_24D;5_24D,216,leader.4,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,216,leader.5,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,220,name,OmerA
+1_24D;2_24D;3_24D;4_24D;5_24D,220,webpawed,
+1_24D;2_24D;3_24D;4_24D;5_24D,220,webpafri,0.0101
+1_24D;2_24D;3_24D;4_24D;5_24D,220,Sex,Male
+1_24D;2_24D;3_24D;4_24D;5_24D,220,Nationality,Jordan
+1_24D;2_24D;3_24D;4_24D;5_24D,220,leader.1,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,220,leader.2,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,220,leader.3,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,220,leader.4,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,220,leader.5,leader
+1_24D;2_24D;3_24D;4_24D;5_24D,221,name,SugethaK
+1_24D;2_24D;3_24D;4_24D;5_24D,221,webpawed,
+1_24D;2_24D;3_24D;4_24D;5_24D,221,webpafri,0.0097
+1_24D;2_24D;3_24D;4_24D;5_24D,221,Sex,Female
+1_24D;2_24D;3_24D;4_24D;5_24D,221,Nationality,Sri Lanka
+1_24D;2_24D;3_24D;4_24D;5_24D,221,leader.1,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,221,leader.2,leader
+1_24D;2_24D;3_24D;4_24D;5_24D,221,leader.3,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,221,leader.4,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,221,leader.5,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,219,name,NourA
+1_24D;2_24D;3_24D;4_24D;5_24D,219,webpawed,
+1_24D;2_24D;3_24D;4_24D;5_24D,219,webpafri,0.0099
+1_24D;2_24D;3_24D;4_24D;5_24D,219,Sex,Female
+1_24D;2_24D;3_24D;4_24D;5_24D,219,Nationality,Kuwait
+1_24D;2_24D;3_24D;4_24D;5_24D,219,leader.1,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,219,leader.2,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,219,leader.3,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,219,leader.4,not leader
+1_24D;2_24D;3_24D;4_24D;5_24D,219,leader.5,leader
+1_24E;2_24E;3_24E;4_24E;5_24E,226,name,RossH
+1_24E;2_24E;3_24E;4_24E;5_24E,226,webpawed,
+1_24E;2_24E;3_24E;4_24E;5_24E,226,webpafri,0.011
+1_24E;2_24E;3_24E;4_24E;5_24E,226,Sex,Male
+1_24E;2_24E;3_24E;4_24E;5_24E,226,Nationality,United Kingdom
+1_24E;2_24E;3_24E;4_24E;5_24E,226,leader.1,
+1_24E;2_24E;3_24E;4_24E;5_24E,226,leader.2,
+1_24E;2_24E;3_24E;4_24E;5_24E,226,leader.3,
+1_24E;2_24E;3_24E;4_24E;5_24E,226,leader.4,
+1_24E;2_24E;3_24E;4_24E;5_24E,226,leader.5,
+1_24E;2_24E;3_24E;4_24E;5_24E,223,name,DivaS
+1_24E;2_24E;3_24E;4_24E;5_24E,223,webpawed,
+1_24E;2_24E;3_24E;4_24E;5_24E,223,webpafri,0.0107
+1_24E;2_24E;3_24E;4_24E;5_24E,223,Sex,Female
+1_24E;2_24E;3_24E;4_24E;5_24E,223,Nationality,India
+1_24E;2_24E;3_24E;4_24E;5_24E,223,leader.1,
+1_24E;2_24E;3_24E;4_24E;5_24E,223,leader.2,
+1_24E;2_24E;3_24E;4_24E;5_24E,223,leader.3,
+1_24E;2_24E;3_24E;4_24E;5_24E,223,leader.4,
+1_24E;2_24E;3_24E;4_24E;5_24E,223,leader.5,
+1_24E;2_24E;4_24E;5_24E,222,name,CharlieL
+1_24E;2_24E;4_24E;5_24E,222,webpawed,
+1_24E;2_24E;4_24E;5_24E,222,webpafri,0.0109
+1_24E;2_24E;4_24E;5_24E,222,Sex,Male
+1_24E;2_24E;4_24E;5_24E,222,Nationality,United Kingdom
+1_24E;2_24E;4_24E;5_24E,222,leader.1,
+1_24E;2_24E;4_24E;5_24E,222,leader.2,
+1_24E;2_24E;4_24E;5_24E,222,leader.3,
+1_24E;2_24E;4_24E;5_24E,222,leader.4,
+1_24E;2_24E;4_24E;5_24E,222,leader.5,
+1_24E;2_24E;3_24E;4_24E,224,name,GaryC
+1_24E;2_24E;3_24E;4_24E,224,webpawed,
+1_24E;2_24E;3_24E;4_24E,224,webpafri,0.0086
+1_24E;2_24E;3_24E;4_24E,224,Sex,Male
+1_24E;2_24E;3_24E;4_24E,224,Nationality,United Kingdom
+1_24E;2_24E;3_24E;4_24E,224,leader.1,
+1_24E;2_24E;3_24E;4_24E,224,leader.2,
+1_24E;2_24E;3_24E;4_24E,224,leader.3,
+1_24E;2_24E;3_24E;4_24E,224,leader.4,
+1_24E;2_24E;3_24E;4_24E,224,leader.5,
+1_24E;2_24E;3_24E;4_24E;5_24E,227,name,YanZ
+1_24E;2_24E;3_24E;4_24E;5_24E,227,webpawed,
+1_24E;2_24E;3_24E;4_24E;5_24E,227,webpafri,0.0088
+1_24E;2_24E;3_24E;4_24E;5_24E,227,Sex,Male
+1_24E;2_24E;3_24E;4_24E;5_24E,227,Nationality,China
+1_24E;2_24E;3_24E;4_24E;5_24E,227,leader.1,
+1_24E;2_24E;3_24E;4_24E;5_24E,227,leader.2,
+1_24E;2_24E;3_24E;4_24E;5_24E,227,leader.3,
+1_24E;2_24E;3_24E;4_24E;5_24E,227,leader.4,
+1_24E;2_24E;3_24E;4_24E;5_24E,227,leader.5,
+1_24E;2_24E;3_24E;4_24E;5_24E,225,name,JamesT
+1_24E;2_24E;3_24E;4_24E;5_24E,225,webpawed,
+1_24E;2_24E;3_24E;4_24E;5_24E,225,webpafri,0.0101
+1_24E;2_24E;3_24E;4_24E;5_24E,225,Sex,Male
+1_24E;2_24E;3_24E;4_24E;5_24E,225,Nationality,United Kingdom
+1_24E;2_24E;3_24E;4_24E;5_24E,225,leader.1,
+1_24E;2_24E;3_24E;4_24E;5_24E,225,leader.2,
+1_24E;2_24E;3_24E;4_24E;5_24E,225,leader.3,
+1_24E;2_24E;3_24E;4_24E;5_24E,225,leader.4,
+1_24E;2_24E;3_24E;4_24E;5_24E,225,leader.5,
+1_24F;2_24F;3_24F;4_24F;5_24F,229,name,ElliotM
+1_24F;2_24F;3_24F;4_24F;5_24F,229,webpawed,
+1_24F;2_24F;3_24F;4_24F;5_24F,229,webpafri,0.01
+1_24F;2_24F;3_24F;4_24F;5_24F,229,Sex,Male
+1_24F;2_24F;3_24F;4_24F;5_24F,229,Nationality,United Kingdom
+1_24F;2_24F;3_24F;4_24F;5_24F,229,leader.1,leader
+1_24F;2_24F;3_24F;4_24F;5_24F,229,leader.2,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,229,leader.3,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,229,leader.4,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,229,leader.5,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,230,name,GraceC
+1_24F;2_24F;3_24F;4_24F;5_24F,230,webpawed,
+1_24F;2_24F;3_24F;4_24F;5_24F,230,webpafri,0.01
+1_24F;2_24F;3_24F;4_24F;5_24F,230,Sex,Female
+1_24F;2_24F;3_24F;4_24F;5_24F,230,Nationality,United Kingdom
+1_24F;2_24F;3_24F;4_24F;5_24F,230,leader.1,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,230,leader.2,leader
+1_24F;2_24F;3_24F;4_24F;5_24F,230,leader.3,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,230,leader.4,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,230,leader.5,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,228,name,AngelosY
+1_24F;2_24F;3_24F;4_24F;5_24F,228,webpawed,
+1_24F;2_24F;3_24F;4_24F;5_24F,228,webpafri,0.01
+1_24F;2_24F;3_24F;4_24F;5_24F,228,Sex,Male
+1_24F;2_24F;3_24F;4_24F;5_24F,228,Nationality,Cyprus
+1_24F;2_24F;3_24F;4_24F;5_24F,228,leader.1,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,228,leader.2,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,228,leader.3,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,228,leader.4,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,228,leader.5,leader
+1_24F;2_24F;3_24F;4_24F;5_24F,232,name,TomW
+1_24F;2_24F;3_24F;4_24F;5_24F,232,webpawed,
+1_24F;2_24F;3_24F;4_24F;5_24F,232,webpafri,0.01
+1_24F;2_24F;3_24F;4_24F;5_24F,232,Sex,Male
+1_24F;2_24F;3_24F;4_24F;5_24F,232,Nationality,United Kingdom
+1_24F;2_24F;3_24F;4_24F;5_24F,232,leader.1,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,232,leader.2,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,232,leader.3,leader
+1_24F;2_24F;3_24F;4_24F;5_24F,232,leader.4,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,232,leader.5,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,231,name,Pit_WingK
+1_24F;2_24F;3_24F;4_24F;5_24F,231,webpawed,
+1_24F;2_24F;3_24F;4_24F;5_24F,231,webpafri,0.01
+1_24F;2_24F;3_24F;4_24F;5_24F,231,Sex,Male
+1_24F;2_24F;3_24F;4_24F;5_24F,231,Nationality,Hong Kong
+1_24F;2_24F;3_24F;4_24F;5_24F,231,leader.1,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,231,leader.2,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,231,leader.3,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,231,leader.4,leader
+1_24F;2_24F;3_24F;4_24F;5_24F,231,leader.5,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,233,name,XingyuS
+1_24F;2_24F;3_24F;4_24F;5_24F,233,webpawed,
+1_24F;2_24F;3_24F;4_24F;5_24F,233,webpafri,0.01
+1_24F;2_24F;3_24F;4_24F;5_24F,233,Sex,Male
+1_24F;2_24F;3_24F;4_24F;5_24F,233,Nationality,China
+1_24F;2_24F;3_24F;4_24F;5_24F,233,leader.1,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,233,leader.2,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,233,leader.3,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,233,leader.4,not leader
+1_24F;2_24F;3_24F;4_24F;5_24F,233,leader.5,leader
+1_25A;2_25A;3_25A;4_25A,238,name,ThomasS
+1_25A;2_25A;3_25A;4_25A,238,webpawed,
+1_25A;2_25A;3_25A;4_25A,238,webpafri,0.0102
+1_25A;2_25A;3_25A;4_25A,238,Sex,Male
+1_25A;2_25A;3_25A;4_25A,238,Nationality,United Kingdom
+1_25A;2_25A;3_25A;4_25A,238,leader.1,leader
+1_25A;2_25A;3_25A;4_25A,238,leader.2,not leader
+1_25A;2_25A;3_25A;4_25A,238,leader.3,not leader
+1_25A;2_25A;3_25A;4_25A,238,leader.4,not leader
+1_25A;2_25A;3_25A;4_25A,238,leader.5,not leader
+1_25A;2_25A;3_25A;4_25A,239,name,ZiyiZ
+1_25A;2_25A;3_25A;4_25A,239,webpawed,
+1_25A;2_25A;3_25A;4_25A,239,webpafri,0.0101
+1_25A;2_25A;3_25A;4_25A,239,Sex,Male
+1_25A;2_25A;3_25A;4_25A,239,Nationality,China
+1_25A;2_25A;3_25A;4_25A,239,leader.1,not leader
+1_25A;2_25A;3_25A;4_25A,239,leader.2,not leader
+1_25A;2_25A;3_25A;4_25A,239,leader.3,leader
+1_25A;2_25A;3_25A;4_25A,239,leader.4,not leader
+1_25A;2_25A;3_25A;4_25A,239,leader.5,not leader
+1_25A;2_25A;3_25A;4_25A,236,name,MuhammadC
+1_25A;2_25A;3_25A;4_25A,236,webpawed,
+1_25A;2_25A;3_25A;4_25A,236,webpafri,0.0102
+1_25A;2_25A;3_25A;4_25A,236,Sex,Male
+1_25A;2_25A;3_25A;4_25A,236,Nationality,Ireland
+1_25A;2_25A;3_25A;4_25A,236,leader.1,not leader
+1_25A;2_25A;3_25A;4_25A,236,leader.2,not leader
+1_25A;2_25A;3_25A;4_25A,236,leader.3,not leader
+1_25A;2_25A;3_25A;4_25A,236,leader.4,not leader
+1_25A;2_25A;3_25A;4_25A,236,leader.5,leader
+1_25A;3_25A;4_25A,237,name,QimingY
+1_25A;3_25A;4_25A,237,webpawed,
+1_25A;3_25A;4_25A,237,webpafri,0.0094
+1_25A;3_25A;4_25A,237,Sex,Male
+1_25A;3_25A;4_25A,237,Nationality,China
+1_25A;3_25A;4_25A,237,leader.1,not leader
+1_25A;3_25A;4_25A,237,leader.2,not leader
+1_25A;3_25A;4_25A,237,leader.3,not leader
+1_25A;3_25A;4_25A,237,leader.4,leader
+1_25A;3_25A;4_25A,237,leader.5,not leader
+1_25A;2_25A;3_25A;4_25A,234,name,CharikliaE
+1_25A;2_25A;3_25A;4_25A,234,webpawed,
+1_25A;2_25A;3_25A;4_25A,234,webpafri,0.0103
+1_25A;2_25A;3_25A;4_25A,234,Sex,Female
+1_25A;2_25A;3_25A;4_25A,234,Nationality,Cyprus
+1_25A;2_25A;3_25A;4_25A,234,leader.1,not leader
+1_25A;2_25A;3_25A;4_25A,234,leader.2,not leader
+1_25A;2_25A;3_25A;4_25A,234,leader.3,not leader
+1_25A;2_25A;3_25A;4_25A,234,leader.4,not leader
+1_25A;2_25A;3_25A;4_25A,234,leader.5,leader
+1_25A;2_25A;3_25A;4_25A,235,name,GeorgiosS
+1_25A;2_25A;3_25A;4_25A,235,webpawed,
+1_25A;2_25A;3_25A;4_25A,235,webpafri,0.0099
+1_25A;2_25A;3_25A;4_25A,235,Sex,Male
+1_25A;2_25A;3_25A;4_25A,235,Nationality,Greece
+1_25A;2_25A;3_25A;4_25A,235,leader.1,not leader
+1_25A;2_25A;3_25A;4_25A,235,leader.2,leader
+1_25A;2_25A;3_25A;4_25A,235,leader.3,not leader
+1_25A;2_25A;3_25A;4_25A,235,leader.4,not leader
+1_25A;2_25A;3_25A;4_25A,235,leader.5,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,243,name,LinaE
+1_25B;2_25B;3_25B;4_25B;5_25B,243,webpawed,
+1_25B;2_25B;3_25B;4_25B;5_25B,243,webpafri,0.0083
+1_25B;2_25B;3_25B;4_25B;5_25B,243,Sex,Female
+1_25B;2_25B;3_25B;4_25B;5_25B,243,Nationality,Egypt
+1_25B;2_25B;3_25B;4_25B;5_25B,243,leader.1,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,243,leader.2,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,243,leader.3,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,243,leader.4,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,243,leader.5,leader
+1_25B;2_25B;3_25B;4_25B;5_25B,242,name,FinlayP
+1_25B;2_25B;3_25B;4_25B;5_25B,242,webpawed,
+1_25B;2_25B;3_25B;4_25B;5_25B,242,webpafri,0.0083
+1_25B;2_25B;3_25B;4_25B;5_25B,242,Sex,Male
+1_25B;2_25B;3_25B;4_25B;5_25B,242,Nationality,United Kingdom
+1_25B;2_25B;3_25B;4_25B;5_25B,242,leader.1,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,242,leader.2,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,242,leader.3,leader
+1_25B;2_25B;3_25B;4_25B;5_25B,242,leader.4,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,242,leader.5,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,240,name,ChristopherF
+1_25B;2_25B;3_25B;4_25B;5_25B,240,webpawed,
+1_25B;2_25B;3_25B;4_25B;5_25B,240,webpafri,0.0083
+1_25B;2_25B;3_25B;4_25B;5_25B,240,Sex,Male
+1_25B;2_25B;3_25B;4_25B;5_25B,240,Nationality,United Kingdom
+1_25B;2_25B;3_25B;4_25B;5_25B,240,leader.1,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,240,leader.2,leader
+1_25B;2_25B;3_25B;4_25B;5_25B,240,leader.3,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,240,leader.4,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,240,leader.5,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,244,name,MichaelC
+1_25B;2_25B;3_25B;4_25B;5_25B,244,webpawed,
+1_25B;2_25B;3_25B;4_25B;5_25B,244,webpafri,0.0083
+1_25B;2_25B;3_25B;4_25B;5_25B,244,Sex,Male
+1_25B;2_25B;3_25B;4_25B;5_25B,244,Nationality,United Kingdom
+1_25B;2_25B;3_25B;4_25B;5_25B,244,leader.1,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,244,leader.2,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,244,leader.3,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,244,leader.4,leader
+1_25B;2_25B;3_25B;4_25B;5_25B,244,leader.5,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,241,name,Chung_YuT
+1_25B;2_25B;3_25B;4_25B;5_25B,241,webpawed,
+1_25B;2_25B;3_25B;4_25B;5_25B,241,webpafri,0.0083
+1_25B;2_25B;3_25B;4_25B;5_25B,241,Sex,Male
+1_25B;2_25B;3_25B;4_25B;5_25B,241,Nationality,Hong Kong
+1_25B;2_25B;3_25B;4_25B;5_25B,241,leader.1,leader
+1_25B;2_25B;3_25B;4_25B;5_25B,241,leader.2,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,241,leader.3,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,241,leader.4,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,241,leader.5,not leader
+1_25B;2_25B;3_25B;4_25B;5_25B,245,name,RongQ
+1_25B;2_25B;3_25B;4_25B;5_25B,245,webpawed,
+1_25B;2_25B;3_25B;4_25B;5_25B,245,webpafri,0.0183
+1_25B;2_25B;3_25B;4_25B;5_25B,245,Sex,Male
+1_25B;2_25B;3_25B;4_25B;5_25B,245,Nationality,China
+1_25B;2_25B;3_25B;4_25B;5_25B,245,leader.1,
+1_25B;2_25B;3_25B;4_25B;5_25B,245,leader.2,
+1_25B;2_25B;3_25B;4_25B;5_25B,245,leader.3,
+1_25B;2_25B;3_25B;4_25B;5_25B,245,leader.4,
+1_25B;2_25B;3_25B;4_25B;5_25B,245,leader.5,
+1_25C;2_25C;3_25C;4_25C;5_25C,246,name,AnjaniW
+1_25C;2_25C;3_25C;4_25C;5_25C,246,webpawed,
+1_25C;2_25C;3_25C;4_25C;5_25C,246,webpafri,0.0113
+1_25C;2_25C;3_25C;4_25C;5_25C,246,Sex,Female
+1_25C;2_25C;3_25C;4_25C;5_25C,246,Nationality,United Kingdom
+1_25C;2_25C;3_25C;4_25C;5_25C,246,leader.1,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,246,leader.2,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,246,leader.3,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,246,leader.4,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,246,leader.5,leader
+1_25C;2_25C;3_25C;4_25C;5_25C,250,name,YeH
+1_25C;2_25C;3_25C;4_25C;5_25C,250,webpawed,
+1_25C;2_25C;3_25C;4_25C;5_25C,250,webpafri,0.0093
+1_25C;2_25C;3_25C;4_25C;5_25C,250,Sex,Male
+1_25C;2_25C;3_25C;4_25C;5_25C,250,Nationality,China
+1_25C;2_25C;3_25C;4_25C;5_25C,250,leader.1,
+1_25C;2_25C;3_25C;4_25C;5_25C,250,leader.2,
+1_25C;2_25C;3_25C;4_25C;5_25C,250,leader.3,
+1_25C;2_25C;3_25C;4_25C;5_25C,250,leader.4,
+1_25C;2_25C;3_25C;4_25C;5_25C,250,leader.5,
+1_25C;2_25C;3_25C;4_25C;5_25C,249,name,Kai_YinC
+1_25C;2_25C;3_25C;4_25C;5_25C,249,webpawed,
+1_25C;2_25C;3_25C;4_25C;5_25C,249,webpafri,0.0096
+1_25C;2_25C;3_25C;4_25C;5_25C,249,Sex,Male
+1_25C;2_25C;3_25C;4_25C;5_25C,249,Nationality,Portugal
+1_25C;2_25C;3_25C;4_25C;5_25C,249,leader.1,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,249,leader.2,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,249,leader.3,leader
+1_25C;2_25C;3_25C;4_25C;5_25C,249,leader.4,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,249,leader.5,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,247,name,ChristianaO
+1_25C;2_25C;3_25C;4_25C;5_25C,247,webpawed,
+1_25C;2_25C;3_25C;4_25C;5_25C,247,webpafri,0.0107
+1_25C;2_25C;3_25C;4_25C;5_25C,247,Sex,Female
+1_25C;2_25C;3_25C;4_25C;5_25C,247,Nationality,Cyprus
+1_25C;2_25C;3_25C;4_25C;5_25C,247,leader.1,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,247,leader.2,leader
+1_25C;2_25C;3_25C;4_25C;5_25C,247,leader.3,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,247,leader.4,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,247,leader.5,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,251,name,ZhongwangL
+1_25C;2_25C;3_25C;4_25C;5_25C,251,webpawed,
+1_25C;2_25C;3_25C;4_25C;5_25C,251,webpafri,0.0097
+1_25C;2_25C;3_25C;4_25C;5_25C,251,Sex,Male
+1_25C;2_25C;3_25C;4_25C;5_25C,251,Nationality,China
+1_25C;2_25C;3_25C;4_25C;5_25C,251,leader.1,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,251,leader.2,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,251,leader.3,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,251,leader.4,leader
+1_25C;2_25C;3_25C;4_25C;5_25C,251,leader.5,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,248,name,ChristopherS
+1_25C;2_25C;3_25C;4_25C;5_25C,248,webpawed,
+1_25C;2_25C;3_25C;4_25C;5_25C,248,webpafri,0.0094
+1_25C;2_25C;3_25C;4_25C;5_25C,248,Sex,Male
+1_25C;2_25C;3_25C;4_25C;5_25C,248,Nationality,United Kingdom
+1_25C;2_25C;3_25C;4_25C;5_25C,248,leader.1,leader
+1_25C;2_25C;3_25C;4_25C;5_25C,248,leader.2,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,248,leader.3,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,248,leader.4,not leader
+1_25C;2_25C;3_25C;4_25C;5_25C,248,leader.5,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,254,name,KwokT
+1_25D;2_25D;3_25D;4_25D;5_25D,254,webpawed,
+1_25D;2_25D;3_25D;4_25D;5_25D,254,webpafri,0.01
+1_25D;2_25D;3_25D;4_25D;5_25D,254,Sex,Male
+1_25D;2_25D;3_25D;4_25D;5_25D,254,Nationality,United Kingdom
+1_25D;2_25D;3_25D;4_25D;5_25D,254,leader.1,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,254,leader.2,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,254,leader.3,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,254,leader.4,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,254,leader.5,leader
+1_25D;2_25D;3_25D;4_25D;5_25D,257,name,VictoriaN
+1_25D;2_25D;3_25D;4_25D;5_25D,257,webpawed,
+1_25D;2_25D;3_25D;4_25D;5_25D,257,webpafri,0.01
+1_25D;2_25D;3_25D;4_25D;5_25D,257,Sex,Female
+1_25D;2_25D;3_25D;4_25D;5_25D,257,Nationality,United Kingdom
+1_25D;2_25D;3_25D;4_25D;5_25D,257,leader.1,leader
+1_25D;2_25D;3_25D;4_25D;5_25D,257,leader.2,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,257,leader.3,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,257,leader.4,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,257,leader.5,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,253,name,JamesS
+1_25D;2_25D;3_25D;4_25D;5_25D,253,webpawed,
+1_25D;2_25D;3_25D;4_25D;5_25D,253,webpafri,0.01
+1_25D;2_25D;3_25D;4_25D;5_25D,253,Sex,Male
+1_25D;2_25D;3_25D;4_25D;5_25D,253,Nationality,United Kingdom
+1_25D;2_25D;3_25D;4_25D;5_25D,253,leader.1,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,253,leader.2,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,253,leader.3,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,253,leader.4,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,253,leader.5,leader
+1_25D;2_25D;3_25D;4_25D;5_25D,252,name,BarnabyS
+1_25D;2_25D;3_25D;4_25D;5_25D,252,webpawed,
+1_25D;2_25D;3_25D;4_25D;5_25D,252,webpafri,0.01
+1_25D;2_25D;3_25D;4_25D;5_25D,252,Sex,Male
+1_25D;2_25D;3_25D;4_25D;5_25D,252,Nationality,United Kingdom
+1_25D;2_25D;3_25D;4_25D;5_25D,252,leader.1,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,252,leader.2,leader
+1_25D;2_25D;3_25D;4_25D;5_25D,252,leader.3,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,252,leader.4,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,252,leader.5,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,255,name,SarahD
+1_25D;2_25D;3_25D;4_25D;5_25D,255,webpawed,
+1_25D;2_25D;3_25D;4_25D;5_25D,255,webpafri,0.01
+1_25D;2_25D;3_25D;4_25D;5_25D,255,Sex,Female
+1_25D;2_25D;3_25D;4_25D;5_25D,255,Nationality,Malaysia
+1_25D;2_25D;3_25D;4_25D;5_25D,255,leader.1,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,255,leader.2,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,255,leader.3,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,255,leader.4,leader
+1_25D;2_25D;3_25D;4_25D;5_25D,255,leader.5,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,256,name,VivekM
+1_25D;2_25D;3_25D;4_25D;5_25D,256,webpawed,
+1_25D;2_25D;3_25D;4_25D;5_25D,256,webpafri,0.01
+1_25D;2_25D;3_25D;4_25D;5_25D,256,Sex,Male
+1_25D;2_25D;3_25D;4_25D;5_25D,256,Nationality,India
+1_25D;2_25D;3_25D;4_25D;5_25D,256,leader.1,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,256,leader.2,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,256,leader.3,leader
+1_25D;2_25D;3_25D;4_25D;5_25D,256,leader.4,not leader
+1_25D;2_25D;3_25D;4_25D;5_25D,256,leader.5,not leader
+1_25E;2_25E;3_25E;4_25E;5_25E,263,name,NiamhC
+1_25E;2_25E;3_25E;4_25E;5_25E,263,webpawed,
+1_25E;2_25E;3_25E;4_25E;5_25E,263,webpafri,0.0101
+1_25E;2_25E;3_25E;4_25E;5_25E,263,Sex,Female
+1_25E;2_25E;3_25E;4_25E;5_25E,263,Nationality,United Kingdom
+1_25E;2_25E;3_25E;4_25E;5_25E,263,leader.1,not leader
+1_25E;2_25E;3_25E;4_25E;5_25E,263,leader.2,not leader
+1_25E;2_25E;3_25E;4_25E;5_25E,263,leader.3,not leader
+1_25E;2_25E;3_25E;4_25E;5_25E,263,leader.4,not leader
+1_25E;2_25E;3_25E;4_25E;5_25E,263,leader.5,leader
+1_25E;2_25E;3_25E;4_25E;5_25E,258,name,AntoniosM
+1_25E;2_25E;3_25E;4_25E;5_25E,258,webpawed,
+1_25E;2_25E;3_25E;4_25E;5_25E,258,webpafri,0.01
+1_25E;2_25E;3_25E;4_25E;5_25E,258,Sex,Male
+1_25E;2_25E;3_25E;4_25E;5_25E,258,Nationality,Greece
+1_25E;2_25E;3_25E;4_25E;5_25E,258,leader.1,leader
+1_25E;2_25E;3_25E;4_25E;5_25E,258,leader.2,not leader
+1_25E;2_25E;3_25E;4_25E;5_25E,258,leader.3,not leader
+1_25E;2_25E;3_25E;4_25E;5_25E,258,leader.4,not leader
+1_25E;2_25E;3_25E;4_25E;5_25E,258,leader.5,not leader
+1_25E;2_25E;3_25E;4_25E;5_25E,260,name,DanielP
+1_25E;2_25E;3_25E;4_25E;5_25E,260,webpawed,
+1_25E;2_25E;3_25E;4_25E;5_25E,260,webpafri,0.0102
+1_25E;2_25E;3_25E;4_25E;5_25E,260,Sex,Male
+1_25E;2_25E;3_25E;4_25E;5_25E,260,Nationality,United Kingdom
+1_25E;2_25E;3_25E;4_25E;5_25E,260,leader.1,not leader
+1_25E;2_25E;3_25E;4_25E;5_25E,260,leader.2,not leader
+1_25E;2_25E;3_25E;4_25E;5_25E,260,leader.3,leader
+1_25E;2_25E;3_25E;4_25E;5_25E,260,leader.4,not leader
+1_25E;2_25E;3_25E;4_25E;5_25E,260,leader.5,not leader
+1_25E;2_25E;3_25E;4_25E;5_25E,261,name,EugeneW
+1_25E;2_25E;3_25E;4_25E;5_25E,261,webpawed,
+1_25E;2_25E;3_25E;4_25E;5_25E,261,webpafri,0.01
+1_25E;2_25E;3_25E;4_25E;5_25E,261,Sex,Male
+1_25E;2_25E;3_25E;4_25E;5_25E,261,Nationality,Brunei
+1_25E;2_25E;3_25E;4_25E;5_25E,261,leader.1,not leader
+1_25E;2_25E;3_25E;4_25E;5_25E,261,leader.2,leader
+1_25E;2_25E;3_25E;4_25E;5_25E,261,leader.3,not leader
+1_25E;2_25E;3_25E;4_25E;5_25E,261,leader.4,not leader
+1_25E;2_25E;3_25E;4_25E;5_25E,261,leader.5,not leader
+1_25E;2_25E;3_25E;4_25E,259,name,Da_EunK
+1_25E;2_25E;3_25E;4_25E,259,webpawed,
+1_25E;2_25E;3_25E;4_25E,259,webpafri,0.0097
+1_25E;2_25E;3_25E;4_25E,259,Sex,Female
+1_25E;2_25E;3_25E;4_25E,259,Nationality,Korea (South)
+1_25E;2_25E;3_25E;4_25E,259,leader.1,not leader
+1_25E;2_25E;3_25E;4_25E,259,leader.2,not leader
+1_25E;2_25E;3_25E;4_25E,259,leader.3,not leader
+1_25E;2_25E;3_25E;4_25E,259,leader.4,not leader
+1_25E;2_25E;3_25E;4_25E,259,leader.5,leader
+1_25F;2_25F;3_25F;4_25F;5_25F,269,name,YigangZ
+1_25F;2_25F;3_25F;4_25F;5_25F,269,webpawed,
+1_25F;2_25F;3_25F;4_25F;5_25F,269,webpafri,0.01
+1_25F;2_25F;3_25F;4_25F;5_25F,269,Sex,Male
+1_25F;2_25F;3_25F;4_25F;5_25F,269,Nationality,China
+1_25F;2_25F;3_25F;4_25F;5_25F,269,leader.1,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,269,leader.2,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,269,leader.3,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,269,leader.4,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,269,leader.5,leader
+1_25F;2_25F;3_25F;4_25F;5_25F,268,name,Reem_HosseinK
+1_25F;2_25F;3_25F;4_25F;5_25F,268,webpawed,
+1_25F;2_25F;3_25F;4_25F;5_25F,268,webpafri,0.01
+1_25F;2_25F;3_25F;4_25F;5_25F,268,Sex,Female
+1_25F;2_25F;3_25F;4_25F;5_25F,268,Nationality,United States
+1_25F;2_25F;3_25F;4_25F;5_25F,268,leader.1,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,268,leader.2,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,268,leader.3,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,268,leader.4,leader
+1_25F;2_25F;3_25F;4_25F;5_25F,268,leader.5,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,266,name,FarnoushB
+1_25F;2_25F;3_25F;4_25F;5_25F,266,webpawed,
+1_25F;2_25F;3_25F;4_25F;5_25F,266,webpafri,0.01
+1_25F;2_25F;3_25F;4_25F;5_25F,266,Sex,Female
+1_25F;2_25F;3_25F;4_25F;5_25F,266,Nationality,Hungary
+1_25F;2_25F;3_25F;4_25F;5_25F,266,leader.1,leader
+1_25F;2_25F;3_25F;4_25F;5_25F,266,leader.2,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,266,leader.3,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,266,leader.4,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,266,leader.5,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,265,name,BenG
+1_25F;2_25F;3_25F;4_25F;5_25F,265,webpawed,
+1_25F;2_25F;3_25F;4_25F;5_25F,265,webpafri,0.01
+1_25F;2_25F;3_25F;4_25F;5_25F,265,Sex,Male
+1_25F;2_25F;3_25F;4_25F;5_25F,265,Nationality,United Kingdom
+1_25F;2_25F;3_25F;4_25F;5_25F,265,leader.1,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,265,leader.2,leader
+1_25F;2_25F;3_25F;4_25F;5_25F,265,leader.3,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,265,leader.4,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,265,leader.5,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,264,name,AlexisI
+1_25F;2_25F;3_25F;4_25F;5_25F,264,webpawed,
+1_25F;2_25F;3_25F;4_25F;5_25F,264,webpafri,0.01
+1_25F;2_25F;3_25F;4_25F;5_25F,264,Sex,Male
+1_25F;2_25F;3_25F;4_25F;5_25F,264,Nationality,Cyprus
+1_25F;2_25F;3_25F;4_25F;5_25F,264,leader.1,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,264,leader.2,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,264,leader.3,leader
+1_25F;2_25F;3_25F;4_25F;5_25F,264,leader.4,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,264,leader.5,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,267,name,HarrietW
+1_25F;2_25F;3_25F;4_25F;5_25F,267,webpawed,
+1_25F;2_25F;3_25F;4_25F;5_25F,267,webpafri,0.01
+1_25F;2_25F;3_25F;4_25F;5_25F,267,Sex,Female
+1_25F;2_25F;3_25F;4_25F;5_25F,267,Nationality,United Kingdom
+1_25F;2_25F;3_25F;4_25F;5_25F,267,leader.1,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,267,leader.2,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,267,leader.3,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,267,leader.4,not leader
+1_25F;2_25F;3_25F;4_25F;5_25F,267,leader.5,leader
+1_26A;2_26A;3_26A;4_26A;5_26A,275,name,ZachariasH
+1_26A;2_26A;3_26A;4_26A;5_26A,275,webpawed,
+1_26A;2_26A;3_26A;4_26A;5_26A,275,webpafri,0.0103
+1_26A;2_26A;3_26A;4_26A;5_26A,275,Sex,Male
+1_26A;2_26A;3_26A;4_26A;5_26A,275,Nationality,Cyprus
+1_26A;2_26A;3_26A;4_26A;5_26A,275,leader.1,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,275,leader.2,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,275,leader.3,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,275,leader.4,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,275,leader.5,leader
+1_26A;2_26A;3_26A;4_26A;5_26A,272,name,StephenW
+1_26A;2_26A;3_26A;4_26A;5_26A,272,webpawed,
+1_26A;2_26A;3_26A;4_26A;5_26A,272,webpafri,0.01
+1_26A;2_26A;3_26A;4_26A;5_26A,272,Sex,Male
+1_26A;2_26A;3_26A;4_26A;5_26A,272,Nationality,United Kingdom
+1_26A;2_26A;3_26A;4_26A;5_26A,272,leader.1,leader
+1_26A;2_26A;3_26A;4_26A;5_26A,272,leader.2,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,272,leader.3,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,272,leader.4,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,272,leader.5,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,271,name,EmilyR
+1_26A;2_26A;3_26A;4_26A;5_26A,271,webpawed,
+1_26A;2_26A;3_26A;4_26A;5_26A,271,webpafri,0.0102
+1_26A;2_26A;3_26A;4_26A;5_26A,271,Sex,Female
+1_26A;2_26A;3_26A;4_26A;5_26A,271,Nationality,United Kingdom
+1_26A;2_26A;3_26A;4_26A;5_26A,271,leader.1,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,271,leader.2,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,271,leader.3,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,271,leader.4,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,271,leader.5,leader
+1_26A;2_26A;3_26A;4_26A;5_26A,273,name,Tun_QiS
+1_26A;2_26A;3_26A;4_26A;5_26A,273,webpawed,
+1_26A;2_26A;3_26A;4_26A;5_26A,273,webpafri,0.0103
+1_26A;2_26A;3_26A;4_26A;5_26A,273,Sex,Male
+1_26A;2_26A;3_26A;4_26A;5_26A,273,Nationality,Malaysia
+1_26A;2_26A;3_26A;4_26A;5_26A,273,leader.1,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,273,leader.2,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,273,leader.3,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,273,leader.4,leader
+1_26A;2_26A;3_26A;4_26A;5_26A,273,leader.5,not leader
+1_26A;2_26A;3_26A;4_26A,274,name,WilliamP
+1_26A;2_26A;3_26A;4_26A,274,webpawed,
+1_26A;2_26A;3_26A;4_26A,274,webpafri,0.0101
+1_26A;2_26A;3_26A;4_26A,274,Sex,Male
+1_26A;2_26A;3_26A;4_26A,274,Nationality,United Kingdom
+1_26A;2_26A;3_26A;4_26A,274,leader.1,not leader
+1_26A;2_26A;3_26A;4_26A,274,leader.2,not leader
+1_26A;2_26A;3_26A;4_26A,274,leader.3,leader
+1_26A;2_26A;3_26A;4_26A,274,leader.4,not leader
+1_26A;2_26A;3_26A;4_26A,274,leader.5,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,270,name,AbdulmalikO
+1_26A;2_26A;3_26A;4_26A;5_26A,270,webpawed,
+1_26A;2_26A;3_26A;4_26A;5_26A,270,webpafri,0.0091
+1_26A;2_26A;3_26A;4_26A;5_26A,270,Sex,Male
+1_26A;2_26A;3_26A;4_26A;5_26A,270,Nationality,Nigeria
+1_26A;2_26A;3_26A;4_26A;5_26A,270,leader.1,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,270,leader.2,leader
+1_26A;2_26A;3_26A;4_26A;5_26A,270,leader.3,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,270,leader.4,not leader
+1_26A;2_26A;3_26A;4_26A;5_26A,270,leader.5,not leader
+1_26B;2_26B,280,name,JonathanP
+1_26B;2_26B,280,webpawed,
+1_26B;2_26B,280,webpafri,0.0101
+1_26B;2_26B,280,Sex,Male
+1_26B;2_26B,280,Nationality,United Kingdom
+1_26B;2_26B,280,leader.1,not leader
+1_26B;2_26B,280,leader.2,not leader
+1_26B;2_26B,280,leader.3,not leader
+1_26B;2_26B,280,leader.4,not leader
+1_26B;2_26B,280,leader.5,leader
+1_26B;2_26B,276,name,AlastairG
+1_26B;2_26B,276,webpawed,
+1_26B;2_26B,276,webpafri,0.0097
+1_26B;2_26B,276,Sex,Male
+1_26B;2_26B,276,Nationality,United Kingdom
+1_26B;2_26B,276,leader.1,not leader
+1_26B;2_26B,276,leader.2,not leader
+1_26B;2_26B,276,leader.3,leader
+1_26B;2_26B,276,leader.4,not leader
+1_26B;2_26B,276,leader.5,not leader
+1_26B;2_26B,277,name,AlejandroR
+1_26B;2_26B,277,webpawed,
+1_26B;2_26B,277,webpafri,0.0103
+1_26B;2_26B,277,Sex,Male
+1_26B;2_26B,277,Nationality,Mexico
+1_26B;2_26B,277,leader.1,
+1_26B;2_26B,277,leader.2,
+1_26B;2_26B,277,leader.3,
+1_26B;2_26B,277,leader.4,
+1_26B;2_26B,277,leader.5,
+1_26B;2_26B,278,name,BradleyP
+1_26B;2_26B,278,webpawed,
+1_26B;2_26B,278,webpafri,0.0102
+1_26B;2_26B,278,Sex,Male
+1_26B;2_26B,278,Nationality,United Kingdom
+1_26B;2_26B,278,leader.1,leader
+1_26B;2_26B,278,leader.2,not leader
+1_26B;2_26B,278,leader.3,not leader
+1_26B;2_26B,278,leader.4,not leader
+1_26B;2_26B,278,leader.5,not leader
+1_26B;2_26B,279,name,Eno-ObongU
+1_26B;2_26B,279,webpawed,
+1_26B;2_26B,279,webpafri,0.0101
+1_26B;2_26B,279,Sex,Male
+1_26B;2_26B,279,Nationality,Nigeria
+1_26B;2_26B,279,leader.1,not leader
+1_26B;2_26B,279,leader.2,leader
+1_26B;2_26B,279,leader.3,not leader
+1_26B;2_26B,279,leader.4,not leader
+1_26B;2_26B,279,leader.5,not leader
+1_26B;2_26B,281,name,SaqibS
+1_26B;2_26B,281,webpawed,
+1_26B;2_26B,281,webpafri,0.0096
+1_26B;2_26B,281,Sex,Male
+1_26B;2_26B,281,Nationality,United Kingdom
+1_26B;2_26B,281,leader.1,not leader
+1_26B;2_26B,281,leader.2,not leader
+1_26B;2_26B,281,leader.3,not leader
+1_26B;2_26B,281,leader.4,leader
+1_26B;2_26B,281,leader.5,not leader
+1_26C;2_26C;3_26C;4_26C;5_26C,283,name,CallumF
+1_26C;2_26C;3_26C;4_26C;5_26C,283,webpawed,
+1_26C;2_26C;3_26C;4_26C;5_26C,283,webpafri,0.01
+1_26C;2_26C;3_26C;4_26C;5_26C,283,Sex,Male
+1_26C;2_26C;3_26C;4_26C;5_26C,283,Nationality,United Kingdom
+1_26C;2_26C;3_26C;4_26C;5_26C,283,leader.1,not leader
+1_26C;2_26C;3_26C;4_26C;5_26C,283,leader.2,not leader
+1_26C;2_26C;3_26C;4_26C;5_26C,283,leader.3,leader
+1_26C;2_26C;3_26C;4_26C;5_26C,283,leader.4,not leader
+1_26C;2_26C;3_26C;4_26C;5_26C,283,leader.5,not leader
+1_26C;2_26C;3_26C;4_26C;5_26C,285,name,LukeT
+1_26C;2_26C;3_26C;4_26C;5_26C,285,webpawed,
+1_26C;2_26C;3_26C;4_26C;5_26C,285,webpafri,0.01
+1_26C;2_26C;3_26C;4_26C;5_26C,285,Sex,Male
+1_26C;2_26C;3_26C;4_26C;5_26C,285,Nationality,United Kingdom
+1_26C;2_26C;3_26C;4_26C;5_26C,285,leader.1,leader
+1_26C;2_26C;3_26C;4_26C;5_26C,285,leader.2,not leader
+1_26C;2_26C;3_26C;4_26C;5_26C,285,leader.3,not leader
+1_26C;2_26C;3_26C;4_26C;5_26C,285,leader.4,not leader
+1_26C;2_26C;3_26C;4_26C;5_26C,285,leader.5,not leader
+1_26C;2_26C;3_26C;4_26C;5_26C,287,name,RishiP
+1_26C;2_26C;3_26C;4_26C;5_26C,287,webpawed,
+1_26C;2_26C;3_26C;4_26C;5_26C,287,webpafri,0.01
+1_26C;2_26C;3_26C;4_26C;5_26C,287,Sex,Male
+1_26C;2_26C;3_26C;4_26C;5_26C,287,Nationality,United Kingdom
+1_26C;2_26C;3_26C;4_26C;5_26C,287,leader.1,
+1_26C;2_26C;3_26C;4_26C;5_26C,287,leader.2,
+1_26C;2_26C;3_26C;4_26C;5_26C,287,leader.3,
+1_26C;2_26C;3_26C;4_26C;5_26C,287,leader.4,
+1_26C;2_26C;3_26C;4_26C;5_26C,287,leader.5,
+1_26C;2_26C;3_26C;4_26C;5_26C,282,name,AbdullahZ
+1_26C;2_26C;3_26C;4_26C;5_26C,282,webpawed,
+1_26C;2_26C;3_26C;4_26C;5_26C,282,webpafri,0.01
+1_26C;2_26C;3_26C;4_26C;5_26C,282,Sex,Male
+1_26C;2_26C;3_26C;4_26C;5_26C,282,Nationality,Pakistan
+1_26C;2_26C;3_26C;4_26C;5_26C,282,leader.1,not leader
+1_26C;2_26C;3_26C;4_26C;5_26C,282,leader.2,leader
+1_26C;2_26C;3_26C;4_26C;5_26C,282,leader.3,not leader
+1_26C;2_26C;3_26C;4_26C;5_26C,282,leader.4,not leader
+1_26C;2_26C;3_26C;4_26C;5_26C,282,leader.5,not leader
+1_26C;2_26C;3_26C;4_26C;5_26C,286,name,MaeveM
+1_26C;2_26C;3_26C;4_26C;5_26C,286,webpawed,
+1_26C;2_26C;3_26C;4_26C;5_26C,286,webpafri,0.01
+1_26C;2_26C;3_26C;4_26C;5_26C,286,Sex,Female
+1_26C;2_26C;3_26C;4_26C;5_26C,286,Nationality,United Kingdom
+1_26C;2_26C;3_26C;4_26C;5_26C,286,leader.1,not leader
+1_26C;2_26C;3_26C;4_26C;5_26C,286,leader.2,not leader
+1_26C;2_26C;3_26C;4_26C;5_26C,286,leader.3,not leader
+1_26C;2_26C;3_26C;4_26C;5_26C,286,leader.4,leader
+1_26C;2_26C;3_26C;4_26C;5_26C,286,leader.5,not leader
+1_26C;2_26C;3_26C;4_26C;5_26C,284,name,DanielM
+1_26C;2_26C;3_26C;4_26C;5_26C,284,webpawed,
+1_26C;2_26C;3_26C;4_26C;5_26C,284,webpafri,0.01
+1_26C;2_26C;3_26C;4_26C;5_26C,284,Sex,Male
+1_26C;2_26C;3_26C;4_26C;5_26C,284,Nationality,United Kingdom
+1_26C;2_26C;3_26C;4_26C;5_26C,284,leader.1,
+1_26C;2_26C;3_26C;4_26C;5_26C,284,leader.2,
+1_26C;2_26C;3_26C;4_26C;5_26C,284,leader.3,
+1_26C;2_26C;3_26C;4_26C;5_26C,284,leader.4,
+1_26C;2_26C;3_26C;4_26C;5_26C,284,leader.5,
+1_26D;2_26D;4_26D;5_26D,288,name,DavidE
+1_26D;2_26D;4_26D;5_26D,288,webpawed,
+1_26D;2_26D;4_26D;5_26D,288,webpafri,0.0098
+1_26D;2_26D;4_26D;5_26D,288,Sex,Male
+1_26D;2_26D;4_26D;5_26D,288,Nationality,Germany
+1_26D;2_26D;4_26D;5_26D,288,leader.1,not leader
+1_26D;2_26D;4_26D;5_26D,288,leader.2,not leader
+1_26D;2_26D;4_26D;5_26D,288,leader.3,not leader
+1_26D;2_26D;4_26D;5_26D,288,leader.4,not leader
+1_26D;2_26D;4_26D;5_26D,288,leader.5,leader
+1_26D;2_26D;3_26D;4_26D;5_26D,291,name,NoahT
+1_26D;2_26D;3_26D;4_26D;5_26D,291,webpawed,
+1_26D;2_26D;3_26D;4_26D;5_26D,291,webpafri,0.0101
+1_26D;2_26D;3_26D;4_26D;5_26D,291,Sex,Male
+1_26D;2_26D;3_26D;4_26D;5_26D,291,Nationality,United Kingdom
+1_26D;2_26D;3_26D;4_26D;5_26D,291,leader.1,leader
+1_26D;2_26D;3_26D;4_26D;5_26D,291,leader.2,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,291,leader.3,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,291,leader.4,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,291,leader.5,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,290,name,LawrenceB
+1_26D;2_26D;3_26D;4_26D;5_26D,290,webpawed,
+1_26D;2_26D;3_26D;4_26D;5_26D,290,webpafri,0.0101
+1_26D;2_26D;3_26D;4_26D;5_26D,290,Sex,Male
+1_26D;2_26D;3_26D;4_26D;5_26D,290,Nationality,United Kingdom
+1_26D;2_26D;3_26D;4_26D;5_26D,290,leader.1,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,290,leader.2,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,290,leader.3,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,290,leader.4,leader
+1_26D;2_26D;3_26D;4_26D;5_26D,290,leader.5,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,293,name,YashwantG
+1_26D;2_26D;3_26D;4_26D;5_26D,293,webpawed,
+1_26D;2_26D;3_26D;4_26D;5_26D,293,webpafri,0.0101
+1_26D;2_26D;3_26D;4_26D;5_26D,293,Sex,Male
+1_26D;2_26D;3_26D;4_26D;5_26D,293,Nationality,India
+1_26D;2_26D;3_26D;4_26D;5_26D,293,leader.1,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,293,leader.2,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,293,leader.3,leader
+1_26D;2_26D;3_26D;4_26D;5_26D,293,leader.4,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,293,leader.5,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,292,name,PatrickK
+1_26D;2_26D;3_26D;4_26D;5_26D,292,webpawed,
+1_26D;2_26D;3_26D;4_26D;5_26D,292,webpafri,0.01
+1_26D;2_26D;3_26D;4_26D;5_26D,292,Sex,Male
+1_26D;2_26D;3_26D;4_26D;5_26D,292,Nationality,United Kingdom
+1_26D;2_26D;3_26D;4_26D;5_26D,292,leader.1,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,292,leader.2,leader
+1_26D;2_26D;3_26D;4_26D;5_26D,292,leader.3,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,292,leader.4,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,292,leader.5,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,289,name,Juan-PhilipM
+1_26D;2_26D;3_26D;4_26D;5_26D,289,webpawed,
+1_26D;2_26D;3_26D;4_26D;5_26D,289,webpafri,0.0101
+1_26D;2_26D;3_26D;4_26D;5_26D,289,Sex,Male
+1_26D;2_26D;3_26D;4_26D;5_26D,289,Nationality,United Kingdom
+1_26D;2_26D;3_26D;4_26D;5_26D,289,leader.1,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,289,leader.2,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,289,leader.3,leader
+1_26D;2_26D;3_26D;4_26D;5_26D,289,leader.4,not leader
+1_26D;2_26D;3_26D;4_26D;5_26D,289,leader.5,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,299,name,TomasJ
+1_26E;2_26E;3_26E;4_26E;5_26E,299,webpawed,
+1_26E;2_26E;3_26E;4_26E;5_26E,299,webpafri,0.01
+1_26E;2_26E;3_26E;4_26E;5_26E,299,Sex,Male
+1_26E;2_26E;3_26E;4_26E;5_26E,299,Nationality,United Kingdom
+1_26E;2_26E;3_26E;4_26E;5_26E,299,leader.1,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,299,leader.2,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,299,leader.3,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,299,leader.4,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,299,leader.5,leader
+1_26E;2_26E;3_26E;4_26E;5_26E,294,name,LydiaW
+1_26E;2_26E;3_26E;4_26E;5_26E,294,webpawed,
+1_26E;2_26E;3_26E;4_26E;5_26E,294,webpafri,0.01
+1_26E;2_26E;3_26E;4_26E;5_26E,294,Sex,Female
+1_26E;2_26E;3_26E;4_26E;5_26E,294,Nationality,United Kingdom
+1_26E;2_26E;3_26E;4_26E;5_26E,294,leader.1,leader
+1_26E;2_26E;3_26E;4_26E;5_26E,294,leader.2,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,294,leader.3,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,294,leader.4,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,294,leader.5,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,296,name,PatrickN
+1_26E;2_26E;3_26E;4_26E;5_26E,296,webpawed,
+1_26E;2_26E;3_26E;4_26E;5_26E,296,webpafri,0.01
+1_26E;2_26E;3_26E;4_26E;5_26E,296,Sex,Male
+1_26E;2_26E;3_26E;4_26E;5_26E,296,Nationality,Kenya
+1_26E;2_26E;3_26E;4_26E;5_26E,296,leader.1,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,296,leader.2,leader
+1_26E;2_26E;3_26E;4_26E;5_26E,296,leader.3,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,296,leader.4,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,296,leader.5,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,297,name,StephenS
+1_26E;2_26E;3_26E;4_26E;5_26E,297,webpawed,
+1_26E;2_26E;3_26E;4_26E;5_26E,297,webpafri,0.01
+1_26E;2_26E;3_26E;4_26E;5_26E,297,Sex,Male
+1_26E;2_26E;3_26E;4_26E;5_26E,297,Nationality,United Kingdom
+1_26E;2_26E;3_26E;4_26E;5_26E,297,leader.1,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,297,leader.2,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,297,leader.3,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,297,leader.4,leader
+1_26E;2_26E;3_26E;4_26E;5_26E,297,leader.5,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,295,name,MickeyasY
+1_26E;2_26E;3_26E;4_26E;5_26E,295,webpawed,
+1_26E;2_26E;3_26E;4_26E;5_26E,295,webpafri,0.01
+1_26E;2_26E;3_26E;4_26E;5_26E,295,Sex,Male
+1_26E;2_26E;3_26E;4_26E;5_26E,295,Nationality,United Kingdom
+1_26E;2_26E;3_26E;4_26E;5_26E,295,leader.1,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,295,leader.2,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,295,leader.3,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,295,leader.4,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,295,leader.5,leader
+1_26E;2_26E;3_26E;4_26E;5_26E,298,name,TheoG
+1_26E;2_26E;3_26E;4_26E;5_26E,298,webpawed,
+1_26E;2_26E;3_26E;4_26E;5_26E,298,webpafri,0.01
+1_26E;2_26E;3_26E;4_26E;5_26E,298,Sex,Male
+1_26E;2_26E;3_26E;4_26E;5_26E,298,Nationality,France
+1_26E;2_26E;3_26E;4_26E;5_26E,298,leader.1,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,298,leader.2,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,298,leader.3,leader
+1_26E;2_26E;3_26E;4_26E;5_26E,298,leader.4,not leader
+1_26E;2_26E;3_26E;4_26E;5_26E,298,leader.5,not leader
+1_26F;2_26F;3_26F;4_26F,304,name,MartaG
+1_26F;2_26F;3_26F;4_26F,304,webpawed,
+1_26F;2_26F;3_26F;4_26F,304,webpafri,0.0102
+1_26F;2_26F;3_26F;4_26F,304,Sex,Female
+1_26F;2_26F;3_26F;4_26F,304,Nationality,Poland
+1_26F;2_26F;3_26F;4_26F,304,leader.1,not leader
+1_26F;2_26F;3_26F;4_26F,304,leader.2,not leader
+1_26F;2_26F;3_26F;4_26F,304,leader.3,not leader
+1_26F;2_26F;3_26F;4_26F,304,leader.4,not leader
+1_26F;2_26F;3_26F;4_26F,304,leader.5,leader
+1_26F;2_26F;3_26F;4_26F,303,name,JosephW
+1_26F;2_26F;3_26F;4_26F,303,webpawed,
+1_26F;2_26F;3_26F;4_26F,303,webpafri,0.0103
+1_26F;2_26F;3_26F;4_26F,303,Sex,Male
+1_26F;2_26F;3_26F;4_26F,303,Nationality,United Kingdom
+1_26F;2_26F;3_26F;4_26F,303,leader.1,leader
+1_26F;2_26F;3_26F;4_26F,303,leader.2,not leader
+1_26F;2_26F;3_26F;4_26F,303,leader.3,not leader
+1_26F;2_26F;3_26F;4_26F,303,leader.4,not leader
+1_26F;2_26F;3_26F;4_26F,303,leader.5,not leader
+1_26F;2_26F;3_26F;4_26F,300,name,BenjaminC
+1_26F;2_26F;3_26F;4_26F,300,webpawed,
+1_26F;2_26F;3_26F;4_26F,300,webpafri,0.0012
+1_26F;2_26F;3_26F;4_26F,300,Sex,Male
+1_26F;2_26F;3_26F;4_26F,300,Nationality,United Kingdom
+1_26F;2_26F;3_26F;4_26F,300,leader.1,not leader
+1_26F;2_26F;3_26F;4_26F,300,leader.2,not leader
+1_26F;2_26F;3_26F;4_26F,300,leader.3,not leader
+1_26F;2_26F;3_26F;4_26F,300,leader.4,leader
+1_26F;2_26F;3_26F;4_26F,300,leader.5,not leader
+1_26F;2_26F;3_26F;4_26F,301,name,DavidR
+1_26F;2_26F;3_26F;4_26F,301,webpawed,
+1_26F;2_26F;3_26F;4_26F,301,webpafri,0.0101
+1_26F;2_26F;3_26F;4_26F,301,Sex,Male
+1_26F;2_26F;3_26F;4_26F,301,Nationality,United Kingdom
+1_26F;2_26F;3_26F;4_26F,301,leader.1,not leader
+1_26F;2_26F;3_26F;4_26F,301,leader.2,not leader
+1_26F;2_26F;3_26F;4_26F,301,leader.3,leader
+1_26F;2_26F;3_26F;4_26F,301,leader.4,not leader
+1_26F;2_26F;3_26F;4_26F,301,leader.5,not leader
+1_26F;2_26F;3_26F;4_26F,302,name,HaydenO
+1_26F;2_26F;3_26F;4_26F,302,webpawed,
+1_26F;2_26F;3_26F;4_26F,302,webpafri,0.0101
+1_26F;2_26F;3_26F;4_26F,302,Sex,Male
+1_26F;2_26F;3_26F;4_26F,302,Nationality,United Kingdom
+1_26F;2_26F;3_26F;4_26F,302,leader.1,not leader
+1_26F;2_26F;3_26F;4_26F,302,leader.2,leader
+1_26F;2_26F;3_26F;4_26F,302,leader.3,not leader
+1_26F;2_26F;3_26F;4_26F,302,leader.4,not leader
+1_26F;2_26F;3_26F;4_26F,302,leader.5,not leader
+1_26F;2_26F;3_26F;4_26F,305,name,WenyuanX
+1_26F;2_26F;3_26F;4_26F,305,webpawed,
+1_26F;2_26F;3_26F;4_26F,305,webpafri,0.0091
+1_26F;2_26F;3_26F;4_26F,305,Sex,Male
+1_26F;2_26F;3_26F;4_26F,305,Nationality,China
+1_26F;2_26F;3_26F;4_26F,305,leader.1,
+1_26F;2_26F;3_26F;4_26F,305,leader.2,
+1_26F;2_26F;3_26F;4_26F,305,leader.3,
+1_26F;2_26F;3_26F;4_26F,305,leader.4,
+1_26F;2_26F;3_26F;4_26F,305,leader.5,
+1_29A;2_29A;3_29A;4_29A;5_29A,307,name,ChinK
+1_29A;2_29A;3_29A;4_29A;5_29A,307,webpawed,
+1_29A;2_29A;3_29A;4_29A;5_29A,307,webpafri,0.0097
+1_29A;2_29A;3_29A;4_29A;5_29A,307,Sex,Male
+1_29A;2_29A;3_29A;4_29A;5_29A,307,Nationality,United Kingdom
+1_29A;2_29A;3_29A;4_29A;5_29A,307,leader.1,leader
+1_29A;2_29A;3_29A;4_29A;5_29A,307,leader.2,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,307,leader.3,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,307,leader.4,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,307,leader.5,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,310,name,MichaelP
+1_29A;2_29A;3_29A;4_29A;5_29A,310,webpawed,
+1_29A;2_29A;3_29A;4_29A;5_29A,310,webpafri,0.0119
+1_29A;2_29A;3_29A;4_29A;5_29A,310,Sex,Male
+1_29A;2_29A;3_29A;4_29A;5_29A,310,Nationality,United Kingdom
+1_29A;2_29A;3_29A;4_29A;5_29A,310,leader.1,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,310,leader.2,leader
+1_29A;2_29A;3_29A;4_29A;5_29A,310,leader.3,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,310,leader.4,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,310,leader.5,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,308,name,JonathanH
+1_29A;2_29A;3_29A;4_29A;5_29A,308,webpawed,
+1_29A;2_29A;3_29A;4_29A;5_29A,308,webpafri,0.0128
+1_29A;2_29A;3_29A;4_29A;5_29A,308,Sex,Male
+1_29A;2_29A;3_29A;4_29A;5_29A,308,Nationality,United Kingdom
+1_29A;2_29A;3_29A;4_29A;5_29A,308,leader.1,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,308,leader.2,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,308,leader.3,leader
+1_29A;2_29A;3_29A;4_29A;5_29A,308,leader.4,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,308,leader.5,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,306,name,AlexandruS
+1_29A;2_29A;3_29A;4_29A;5_29A,306,webpawed,
+1_29A;2_29A;3_29A;4_29A;5_29A,306,webpafri,0.0131
+1_29A;2_29A;3_29A;4_29A;5_29A,306,Sex,Male
+1_29A;2_29A;3_29A;4_29A;5_29A,306,Nationality,Romania
+1_29A;2_29A;3_29A;4_29A;5_29A,306,leader.1,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,306,leader.2,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,306,leader.3,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,306,leader.4,leader
+1_29A;2_29A;3_29A;4_29A;5_29A,306,leader.5,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,309,name,KeX
+1_29A;2_29A;3_29A;4_29A;5_29A,309,webpawed,
+1_29A;2_29A;3_29A;4_29A;5_29A,309,webpafri,0.0056
+1_29A;2_29A;3_29A;4_29A;5_29A,309,Sex,Male
+1_29A;2_29A;3_29A;4_29A;5_29A,309,Nationality,China
+1_29A;2_29A;3_29A;4_29A;5_29A,309,leader.1,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,309,leader.2,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,309,leader.3,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,309,leader.4,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,309,leader.5,leader
+1_29A;2_29A;3_29A;4_29A;5_29A,311,name,YusufS
+1_29A;2_29A;3_29A;4_29A;5_29A,311,webpawed,
+1_29A;2_29A;3_29A;4_29A;5_29A,311,webpafri,0.0069
+1_29A;2_29A;3_29A;4_29A;5_29A,311,Sex,Male
+1_29A;2_29A;3_29A;4_29A;5_29A,311,Nationality,Netherlands
+1_29A;2_29A;3_29A;4_29A;5_29A,311,leader.1,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,311,leader.2,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,311,leader.3,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,311,leader.4,not leader
+1_29A;2_29A;3_29A;4_29A;5_29A,311,leader.5,leader
+1_29B;2_29B;3_29B;4_29B;5_29B,316,name,MarkS
+1_29B;2_29B;3_29B;4_29B;5_29B,316,webpawed,
+1_29B;2_29B;3_29B;4_29B;5_29B,316,webpafri,0.0131
+1_29B;2_29B;3_29B;4_29B;5_29B,316,Sex,Male
+1_29B;2_29B;3_29B;4_29B;5_29B,316,Nationality,United Kingdom
+1_29B;2_29B;3_29B;4_29B;5_29B,316,leader.1,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,316,leader.2,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,316,leader.3,leader
+1_29B;2_29B;3_29B;4_29B;5_29B,316,leader.4,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,316,leader.5,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,313,name,AdamN
+1_29B;2_29B;3_29B;4_29B;5_29B,313,webpawed,
+1_29B;2_29B;3_29B;4_29B;5_29B,313,webpafri,0.0121
+1_29B;2_29B;3_29B;4_29B;5_29B,313,Sex,Male
+1_29B;2_29B;3_29B;4_29B;5_29B,313,Nationality,United Kingdom
+1_29B;2_29B;3_29B;4_29B;5_29B,313,leader.1,leader
+1_29B;2_29B;3_29B;4_29B;5_29B,313,leader.2,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,313,leader.3,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,313,leader.4,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,313,leader.5,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,312,name,AlexanderF
+1_29B;2_29B;3_29B;4_29B;5_29B,312,webpawed,
+1_29B;2_29B;3_29B;4_29B;5_29B,312,webpafri,0.0116
+1_29B;2_29B;3_29B;4_29B;5_29B,312,Sex,Male
+1_29B;2_29B;3_29B;4_29B;5_29B,312,Nationality,United Kingdom
+1_29B;2_29B;3_29B;4_29B;5_29B,312,leader.1,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,312,leader.2,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,312,leader.3,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,312,leader.4,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,312,leader.5,leader
+1_29B;2_29B;3_29B;4_29B;5_29B,315,name,JackP
+1_29B;2_29B;3_29B;4_29B;5_29B,315,webpawed,
+1_29B;2_29B;3_29B;4_29B;5_29B,315,webpafri,0.0111
+1_29B;2_29B;3_29B;4_29B;5_29B,315,Sex,Male
+1_29B;2_29B;3_29B;4_29B;5_29B,315,Nationality,United Kingdom
+1_29B;2_29B;3_29B;4_29B;5_29B,315,leader.1,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,315,leader.2,leader
+1_29B;2_29B;3_29B;4_29B;5_29B,315,leader.3,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,315,leader.4,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,315,leader.5,not leader
+1_29B;2_29B,314,name,HusseinM
+1_29B;2_29B,314,webpawed,
+1_29B;2_29B,314,webpafri,0.002
+1_29B;2_29B,314,Sex,Male
+1_29B;2_29B,314,Nationality,Romania
+1_29B;2_29B,314,leader.1,
+1_29B;2_29B,314,leader.2,
+1_29B;2_29B,314,leader.3,
+1_29B;2_29B,314,leader.4,
+1_29B;2_29B,314,leader.5,
+1_29B;2_29B;3_29B;4_29B;5_29B,317,name,YuyangX
+1_29B;2_29B;3_29B;4_29B;5_29B,317,webpawed,
+1_29B;2_29B;3_29B;4_29B;5_29B,317,webpafri,0.0101
+1_29B;2_29B;3_29B;4_29B;5_29B,317,Sex,Male
+1_29B;2_29B;3_29B;4_29B;5_29B,317,Nationality,China
+1_29B;2_29B;3_29B;4_29B;5_29B,317,leader.1,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,317,leader.2,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,317,leader.3,not leader
+1_29B;2_29B;3_29B;4_29B;5_29B,317,leader.4,leader
+1_29B;2_29B;3_29B;4_29B;5_29B,317,leader.5,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,323,name,KaluO
+1_29C;2_29C;3_29C;4_29C;5_29C,323,webpawed,
+1_29C;2_29C;3_29C;4_29C;5_29C,323,webpafri,0.0119
+1_29C;2_29C;3_29C;4_29C;5_29C,323,Sex,Male
+1_29C;2_29C;3_29C;4_29C;5_29C,323,Nationality,Bulgaria
+1_29C;2_29C;3_29C;4_29C;5_29C,323,leader.1,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,323,leader.2,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,323,leader.3,leader
+1_29C;2_29C;3_29C;4_29C;5_29C,323,leader.4,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,323,leader.5,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,322,name,JonathanM
+1_29C;2_29C;3_29C;4_29C;5_29C,322,webpawed,
+1_29C;2_29C;3_29C;4_29C;5_29C,322,webpafri,0.012
+1_29C;2_29C;3_29C;4_29C;5_29C,322,Sex,Male
+1_29C;2_29C;3_29C;4_29C;5_29C,322,Nationality,United Kingdom
+1_29C;2_29C;3_29C;4_29C;5_29C,322,leader.1,leader
+1_29C;2_29C;3_29C;4_29C;5_29C,322,leader.2,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,322,leader.3,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,322,leader.4,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,322,leader.5,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,320,name,AlexanderM
+1_29C;2_29C;3_29C;4_29C;5_29C,320,webpawed,
+1_29C;2_29C;3_29C;4_29C;5_29C,320,webpafri,0.0121
+1_29C;2_29C;3_29C;4_29C;5_29C,320,Sex,Male
+1_29C;2_29C;3_29C;4_29C;5_29C,320,Nationality,United Kingdom
+1_29C;2_29C;3_29C;4_29C;5_29C,320,leader.1,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,320,leader.2,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,320,leader.3,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,320,leader.4,leader
+1_29C;2_29C;3_29C;4_29C;5_29C,320,leader.5,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,319,name,AvineshG
+1_29C;2_29C;3_29C;4_29C;5_29C,319,webpawed,
+1_29C;2_29C;3_29C;4_29C;5_29C,319,webpafri,0.0121
+1_29C;2_29C;3_29C;4_29C;5_29C,319,Sex,Male
+1_29C;2_29C;3_29C;4_29C;5_29C,319,Nationality,Malaysia
+1_29C;2_29C;3_29C;4_29C;5_29C,319,leader.1,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,319,leader.2,leader
+1_29C;2_29C;3_29C;4_29C;5_29C,319,leader.3,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,319,leader.4,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,319,leader.5,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,321,name,JamesF
+1_29C;2_29C;3_29C;4_29C;5_29C,321,webpawed,
+1_29C;2_29C;3_29C;4_29C;5_29C,321,webpafri,0.0119
+1_29C;2_29C;3_29C;4_29C;5_29C,321,Sex,Male
+1_29C;2_29C;3_29C;4_29C;5_29C,321,Nationality,United Kingdom
+1_29C;2_29C;3_29C;4_29C;5_29C,321,leader.1,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,321,leader.2,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,321,leader.3,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,321,leader.4,not leader
+1_29C;2_29C;3_29C;4_29C;5_29C,321,leader.5,leader
+1_29D;2_29D;3_29D;4_29D;5_29D,329,name,ThomasM
+1_29D;2_29D;3_29D;4_29D;5_29D,329,webpawed,
+1_29D;2_29D;3_29D;4_29D;5_29D,329,webpafri,0.0111
+1_29D;2_29D;3_29D;4_29D;5_29D,329,Sex,Male
+1_29D;2_29D;3_29D;4_29D;5_29D,329,Nationality,United Kingdom
+1_29D;2_29D;3_29D;4_29D;5_29D,329,leader.1,leader
+1_29D;2_29D;3_29D;4_29D;5_29D,329,leader.2,not leader
+1_29D;2_29D;3_29D;4_29D;5_29D,329,leader.3,not leader
+1_29D;2_29D;3_29D;4_29D;5_29D,329,leader.4,not leader
+1_29D;2_29D;3_29D;4_29D;5_29D,329,leader.5,not leader
+1_29D;2_29D;3_29D;4_29D;5_29D,325,name,AdhamD
+1_29D;2_29D;3_29D;4_29D;5_29D,325,webpawed,
+1_29D;2_29D;3_29D;4_29D;5_29D,325,webpafri,0.0099
+1_29D;2_29D;3_29D;4_29D;5_29D,325,Sex,Male
+1_29D;2_29D;3_29D;4_29D;5_29D,325,Nationality,Egypt
+1_29D;2_29D;3_29D;4_29D;5_29D,325,leader.1,not leader
+1_29D;2_29D;3_29D;4_29D;5_29D,325,leader.2,leader
+1_29D;2_29D;3_29D;4_29D;5_29D,325,leader.3,not leader
+1_29D;2_29D;3_29D;4_29D;5_29D,325,leader.4,not leader
+1_29D;2_29D;3_29D;4_29D;5_29D,325,leader.5,not leader
+1_29D;2_29D;3_29D;4_29D;5_29D,326,name,AndrewB
+1_29D;2_29D;3_29D;4_29D;5_29D,326,webpawed,
+1_29D;2_29D;3_29D;4_29D;5_29D,326,webpafri,0.0104
+1_29D;2_29D;3_29D;4_29D;5_29D,326,Sex,Male
+1_29D;2_29D;3_29D;4_29D;5_29D,326,Nationality,United Kingdom
+1_29D;2_29D;3_29D;4_29D;5_29D,326,leader.1,not leader
+1_29D;2_29D;3_29D;4_29D;5_29D,326,leader.2,not leader
+1_29D;2_29D;3_29D;4_29D;5_29D,326,leader.3,leader
+1_29D;2_29D;3_29D;4_29D;5_29D,326,leader.4,not leader
+1_29D;2_29D;3_29D;4_29D;5_29D,326,leader.5,not leader
+1_29D;2_29D;4_29D;5_29D,328,name,HeatherM
+1_29D;2_29D;4_29D;5_29D,328,webpawed,
+1_29D;2_29D;4_29D;5_29D,328,webpafri,0.0106
+1_29D;2_29D;4_29D;5_29D,328,Sex,Female
+1_29D;2_29D;4_29D;5_29D,328,Nationality,United Kingdom
+1_29D;2_29D;4_29D;5_29D,328,leader.1,not leader
+1_29D;2_29D;4_29D;5_29D,328,leader.2,not leader
+1_29D;2_29D;4_29D;5_29D,328,leader.3,not leader
+1_29D;2_29D;4_29D;5_29D,328,leader.4,leader
+1_29D;2_29D;4_29D;5_29D,328,leader.5,not leader
+1_29D;2_29D;3_29D;4_29D;5_29D,324,name,Al-MahanadA
+1_29D;2_29D;3_29D;4_29D;5_29D,324,webpawed,
+1_29D;2_29D;3_29D;4_29D;5_29D,324,webpafri,0.008
+1_29D;2_29D;3_29D;4_29D;5_29D,324,Sex,Male
+1_29D;2_29D;3_29D;4_29D;5_29D,324,Nationality,Oman
+1_29D;2_29D;3_29D;4_29D;5_29D,324,leader.1,
+1_29D;2_29D;3_29D;4_29D;5_29D,324,leader.2,
+1_29D;2_29D;3_29D;4_29D;5_29D,324,leader.3,
+1_29D;2_29D;3_29D;4_29D;5_29D,324,leader.4,
+1_29D;2_29D;3_29D;4_29D;5_29D,324,leader.5,
+1_29D;2_29D;3_29D;4_29D;5_29D,327,name,ConnorJ
+1_29D;2_29D;3_29D;4_29D;5_29D,327,webpawed,
+1_29D;2_29D;3_29D;4_29D;5_29D,327,webpafri,0.01
+1_29D;2_29D;3_29D;4_29D;5_29D,327,Sex,Male
+1_29D;2_29D;3_29D;4_29D;5_29D,327,Nationality,United Kingdom
+1_29D;2_29D;3_29D;4_29D;5_29D,327,leader.1,not leader
+1_29D;2_29D;3_29D;4_29D;5_29D,327,leader.2,not leader
+1_29D;2_29D;3_29D;4_29D;5_29D,327,leader.3,not leader
+1_29D;2_29D;3_29D;4_29D;5_29D,327,leader.4,not leader
+1_29D;2_29D;3_29D;4_29D;5_29D,327,leader.5,leader
+1_29E;4_29E;5_29E,334,name,RonakS
+1_29E;4_29E;5_29E,334,webpawed,
+1_29E;4_29E;5_29E,334,webpafri,0.0091
+1_29E;4_29E;5_29E,334,Sex,Male
+1_29E;4_29E;5_29E,334,Nationality,India
+1_29E;4_29E;5_29E,334,leader.1,leader
+1_29E;4_29E;5_29E,334,leader.2,not leader
+1_29E;4_29E;5_29E,334,leader.3,not leader
+1_29E;4_29E;5_29E,334,leader.4,not leader
+1_29E;4_29E;5_29E,334,leader.5,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,335,name,SachaM
+1_29E;2_29E;3_29E;4_29E;5_29E,335,webpawed,
+1_29E;2_29E;3_29E;4_29E;5_29E,335,webpafri,0.0099
+1_29E;2_29E;3_29E;4_29E;5_29E,335,Sex,Male
+1_29E;2_29E;3_29E;4_29E;5_29E,335,Nationality,United Kingdom
+1_29E;2_29E;3_29E;4_29E;5_29E,335,leader.1,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,335,leader.2,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,335,leader.3,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,335,leader.4,leader
+1_29E;2_29E;3_29E;4_29E;5_29E,335,leader.5,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,333,name,RossK
+1_29E;2_29E;3_29E;4_29E;5_29E,333,webpawed,
+1_29E;2_29E;3_29E;4_29E;5_29E,333,webpafri,0.0106
+1_29E;2_29E;3_29E;4_29E;5_29E,333,Sex,Male
+1_29E;2_29E;3_29E;4_29E;5_29E,333,Nationality,United Kingdom
+1_29E;2_29E;3_29E;4_29E;5_29E,333,leader.1,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,333,leader.2,leader
+1_29E;2_29E;3_29E;4_29E;5_29E,333,leader.3,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,333,leader.4,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,333,leader.5,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,330,name,JessicaC
+1_29E;2_29E;3_29E;4_29E;5_29E,330,webpawed,
+1_29E;2_29E;3_29E;4_29E;5_29E,330,webpafri,0.0098
+1_29E;2_29E;3_29E;4_29E;5_29E,330,Sex,Female
+1_29E;2_29E;3_29E;4_29E;5_29E,330,Nationality,Malaysia
+1_29E;2_29E;3_29E;4_29E;5_29E,330,leader.1,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,330,leader.2,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,330,leader.3,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,330,leader.4,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,330,leader.5,leader
+1_29E;2_29E;3_29E;4_29E;5_29E,331,name,JordanW
+1_29E;2_29E;3_29E;4_29E;5_29E,331,webpawed,
+1_29E;2_29E;3_29E;4_29E;5_29E,331,webpafri,0.0102
+1_29E;2_29E;3_29E;4_29E;5_29E,331,Sex,Male
+1_29E;2_29E;3_29E;4_29E;5_29E,331,Nationality,United Kingdom
+1_29E;2_29E;3_29E;4_29E;5_29E,331,leader.1,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,331,leader.2,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,331,leader.3,leader
+1_29E;2_29E;3_29E;4_29E;5_29E,331,leader.4,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,331,leader.5,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,332,name,LaylaA
+1_29E;2_29E;3_29E;4_29E;5_29E,332,webpawed,
+1_29E;2_29E;3_29E;4_29E;5_29E,332,webpafri,0.0104
+1_29E;2_29E;3_29E;4_29E;5_29E,332,Sex,Female
+1_29E;2_29E;3_29E;4_29E;5_29E,332,Nationality,United Kingdom
+1_29E;2_29E;3_29E;4_29E;5_29E,332,leader.1,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,332,leader.2,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,332,leader.3,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,332,leader.4,not leader
+1_29E;2_29E;3_29E;4_29E;5_29E,332,leader.5,leader
+1_29F;2_29F;3_29F;4_29F;5_29F,336,name,EstherF
+1_29F;2_29F;3_29F;4_29F;5_29F,336,webpawed,
+1_29F;2_29F;3_29F;4_29F;5_29F,336,webpafri,0.012
+1_29F;2_29F;3_29F;4_29F;5_29F,336,Sex,Female
+1_29F;2_29F;3_29F;4_29F;5_29F,336,Nationality,United Kingdom
+1_29F;2_29F;3_29F;4_29F;5_29F,336,leader.1,leader
+1_29F;2_29F;3_29F;4_29F;5_29F,336,leader.2,not leader
+1_29F;2_29F;3_29F;4_29F;5_29F,336,leader.3,not leader
+1_29F;2_29F;3_29F;4_29F;5_29F,336,leader.4,not leader
+1_29F;2_29F;3_29F;4_29F;5_29F,336,leader.5,not leader
+1_29F;2_29F;3_29F;4_29F;5_29F,340,name,Michael_Saad_YoussefK
+1_29F;2_29F;3_29F;4_29F;5_29F,340,webpawed,
+1_29F;2_29F;3_29F;4_29F;5_29F,340,webpafri,0.008
+1_29F;2_29F;3_29F;4_29F;5_29F,340,Sex,Male
+1_29F;2_29F;3_29F;4_29F;5_29F,340,Nationality,Egypt
+1_29F;2_29F;3_29F;4_29F;5_29F,340,leader.1,not leader
+1_29F;2_29F;3_29F;4_29F;5_29F,340,leader.2,not leader
+1_29F;2_29F;3_29F;4_29F;5_29F,340,leader.3,leader
+1_29F;2_29F;3_29F;4_29F;5_29F,340,leader.4,not leader
+1_29F;2_29F;3_29F;4_29F;5_29F,340,leader.5,not leader
+1_29F;2_29F;4_29F;5_29F,341,name,VilisV
+1_29F;2_29F;4_29F;5_29F,341,webpawed,
+1_29F;2_29F;4_29F;5_29F,341,webpafri,0.0118
+1_29F;2_29F;4_29F;5_29F,341,Sex,Male
+1_29F;2_29F;4_29F;5_29F,341,Nationality,Latvia
+1_29F;2_29F;4_29F;5_29F,341,leader.1,not leader
+1_29F;2_29F;4_29F;5_29F,341,leader.2,not leader
+1_29F;2_29F;4_29F;5_29F,341,leader.3,not leader
+1_29F;2_29F;4_29F;5_29F,341,leader.4,not leader
+1_29F;2_29F;4_29F;5_29F,341,leader.5,leader
+1_29F;2_29F;5_29F,338,name,JonathanS
+1_29F;2_29F;5_29F,338,webpawed,
+1_29F;2_29F;5_29F,338,webpafri,0.01
+1_29F;2_29F;5_29F,338,Sex,Male
+1_29F;2_29F;5_29F,338,Nationality,United Kingdom
+1_29F;2_29F;5_29F,338,leader.1,not leader
+1_29F;2_29F;5_29F,338,leader.2,leader
+1_29F;2_29F;5_29F,338,leader.3,not leader
+1_29F;2_29F;5_29F,338,leader.4,not leader
+1_29F;2_29F;5_29F,338,leader.5,not leader
+1_29F;2_29F;3_29F;4_29F;5_29F,339,name,LucyH
+1_29F;2_29F;3_29F;4_29F;5_29F,339,webpawed,
+1_29F;2_29F;3_29F;4_29F;5_29F,339,webpafri,0.0121
+1_29F;2_29F;3_29F;4_29F;5_29F,339,Sex,Female
+1_29F;2_29F;3_29F;4_29F;5_29F,339,Nationality,United Kingdom
+1_29F;2_29F;3_29F;4_29F;5_29F,339,leader.1,not leader
+1_29F;2_29F;3_29F;4_29F;5_29F,339,leader.2,not leader
+1_29F;2_29F;3_29F;4_29F;5_29F,339,leader.3,not leader
+1_29F;2_29F;3_29F;4_29F;5_29F,339,leader.4,leader
+1_29F;2_29F;3_29F;4_29F;5_29F,339,leader.5,not leader
+1_29F;2_29F;3_29F;4_29F;5_29F,337,name,Hoi_HeiN
+1_29F;2_29F;3_29F;4_29F;5_29F,337,webpawed,
+1_29F;2_29F;3_29F;4_29F;5_29F,337,webpafri,0.0061
+1_29F;2_29F;3_29F;4_29F;5_29F,337,Sex,Male
+1_29F;2_29F;3_29F;4_29F;5_29F,337,Nationality,Hong Kong
+1_29F;2_29F;3_29F;4_29F;5_29F,337,leader.1,not leader
+1_29F;2_29F;3_29F;4_29F;5_29F,337,leader.2,not leader
+1_29F;2_29F;3_29F;4_29F;5_29F,337,leader.3,not leader
+1_29F;2_29F;3_29F;4_29F;5_29F,337,leader.4,not leader
+1_29F;2_29F;3_29F;4_29F;5_29F,337,leader.5,leader
+1_32A;2_32A;3_32A;4_32A;5_32A,346,name,MandyE
+1_32A;2_32A;3_32A;4_32A;5_32A,346,webpawed,
+1_32A;2_32A;3_32A;4_32A;5_32A,346,webpafri,0.0103
+1_32A;2_32A;3_32A;4_32A;5_32A,346,Sex,Female
+1_32A;2_32A;3_32A;4_32A;5_32A,346,Nationality,United Kingdom
+1_32A;2_32A;3_32A;4_32A;5_32A,346,leader.1,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,346,leader.2,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,346,leader.3,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,346,leader.4,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,346,leader.5,leader
+1_32A;2_32A;3_32A;4_32A;5_32A,344,name,JosephN
+1_32A;2_32A;3_32A;4_32A;5_32A,344,webpawed,
+1_32A;2_32A;3_32A;4_32A;5_32A,344,webpafri,0.011
+1_32A;2_32A;3_32A;4_32A;5_32A,344,Sex,Male
+1_32A;2_32A;3_32A;4_32A;5_32A,344,Nationality,United Kingdom
+1_32A;2_32A;3_32A;4_32A;5_32A,344,leader.1,leader
+1_32A;2_32A;3_32A;4_32A;5_32A,344,leader.2,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,344,leader.3,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,344,leader.4,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,344,leader.5,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,342,name,AlexanderD
+1_32A;2_32A;3_32A;4_32A;5_32A,342,webpawed,
+1_32A;2_32A;3_32A;4_32A;5_32A,342,webpafri,0.0106
+1_32A;2_32A;3_32A;4_32A;5_32A,342,Sex,Male
+1_32A;2_32A;3_32A;4_32A;5_32A,342,Nationality,United Kingdom
+1_32A;2_32A;3_32A;4_32A;5_32A,342,leader.1,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,342,leader.2,leader
+1_32A;2_32A;3_32A;4_32A;5_32A,342,leader.3,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,342,leader.4,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,342,leader.5,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,345,name,KatieB
+1_32A;2_32A;3_32A;4_32A;5_32A,345,webpawed,
+1_32A;2_32A;3_32A;4_32A;5_32A,345,webpafri,0.0098
+1_32A;2_32A;3_32A;4_32A;5_32A,345,Sex,Female
+1_32A;2_32A;3_32A;4_32A;5_32A,345,Nationality,United Kingdom
+1_32A;2_32A;3_32A;4_32A;5_32A,345,leader.1,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,345,leader.2,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,345,leader.3,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,345,leader.4,leader
+1_32A;2_32A;3_32A;4_32A;5_32A,345,leader.5,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,343,name,YusuffY
+1_32A;2_32A;3_32A;4_32A;5_32A,343,webpawed,
+1_32A;2_32A;3_32A;4_32A;5_32A,343,webpafri,0.0093
+1_32A;2_32A;3_32A;4_32A;5_32A,343,Sex,Male
+1_32A;2_32A;3_32A;4_32A;5_32A,343,Nationality,Nigeria
+1_32A;2_32A;3_32A;4_32A;5_32A,343,leader.1,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,343,leader.2,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,343,leader.3,leader
+1_32A;2_32A;3_32A;4_32A;5_32A,343,leader.4,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,343,leader.5,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,347,name,YueY
+1_32A;2_32A;3_32A;4_32A;5_32A,347,webpawed,
+1_32A;2_32A;3_32A;4_32A;5_32A,347,webpafri,0.009
+1_32A;2_32A;3_32A;4_32A;5_32A,347,Sex,Male
+1_32A;2_32A;3_32A;4_32A;5_32A,347,Nationality,China
+1_32A;2_32A;3_32A;4_32A;5_32A,347,leader.1,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,347,leader.2,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,347,leader.3,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,347,leader.4,not leader
+1_32A;2_32A;3_32A;4_32A;5_32A,347,leader.5,leader
+1_32B;2_32B;3_32B;4_32B;5_32B,349,name,HarryB
+1_32B;2_32B;3_32B;4_32B;5_32B,349,webpawed,
+1_32B;2_32B;3_32B;4_32B;5_32B,349,webpafri,0.0111
+1_32B;2_32B;3_32B;4_32B;5_32B,349,Sex,Male
+1_32B;2_32B;3_32B;4_32B;5_32B,349,Nationality,United Kingdom
+1_32B;2_32B;3_32B;4_32B;5_32B,349,leader.1,leader
+1_32B;2_32B;3_32B;4_32B;5_32B,349,leader.2,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,349,leader.3,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,349,leader.4,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,349,leader.5,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,351,name,ShahistaB
+1_32B;2_32B;3_32B;4_32B;5_32B,351,webpawed,
+1_32B;2_32B;3_32B;4_32B;5_32B,351,webpafri,0.011
+1_32B;2_32B;3_32B;4_32B;5_32B,351,Sex,Female
+1_32B;2_32B;3_32B;4_32B;5_32B,351,Nationality,Pakistan
+1_32B;2_32B;3_32B;4_32B;5_32B,351,leader.1,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,351,leader.2,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,351,leader.3,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,351,leader.4,leader
+1_32B;2_32B;3_32B;4_32B;5_32B,351,leader.5,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,350,name,JoshuaW
+1_32B;2_32B;3_32B;4_32B;5_32B,350,webpawed,
+1_32B;2_32B;3_32B;4_32B;5_32B,350,webpafri,0.0112
+1_32B;2_32B;3_32B;4_32B;5_32B,350,Sex,Male
+1_32B;2_32B;3_32B;4_32B;5_32B,350,Nationality,United Kingdom
+1_32B;2_32B;3_32B;4_32B;5_32B,350,leader.1,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,350,leader.2,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,350,leader.3,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,350,leader.4,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,350,leader.5,leader
+1_32B;2_32B;3_32B;4_32B;5_32B,352,name,ShuH
+1_32B;2_32B;3_32B;4_32B;5_32B,352,webpawed,
+1_32B;2_32B;3_32B;4_32B;5_32B,352,webpafri,0.0112
+1_32B;2_32B;3_32B;4_32B;5_32B,352,Sex,Male
+1_32B;2_32B;3_32B;4_32B;5_32B,352,Nationality,China
+1_32B;2_32B;3_32B;4_32B;5_32B,352,leader.1,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,352,leader.2,leader
+1_32B;2_32B;3_32B;4_32B;5_32B,352,leader.3,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,352,leader.4,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,352,leader.5,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,353,name,ZhijianH
+1_32B;2_32B;3_32B;4_32B;5_32B,353,webpawed,
+1_32B;2_32B;3_32B;4_32B;5_32B,353,webpafri,0.0056
+1_32B;2_32B;3_32B;4_32B;5_32B,353,Sex,Male
+1_32B;2_32B;3_32B;4_32B;5_32B,353,Nationality,China
+1_32B;2_32B;3_32B;4_32B;5_32B,353,leader.1,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,353,leader.2,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,353,leader.3,leader
+1_32B;2_32B;3_32B;4_32B;5_32B,353,leader.4,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,353,leader.5,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,348,name,BenjaminH
+1_32B;2_32B;3_32B;4_32B;5_32B,348,webpawed,
+1_32B;2_32B;3_32B;4_32B;5_32B,348,webpafri,0.0097
+1_32B;2_32B;3_32B;4_32B;5_32B,348,Sex,Male
+1_32B;2_32B;3_32B;4_32B;5_32B,348,Nationality,United Kingdom
+1_32B;2_32B;3_32B;4_32B;5_32B,348,leader.1,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,348,leader.2,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,348,leader.3,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,348,leader.4,not leader
+1_32B;2_32B;3_32B;4_32B;5_32B,348,leader.5,leader
+1_32C;2_32C;3_32C;4_32C;5_32C,356,name,JamesT
+1_32C;2_32C;3_32C;4_32C;5_32C,356,webpawed,
+1_32C;2_32C;3_32C;4_32C;5_32C,356,webpafri,0.0101
+1_32C;2_32C;3_32C;4_32C;5_32C,356,Sex,Male
+1_32C;2_32C;3_32C;4_32C;5_32C,356,Nationality,United Kingdom
+1_32C;2_32C;3_32C;4_32C;5_32C,356,leader.1,
+1_32C;2_32C;3_32C;4_32C;5_32C,356,leader.2,
+1_32C;2_32C;3_32C;4_32C;5_32C,356,leader.3,
+1_32C;2_32C;3_32C;4_32C;5_32C,356,leader.4,
+1_32C;2_32C;3_32C;4_32C;5_32C,356,leader.5,
+1_32C;2_32C;3_32C;4_32C;5_32C,359,name,ShabarishS
+1_32C;2_32C;3_32C;4_32C;5_32C,359,webpawed,
+1_32C;2_32C;3_32C;4_32C;5_32C,359,webpafri,0.0131
+1_32C;2_32C;3_32C;4_32C;5_32C,359,Sex,Male
+1_32C;2_32C;3_32C;4_32C;5_32C,359,Nationality,United Kingdom
+1_32C;2_32C;3_32C;4_32C;5_32C,359,leader.1,not leader
+1_32C;2_32C;3_32C;4_32C;5_32C,359,leader.2,not leader
+1_32C;2_32C;3_32C;4_32C;5_32C,359,leader.3,leader
+1_32C;2_32C;3_32C;4_32C;5_32C,359,leader.4,not leader
+1_32C;2_32C;3_32C;4_32C;5_32C,359,leader.5,not leader
+1_32C;2_32C;4_32C;5_32C,358,name,StephenH
+1_32C;2_32C;4_32C;5_32C,358,webpawed,
+1_32C;2_32C;4_32C;5_32C,358,webpafri,0.0113
+1_32C;2_32C;4_32C;5_32C,358,Sex,Male
+1_32C;2_32C;4_32C;5_32C,358,Nationality,United Kingdom
+1_32C;2_32C;4_32C;5_32C,358,leader.1,not leader
+1_32C;2_32C;4_32C;5_32C,358,leader.2,not leader
+1_32C;2_32C;4_32C;5_32C,358,leader.3,not leader
+1_32C;2_32C;4_32C;5_32C,358,leader.4,leader
+1_32C;2_32C;4_32C;5_32C,358,leader.5,not leader
+1_32C;2_32C;3_32C;4_32C;5_32C,355,name,JamesI
+1_32C;2_32C;3_32C;4_32C;5_32C,355,webpawed,
+1_32C;2_32C;3_32C;4_32C;5_32C,355,webpafri,0.013
+1_32C;2_32C;3_32C;4_32C;5_32C,355,Sex,Male
+1_32C;2_32C;3_32C;4_32C;5_32C,355,Nationality,United Kingdom
+1_32C;2_32C;3_32C;4_32C;5_32C,355,leader.1,not leader
+1_32C;2_32C;3_32C;4_32C;5_32C,355,leader.2,not leader
+1_32C;2_32C;3_32C;4_32C;5_32C,355,leader.3,not leader
+1_32C;2_32C;3_32C;4_32C;5_32C,355,leader.4,not leader
+1_32C;2_32C;3_32C;4_32C;5_32C,355,leader.5,leader
+1_32C;2_32C;3_32C;4_32C;5_32C,357,name,Ping_Ho_HenryC
+1_32C;2_32C;3_32C;4_32C;5_32C,357,webpawed,
+1_32C;2_32C;3_32C;4_32C;5_32C,357,webpafri,0.0109
+1_32C;2_32C;3_32C;4_32C;5_32C,357,Sex,Male
+1_32C;2_32C;3_32C;4_32C;5_32C,357,Nationality,Hong Kong
+1_32C;2_32C;3_32C;4_32C;5_32C,357,leader.1,not leader
+1_32C;2_32C;3_32C;4_32C;5_32C,357,leader.2,leader
+1_32C;2_32C;3_32C;4_32C;5_32C,357,leader.3,not leader
+1_32C;2_32C;3_32C;4_32C;5_32C,357,leader.4,not leader
+1_32C;2_32C;3_32C;4_32C;5_32C,357,leader.5,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,362,name,JonathanS
+1_32D;2_32D;3_32D;4_32D;5_32D,362,webpawed,
+1_32D;2_32D;3_32D;4_32D;5_32D,362,webpafri,0.01
+1_32D;2_32D;3_32D;4_32D;5_32D,362,Sex,Male
+1_32D;2_32D;3_32D;4_32D;5_32D,362,Nationality,United Kingdom
+1_32D;2_32D;3_32D;4_32D;5_32D,362,leader.1,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,362,leader.2,leader
+1_32D;2_32D;3_32D;4_32D;5_32D,362,leader.3,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,362,leader.4,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,362,leader.5,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,361,name,AmedeoD
+1_32D;2_32D;3_32D;4_32D;5_32D,361,webpawed,
+1_32D;2_32D;3_32D;4_32D;5_32D,361,webpafri,0.0106
+1_32D;2_32D;3_32D;4_32D;5_32D,361,Sex,Male
+1_32D;2_32D;3_32D;4_32D;5_32D,361,Nationality,Italy
+1_32D;2_32D;3_32D;4_32D;5_32D,361,leader.1,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,361,leader.2,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,361,leader.3,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,361,leader.4,leader
+1_32D;2_32D;3_32D;4_32D;5_32D,361,leader.5,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,364,name,TobiasV
+1_32D;2_32D;3_32D;4_32D;5_32D,364,webpawed,
+1_32D;2_32D;3_32D;4_32D;5_32D,364,webpafri,0.0111
+1_32D;2_32D;3_32D;4_32D;5_32D,364,Sex,Male
+1_32D;2_32D;3_32D;4_32D;5_32D,364,Nationality,Germany
+1_32D;2_32D;3_32D;4_32D;5_32D,364,leader.1,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,364,leader.2,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,364,leader.3,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,364,leader.4,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,364,leader.5,leader
+1_32D;2_32D;3_32D;4_32D;5_32D,360,name,AdilA
+1_32D;2_32D;3_32D;4_32D;5_32D,360,webpawed,
+1_32D;2_32D;3_32D;4_32D;5_32D,360,webpafri,0.009
+1_32D;2_32D;3_32D;4_32D;5_32D,360,Sex,Male
+1_32D;2_32D;3_32D;4_32D;5_32D,360,Nationality,United Kingdom
+1_32D;2_32D;3_32D;4_32D;5_32D,360,leader.1,leader
+1_32D;2_32D;3_32D;4_32D;5_32D,360,leader.2,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,360,leader.3,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,360,leader.4,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,360,leader.5,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,363,name,ShaunM
+1_32D;2_32D;3_32D;4_32D;5_32D,363,webpawed,
+1_32D;2_32D;3_32D;4_32D;5_32D,363,webpafri,0.0096
+1_32D;2_32D;3_32D;4_32D;5_32D,363,Sex,Male
+1_32D;2_32D;3_32D;4_32D;5_32D,363,Nationality,United Kingdom
+1_32D;2_32D;3_32D;4_32D;5_32D,363,leader.1,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,363,leader.2,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,363,leader.3,leader
+1_32D;2_32D;3_32D;4_32D;5_32D,363,leader.4,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,363,leader.5,not leader
+1_32D;2_32D;3_32D;4_32D;5_32D,365,name,XianrongP
+1_32D;2_32D;3_32D;4_32D;5_32D,365,webpawed,
+1_32D;2_32D;3_32D;4_32D;5_32D,365,webpafri,0.0086
+1_32D;2_32D;3_32D;4_32D;5_32D,365,Sex,Male
+1_32D;2_32D;3_32D;4_32D;5_32D,365,Nationality,China
+1_32D;2_32D;3_32D;4_32D;5_32D,365,leader.1,
+1_32D;2_32D;3_32D;4_32D;5_32D,365,leader.2,
+1_32D;2_32D;3_32D;4_32D;5_32D,365,leader.3,
+1_32D;2_32D;3_32D;4_32D;5_32D,365,leader.4,
+1_32D;2_32D;3_32D;4_32D;5_32D,365,leader.5,
+1_35A;2_35A;3_35A;4_35A;5_35A,368,name,MojtabaD
+1_35A;2_35A;3_35A;4_35A;5_35A,368,webpawed,
+1_35A;2_35A;3_35A;4_35A;5_35A,368,webpafri,0.01
+1_35A;2_35A;3_35A;4_35A;5_35A,368,Sex,Male
+1_35A;2_35A;3_35A;4_35A;5_35A,368,Nationality,Iran
+1_35A;2_35A;3_35A;4_35A;5_35A,368,leader.1,leader
+1_35A;2_35A;3_35A;4_35A;5_35A,368,leader.2,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,368,leader.3,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,368,leader.4,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,368,leader.5,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,367,name,EstherH
+1_35A;2_35A;3_35A;4_35A;5_35A,367,webpawed,
+1_35A;2_35A;3_35A;4_35A;5_35A,367,webpafri,0.0103
+1_35A;2_35A;3_35A;4_35A;5_35A,367,Sex,
+1_35A;2_35A;3_35A;4_35A;5_35A,367,Nationality,United Kingdom
+1_35A;2_35A;3_35A;4_35A;5_35A,367,leader.1,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,367,leader.2,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,367,leader.3,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,367,leader.4,leader
+1_35A;2_35A;3_35A;4_35A;5_35A,367,leader.5,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,370,name,NurR
+1_35A;2_35A;3_35A;4_35A;5_35A,370,webpawed,
+1_35A;2_35A;3_35A;4_35A;5_35A,370,webpafri,0.0103
+1_35A;2_35A;3_35A;4_35A;5_35A,370,Sex,Female
+1_35A;2_35A;3_35A;4_35A;5_35A,370,Nationality,Malaysia
+1_35A;2_35A;3_35A;4_35A;5_35A,370,leader.1,
+1_35A;2_35A;3_35A;4_35A;5_35A,370,leader.2,
+1_35A;2_35A;3_35A;4_35A;5_35A,370,leader.3,
+1_35A;2_35A;3_35A;4_35A;5_35A,370,leader.4,
+1_35A;2_35A;3_35A;4_35A;5_35A,370,leader.5,
+1_35A;2_35A;3_35A;4_35A;5_35A,369,name,MathewT
+1_35A;2_35A;3_35A;4_35A;5_35A,369,webpawed,
+1_35A;2_35A;3_35A;4_35A;5_35A,369,webpafri,0.0104
+1_35A;2_35A;3_35A;4_35A;5_35A,369,Sex,Male
+1_35A;2_35A;3_35A;4_35A;5_35A,369,Nationality,United Kingdom
+1_35A;2_35A;3_35A;4_35A;5_35A,369,leader.1,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,369,leader.2,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,369,leader.3,leader
+1_35A;2_35A;3_35A;4_35A;5_35A,369,leader.4,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,369,leader.5,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,371,name,UsamaW
+1_35A;2_35A;3_35A;4_35A;5_35A,371,webpawed,
+1_35A;2_35A;3_35A;4_35A;5_35A,371,webpafri,0.0099
+1_35A;2_35A;3_35A;4_35A;5_35A,371,Sex,Male
+1_35A;2_35A;3_35A;4_35A;5_35A,371,Nationality,United Kingdom
+1_35A;2_35A;3_35A;4_35A;5_35A,371,leader.1,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,371,leader.2,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,371,leader.3,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,371,leader.4,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,371,leader.5,leader
+1_35A;2_35A;3_35A;4_35A;5_35A,366,name,Cheuk_Lam_WilberL
+1_35A;2_35A;3_35A;4_35A;5_35A,366,webpawed,
+1_35A;2_35A;3_35A;4_35A;5_35A,366,webpafri,0.0091
+1_35A;2_35A;3_35A;4_35A;5_35A,366,Sex,Male
+1_35A;2_35A;3_35A;4_35A;5_35A,366,Nationality,Hong Kong
+1_35A;2_35A;3_35A;4_35A;5_35A,366,leader.1,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,366,leader.2,leader
+1_35A;2_35A;3_35A;4_35A;5_35A,366,leader.3,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,366,leader.4,not leader
+1_35A;2_35A;3_35A;4_35A;5_35A,366,leader.5,not leader
+1_35B;2_35B;3_35B;4_35B;5_35B,374,name,TobiasS
+1_35B;2_35B;3_35B;4_35B;5_35B,374,webpawed,
+1_35B;2_35B;3_35B;4_35B;5_35B,374,webpafri,0.0119
+1_35B;2_35B;3_35B;4_35B;5_35B,374,Sex,Male
+1_35B;2_35B;3_35B;4_35B;5_35B,374,Nationality,United Kingdom
+1_35B;2_35B;3_35B;4_35B;5_35B,374,leader.1,not leader
+1_35B;2_35B;3_35B;4_35B;5_35B,374,leader.2,not leader
+1_35B;2_35B;3_35B;4_35B;5_35B,374,leader.3,leader
+1_35B;2_35B;3_35B;4_35B;5_35B,374,leader.4,not leader
+1_35B;2_35B;3_35B;4_35B;5_35B,374,leader.5,not leader
+1_35B;2_35B;3_35B;4_35B;5_35B,375,name,WeiS
+1_35B;2_35B;3_35B;4_35B;5_35B,375,webpawed,
+1_35B;2_35B;3_35B;4_35B;5_35B,375,webpafri,0.0121
+1_35B;2_35B;3_35B;4_35B;5_35B,375,Sex,Male
+1_35B;2_35B;3_35B;4_35B;5_35B,375,Nationality,United Kingdom
+1_35B;2_35B;3_35B;4_35B;5_35B,375,leader.1,not leader
+1_35B;2_35B;3_35B;4_35B;5_35B,375,leader.2,leader
+1_35B;2_35B;3_35B;4_35B;5_35B,375,leader.3,not leader
+1_35B;2_35B;3_35B;4_35B;5_35B,375,leader.4,not leader
+1_35B;2_35B;3_35B;4_35B;5_35B,375,leader.5,not leader
+1_35B;2_35B;3_35B;4_35B;5_35B,372,name,AlexB
+1_35B;2_35B;3_35B;4_35B;5_35B,372,webpawed,
+1_35B;2_35B;3_35B;4_35B;5_35B,372,webpafri,0.0121
+1_35B;2_35B;3_35B;4_35B;5_35B,372,Sex,Male
+1_35B;2_35B;3_35B;4_35B;5_35B,372,Nationality,United Kingdom
+1_35B;2_35B;3_35B;4_35B;5_35B,372,leader.1,not leader
+1_35B;2_35B;3_35B;4_35B;5_35B,372,leader.2,not leader
+1_35B;2_35B;3_35B;4_35B;5_35B,372,leader.3,not leader
+1_35B;2_35B;3_35B;4_35B;5_35B,372,leader.4,leader
+1_35B;2_35B;3_35B;4_35B;5_35B,372,leader.5,not leader
+1_35B;2_35B;3_35B;4_35B;5_35B,376,name,XuanqiL
+1_35B;2_35B;3_35B;4_35B;5_35B,376,webpawed,
+1_35B;2_35B;3_35B;4_35B;5_35B,376,webpafri,0.012
+1_35B;2_35B;3_35B;4_35B;5_35B,376,Sex,Male
+1_35B;2_35B;3_35B;4_35B;5_35B,376,Nationality,China
+1_35B;2_35B;3_35B;4_35B;5_35B,376,leader.1,leader
+1_35B;2_35B;3_35B;4_35B;5_35B,376,leader.2,not leader
+1_35B;2_35B;3_35B;4_35B;5_35B,376,leader.3,not leader
+1_35B;2_35B;3_35B;4_35B;5_35B,376,leader.4,not leader
+1_35B;2_35B;3_35B;4_35B;5_35B,376,leader.5,not leader
+1_35C;2_35C;3_35C;4_35C;5_35C,381,name,OlivierM
+1_35C;2_35C;3_35C;4_35C;5_35C,381,webpawed,
+1_35C;2_35C;3_35C;4_35C;5_35C,381,webpafri,0.0102
+1_35C;2_35C;3_35C;4_35C;5_35C,381,Sex,Male
+1_35C;2_35C;3_35C;4_35C;5_35C,381,Nationality,United Kingdom
+1_35C;2_35C;3_35C;4_35C;5_35C,381,leader.1,leader
+1_35C;2_35C;3_35C;4_35C;5_35C,381,leader.2,not leader
+1_35C;2_35C;3_35C;4_35C;5_35C,381,leader.3,not leader
+1_35C;2_35C;3_35C;4_35C;5_35C,381,leader.4,not leader
+1_35C;2_35C;3_35C;4_35C;5_35C,381,leader.5,not leader
+1_35C;2_35C;3_35C;4_35C;5_35C,382,name,OlaideO
+1_35C;2_35C;3_35C;4_35C;5_35C,382,webpawed,
+1_35C;2_35C;3_35C;4_35C;5_35C,382,webpafri,0.0103
+1_35C;2_35C;3_35C;4_35C;5_35C,382,Sex,Female
+1_35C;2_35C;3_35C;4_35C;5_35C,382,Nationality,United Kingdom
+1_35C;2_35C;3_35C;4_35C;5_35C,382,leader.1,
+1_35C;2_35C;3_35C;4_35C;5_35C,382,leader.2,
+1_35C;2_35C;3_35C;4_35C;5_35C,382,leader.3,
+1_35C;2_35C;3_35C;4_35C;5_35C,382,leader.4,
+1_35C;2_35C;3_35C;4_35C;5_35C,382,leader.5,
+1_35C;2_35C;3_35C;4_35C;5_35C,379,name,EricC
+1_35C;2_35C;3_35C;4_35C;5_35C,379,webpawed,
+1_35C;2_35C;3_35C;4_35C;5_35C,379,webpafri,0.0103
+1_35C;2_35C;3_35C;4_35C;5_35C,379,Sex,Male
+1_35C;2_35C;3_35C;4_35C;5_35C,379,Nationality,United Kingdom
+1_35C;2_35C;3_35C;4_35C;5_35C,379,leader.1,not leader
+1_35C;2_35C;3_35C;4_35C;5_35C,379,leader.2,not leader
+1_35C;2_35C;3_35C;4_35C;5_35C,379,leader.3,not leader
+1_35C;2_35C;3_35C;4_35C;5_35C,379,leader.4,leader
+1_35C;2_35C;3_35C;4_35C;5_35C,379,leader.5,not leader
+1_35C;2_35C;3_35C;4_35C;5_35C,383,name,RowenaS
+1_35C;2_35C;3_35C;4_35C;5_35C,383,webpawed,
+1_35C;2_35C;3_35C;4_35C;5_35C,383,webpafri,0.0103
+1_35C;2_35C;3_35C;4_35C;5_35C,383,Sex,Female
+1_35C;2_35C;3_35C;4_35C;5_35C,383,Nationality,United Kingdom
+1_35C;2_35C;3_35C;4_35C;5_35C,383,leader.1,not leader
+1_35C;2_35C;3_35C;4_35C;5_35C,383,leader.2,not leader
+1_35C;2_35C;3_35C;4_35C;5_35C,383,leader.3,not leader
+1_35C;2_35C;3_35C;4_35C;5_35C,383,leader.4,leader
+1_35C;2_35C;3_35C;4_35C;5_35C,383,leader.5,not leader
+1_35C;2_35C;3_35C;4_35C;5_35C,380,name,KarC
+1_35C;2_35C;3_35C;4_35C;5_35C,380,webpawed,
+1_35C;2_35C;3_35C;4_35C;5_35C,380,webpafri,0.0096
+1_35C;2_35C;3_35C;4_35C;5_35C,380,Sex,Male
+1_35C;2_35C;3_35C;4_35C;5_35C,380,Nationality,Malaysia
+1_35C;2_35C;3_35C;4_35C;5_35C,380,leader.1,not leader
+1_35C;2_35C;3_35C;4_35C;5_35C,380,leader.2,leader
+1_35C;2_35C;3_35C;4_35C;5_35C,380,leader.3,not leader
+1_35C;2_35C;3_35C;4_35C;5_35C,380,leader.4,not leader
+1_35C;2_35C;3_35C;4_35C;5_35C,380,leader.5,not leader
+1_35C;2_35C;3_35C;4_35C;5_35C,378,name,AfiqB
+1_35C;2_35C;3_35C;4_35C;5_35C,378,webpawed,
+1_35C;2_35C;3_35C;4_35C;5_35C,378,webpafri,0.0094
+1_35C;2_35C;3_35C;4_35C;5_35C,378,Sex,Male
+1_35C;2_35C;3_35C;4_35C;5_35C,378,Nationality,Malaysia
+1_35C;2_35C;3_35C;4_35C;5_35C,378,leader.1,
+1_35C;2_35C;3_35C;4_35C;5_35C,378,leader.2,
+1_35C;2_35C;3_35C;4_35C;5_35C,378,leader.3,
+1_35C;2_35C;3_35C;4_35C;5_35C,378,leader.4,
+1_35C;2_35C;3_35C;4_35C;5_35C,378,leader.5,
+1_35D;2_35D;3_35D;4_35D;5_35D,388,name,OliverB
+1_35D;2_35D;3_35D;4_35D;5_35D,388,webpawed,
+1_35D;2_35D;3_35D;4_35D;5_35D,388,webpafri,0.0101
+1_35D;2_35D;3_35D;4_35D;5_35D,388,Sex,Male
+1_35D;2_35D;3_35D;4_35D;5_35D,388,Nationality,United Kingdom
+1_35D;2_35D;3_35D;4_35D;5_35D,388,leader.1,leader
+1_35D;2_35D;3_35D;4_35D;5_35D,388,leader.2,not leader
+1_35D;2_35D;3_35D;4_35D;5_35D,388,leader.3,not leader
+1_35D;2_35D;3_35D;4_35D;5_35D,388,leader.4,not leader
+1_35D;2_35D;3_35D;4_35D;5_35D,388,leader.5,not leader
+1_35D;2_35D;3_35D;4_35D;5_35D,384,name,JamesR
+1_35D;2_35D;3_35D;4_35D;5_35D,384,webpawed,
+1_35D;2_35D;3_35D;4_35D;5_35D,384,webpafri,0.0101
+1_35D;2_35D;3_35D;4_35D;5_35D,384,Sex,Male
+1_35D;2_35D;3_35D;4_35D;5_35D,384,Nationality,United Kingdom
+1_35D;2_35D;3_35D;4_35D;5_35D,384,leader.1,
+1_35D;2_35D;3_35D;4_35D;5_35D,384,leader.2,
+1_35D;2_35D;3_35D;4_35D;5_35D,384,leader.3,
+1_35D;2_35D;3_35D;4_35D;5_35D,384,leader.4,
+1_35D;2_35D;3_35D;4_35D;5_35D,384,leader.5,
+1_35D;2_35D;3_35D;4_35D;5_35D,386,name,LanbaoP
+1_35D;2_35D;3_35D;4_35D;5_35D,386,webpawed,
+1_35D;2_35D;3_35D;4_35D;5_35D,386,webpafri,0.0095
+1_35D;2_35D;3_35D;4_35D;5_35D,386,Sex,Male
+1_35D;2_35D;3_35D;4_35D;5_35D,386,Nationality,China
+1_35D;2_35D;3_35D;4_35D;5_35D,386,leader.1,
+1_35D;2_35D;3_35D;4_35D;5_35D,386,leader.2,
+1_35D;2_35D;3_35D;4_35D;5_35D,386,leader.3,
+1_35D;2_35D;3_35D;4_35D;5_35D,386,leader.4,
+1_35D;2_35D;3_35D;4_35D;5_35D,386,leader.5,
+1_35D;2_35D;3_35D;4_35D;5_35D,385,name,KellyL
+1_35D;2_35D;3_35D;4_35D;5_35D,385,webpawed,
+1_35D;2_35D;3_35D;4_35D;5_35D,385,webpafri,0.0101
+1_35D;2_35D;3_35D;4_35D;5_35D,385,Sex,Female
+1_35D;2_35D;3_35D;4_35D;5_35D,385,Nationality,United Kingdom
+1_35D;2_35D;3_35D;4_35D;5_35D,385,leader.1,not leader
+1_35D;2_35D;3_35D;4_35D;5_35D,385,leader.2,leader
+1_35D;2_35D;3_35D;4_35D;5_35D,385,leader.3,not leader
+1_35D;2_35D;3_35D;4_35D;5_35D,385,leader.4,not leader
+1_35D;2_35D;3_35D;4_35D;5_35D,385,leader.5,not leader
+1_35D;2_35D;3_35D;4_35D;5_35D,387,name,MatthewL
+1_35D;2_35D;3_35D;4_35D;5_35D,387,webpawed,
+1_35D;2_35D;3_35D;4_35D;5_35D,387,webpafri,0.0101
+1_35D;2_35D;3_35D;4_35D;5_35D,387,Sex,Male
+1_35D;2_35D;3_35D;4_35D;5_35D,387,Nationality,United Kingdom
+1_35D;2_35D;3_35D;4_35D;5_35D,387,leader.1,
+1_35D;2_35D;3_35D;4_35D;5_35D,387,leader.2,
+1_35D;2_35D;3_35D;4_35D;5_35D,387,leader.3,
+1_35D;2_35D;3_35D;4_35D;5_35D,387,leader.4,
+1_35D;2_35D;3_35D;4_35D;5_35D,387,leader.5,
+1_35D;2_35D;3_35D;4_35D;5_35D,389,name,OliverP
+1_35D;2_35D;3_35D;4_35D;5_35D,389,webpawed,
+1_35D;2_35D;3_35D;4_35D;5_35D,389,webpafri,0.0101
+1_35D;2_35D;3_35D;4_35D;5_35D,389,Sex,Male
+1_35D;2_35D;3_35D;4_35D;5_35D,389,Nationality,United Kingdom
+1_35D;2_35D;3_35D;4_35D;5_35D,389,leader.1,
+1_35D;2_35D;3_35D;4_35D;5_35D,389,leader.2,
+1_35D;2_35D;3_35D;4_35D;5_35D,389,leader.3,
+1_35D;2_35D;3_35D;4_35D;5_35D,389,leader.4,
+1_35D;2_35D;3_35D;4_35D;5_35D,389,leader.5,
+2_18A;3_18A;4_18A;5_18A,35,name,SiS
+2_18A;3_18A;4_18A;5_18A,35,webpawed,
+2_18A;3_18A;4_18A;5_18A,35,webpafri,0.0056
+2_18A;3_18A;4_18A;5_18A,35,Sex,Female
+2_18A;3_18A;4_18A;5_18A,35,Nationality,China
+2_18A;3_18A;4_18A;5_18A,35,leader.1,not leader
+2_18A;3_18A;4_18A;5_18A,35,leader.2,not leader
+2_18A;3_18A;4_18A;5_18A,35,leader.3,not leader
+2_18A;3_18A;4_18A;5_18A,35,leader.4,not leader
+2_18A;3_18A;4_18A;5_18A,35,leader.5,leader
+2_35B;3_35B;4_35B;5_35B,377,name,YuF
+2_35B;3_35B;4_35B;5_35B,377,webpawed,
+2_35B;3_35B;4_35B;5_35B,377,webpafri,0.0119
+2_35B;3_35B;4_35B;5_35B,377,Sex,Male
+2_35B;3_35B;4_35B;5_35B,377,Nationality,China
+2_35B;3_35B;4_35B;5_35B,377,leader.1,
+2_35B;3_35B;4_35B;5_35B,377,leader.2,
+2_35B;3_35B;4_35B;5_35B,377,leader.3,
+2_35B;3_35B;4_35B;5_35B,377,leader.4,
+2_35B;3_35B;4_35B;5_35B,377,leader.5,
+4_19B;5_19B,71,name,SophiaB
+4_19B;5_19B,71,webpawed,
+4_19B;5_19B,71,webpafri,0.0083
+4_19B;5_19B,71,Sex,Female
+4_19B;5_19B,71,Nationality,United Kingdom
+4_19B;5_19B,71,leader.1,not leader
+4_19B;5_19B,71,leader.2,not leader
+4_19B;5_19B,71,leader.3,not leader
+4_19B;5_19B,71,leader.4,not leader
+4_19B;5_19B,71,leader.5,leader
+5_35B,373,name,OscarD
+5_35B,373,webpawed,
+5_35B,373,webpafri,0.0
+5_35B,373,Sex,Male
+5_35B,373,Nationality,United Kingdom
+5_35B,373,leader.1,
+5_35B,373,leader.2,
+5_35B,373,leader.3,
+5_35B,373,leader.4,
+5_35B,373,leader.5,

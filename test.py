@@ -8,7 +8,7 @@ net = Network(height='1200', width='100%', bgcolor='#222222', font_color='white'
 net.barnes_hut(overlap=1)
 
 # Read csv file
-database = 'dbGEC2017'
+database = 'GEC2017'
 events = pd.read_csv(database + '/Events.csv')
 entities = pd.read_csv(database + '/EntityAttributes.csv')
 

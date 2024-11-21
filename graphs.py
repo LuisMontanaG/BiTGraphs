@@ -55,7 +55,7 @@ def hover(event):
 
 
 # Read csv file
-database = 'dbGEC2017'
+database = 'GEC2017'
 events = pd.read_csv(database + '/Events.csv')
 entities = pd.read_csv(database + '/EntityAttributes.csv')
 
@@ -98,6 +98,7 @@ colors = [(0.0, 1.0, 0.0), (0.9943259034408901, 0.0012842177138555622, 0.9174329
           (0.9851725449490569, 0.7473699550058078, 0.4530441265365358),
           (0.5307859786313746, 0.9399885275455782, 0.05504161834032317)]
 
+# Create a dictionary with node names as keys and acronyms as values
 
 # Grab only colors for the number of acronyms
 colors = colors[:len(node_names)]
@@ -169,4 +170,4 @@ freq_slider = Slider(
 )
 freq_slider.on_changed(lambda new_val: update(new_val, node_names, acronyms_dict, freq, edges, colors))
 fig.canvas.mpl_connect("motion_notify_event", hover)
-plt.show()
+#plt.show()
