@@ -6,7 +6,7 @@ import dash_bootstrap_components as dbc
 from data_handler import *
 
 database = 'GEC2017'
-node_type = 'Participants'
+node_type = 'Behaviours'
 
 node_data, edge_data, nodes, edges, selector_node_classes, selector_edge_classes, min_weight, max_weight, weight_bins = load_dataset(database, node_type)
 
@@ -68,7 +68,7 @@ app.layout = html.Div(
                     'radius': 200},
             elements = edges+nodes,
             stylesheet = selector_node_classes + selector_edge_classes + default_stylesheet,
-            style={'width': '100%', 'height': '1000px'},
+            style={'width': '100%', 'height': '750px'},
         ),
         html.P("Weight threshold", id='weight-slider-output'),
         dcc.RangeSlider(
