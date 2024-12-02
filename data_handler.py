@@ -7,7 +7,7 @@ entities_file = 'EntityAttributes.csv'
 participants_file = 'Participants.sav'
 
 def load_dataset(dataset_name, node_type, edge_type, team, meeting, colour_type, colour_source):
-    events, entities, teams, behaviours, participants = read_files(dataset_name)
+    events, entities, teams, behaviours, participants, meetings = read_files(dataset_name)
     if node_type == 'Behaviours':
         node_names, acronyms, acronyms_dict, freq, sizes, node_size_map, leader = get_behaviour_node_data(events, team, meeting, participants)
         edge_data, min_weight, max_weight, weight_bins, edge_size_map = get_behaviour_edge_data(edge_type, events, team, meeting)
@@ -16,12 +16,12 @@ def load_dataset(dataset_name, node_type, edge_type, team, meeting, colour_type,
         edge_data, min_weight, max_weight, weight_bins, edge_size_map = get_participant_edge_data(edge_type, events, team, meeting, entity_list)
     colors = get_colors(node_names, behaviours, colour_type)
     selector_node_classes, selector_edge_classes = get_selector_classes(node_names, behaviours, colors, node_size_map, edge_size_map, colour_type)
-    node_data, nodes = get_nodes(node_names, acronyms, freq, sizes, selector_node_classes)
+    node_data, nodes = get_nodes(node_names, acronyms, freq, sizes, selector_node_classes, node_type, leader)
     if node_type == 'Behaviours':
         edges = get_behaviour_edges(edge_data, colour_source)
     else:
         edges = get_participant_edges(edge_data, colour_type, colour_source)
-    return teams, node_data, edge_data, nodes, edges, selector_node_classes, selector_edge_classes, min_weight, max_weight, weight_bins, leader
+    return teams, meetings, node_data, edge_data, nodes, edges, selector_node_classes, selector_edge_classes, min_weight, max_weight, weight_bins, leader
 
 def read_files(dataset_name):
     events = pd.read_csv(dataset_name + '/' + events_file)
@@ -47,7 +47,14 @@ def read_files(dataset_name):
     else:
         participants = []
 
-    return events, entities, teams, behaviours, participants
+    # Get meetings
+    meetings = events['sequenceId'].unique()
+    meetings = [meeting.split('_')[0] for meeting in meetings]
+    meetings = list(set(meetings))
+    meetings.sort()
+    meetings.append('All')
+
+    return events, entities, teams, behaviours, participants, meetings
 
 def get_behaviour_node_data(events, team, meeting, participants):
     leader = ''
@@ -62,6 +69,9 @@ def get_behaviour_node_data(events, team, meeting, participants):
             if len(leader) > 0:
                 leader = "Leader: " + ",".join(leader)
 
+    elif meeting != 'All':
+        # Keep only rows where meeting is equal to the selected meeting
+        events = events[events['sequenceId'].str.split('_').str[0] == meeting]
 
     # Get node names
     node_names = events['event'].unique()
@@ -143,6 +153,9 @@ def get_behaviour_edge_data(edge_type, events, team, meeting):
         # Keep only rows where meeting is equal to the selected meeting
         if meeting != 'All':
             events = events[events['sequenceId'].str.split('_').str[0] == meeting]
+    elif meeting != 'All':
+        # Keep only rows where meeting is equal to the selected meeting
+        events = events[events['sequenceId'].str.split('_').str[0] == meeting]
     # Get edges
     # From events, count the number of transitions between events. Save in a dictionary
     edges = {}
@@ -151,7 +164,6 @@ def get_behaviour_edge_data(edge_type, events, team, meeting):
     # Regenerate index
     events = events.reset_index(drop=True)
     for i in range(1, len(events)):
-        #if events['event'][i] != 'Break' and events['event'][i - 1] != 'Break':
         if (events['event'][i - 1], events['event'][i]) in edges:
             edges[(events['event'][i - 1], events['event'][i])] += 1
         else:
@@ -180,10 +192,10 @@ def get_behaviour_edge_data(edge_type, events, team, meeting):
 
     # Convert dictionary to a list of 4-tuples
     if edge_type == 'Frequency':
-        edge_data = [(key[0], key[1], log2(value), value) for key, value in edges.items()]
+        edge_data = [(key[0], key[1], "", log2(value), value) for key, value in edges.items()]
         edge_size_map = "mapData(weight," + str(log2(min_weight)) + "," + str(log2(max_weight)) + ",1,20)"
     else:
-        edge_data = [(key[0], key[1], value, value) for key, value in edges.items()]
+        edge_data = [(key[0], key[1], "", value, int(round((value / 100) * source_sum[key[0]]))) for key, value in edges.items()]
         edge_size_map = "mapData(weight," + str(min_weight) + "," + str(max_weight) + ",1,20)"
     return edge_data, min_weight, max_weight, weight_bins, edge_size_map
 
@@ -239,7 +251,7 @@ def get_participant_edge_data(edge_type, events, team, meeting, entity_list):
         edge_data = [(key[0], key[1], key[2], log2(value), value) for key, value in edges.items()]
         edge_size_map = "mapData(weight," + str(log2(min_weight)) + "," + str(log2(max_weight)) + ",1,20)"
     else:
-        edge_data = [(key[0], key[1], key[2], value, value) for key, value in edges.items()]
+        edge_data = [(key[0], key[1], key[2], value, int(round((value / 100) * source_sum[key[0]]))) for key, value in edges.items()]
         edge_size_map = "mapData(weight," + str(min_weight) + "," + str(max_weight) + ",1,20)"
     return edge_data, min_weight, max_weight, weight_bins, edge_size_map
 
@@ -275,6 +287,29 @@ def get_selector_classes(node_names, behaviours, colors, node_size_map, edge_siz
     if colour_type == "Behaviours":
         names = behaviours
 
+    selector_node_classes.append(
+        {
+            'selector': '.nodeParticipant',
+            'style': {
+                'background-color': "white",
+                'line-color': "white",
+                'width': node_size_map,
+                'height': node_size_map
+            }
+        }
+    )
+    selector_node_classes.append(
+        {
+            'selector': '.nodeLeader',
+            'style': {
+                'background-color': "white",
+                'line-color': "FFFFFF",
+                'shape': "star",
+                'width': 100,
+                'height': 100
+            }
+        }
+    )
     # Iterate over node names
     for i, name in enumerate(names):
         selector_node_classes.append(
@@ -303,39 +338,54 @@ def get_selector_classes(node_names, behaviours, colors, node_size_map, edge_siz
         )
     return selector_node_classes, selector_edge_classes
 
-def get_nodes(node_names, acronyms, freq, sizes, selector_node_classes):
+def get_nodes(node_names, acronyms, freq, sizes, selector_node_classes, node_type, leader):
     # Create a list of random longitudes and latitudes with the size of the number of acronyms
     longitudes = np.random.uniform(-180, 180, len(acronyms))
     latitudes = np.random.uniform(-90, 90, len(acronyms))
     # Create list of tuples with short name, label, long and lat
     freq_values = freq.tolist()
     node_data = list(zip(node_names, acronyms, freq_values, longitudes, latitudes, sizes, selector_node_classes))
-    nodes = [
-        {
-            'data': {'id': short, 'label': label, 'freq': str(freq), 'size': size},
-            'position': {'x': 20 * lat, 'y': -20 * long},
-            'classes': selector_class['selector'][1:]
-        }
-        for short, label, freq, long, lat, size, selector_class in node_data
-    ]
+    if node_type == 'Behaviours':
+        nodes = [
+            {
+                'data': {'id': short, 'label': label, 'freq': str(freq), 'size': size},
+                'position': {'x': 20 * lat, 'y': -20 * long},
+                'classes': "node" + short
+            }
+            for short, label, freq, long, lat, size, selector_class in node_data
+        ]
+    else:
+        nodes = [
+            {
+                'data': {'id': short, 'label': label, 'freq': str(freq), 'size': size},
+                'position': {'x': 20 * lat, 'y': -20 * long},
+                'classes': "nodeParticipant"
+            }
+            for short, label, freq, long, lat, size, selector_class in node_data
+        ]
+        # Change leader node class
+        if leader != '':
+            for node in nodes:
+                if node['data']['id'] in leader:
+                    node['classes'] = "nodeLeader"
     return node_data, nodes
 
 def get_behaviour_edges(edge_data, colour_source):
     if colour_source == "Source":
         edges = [
             {
-                'data': {'source': source, 'target': target, 'weight': weight, 'original_weight': original_weight},
+                'data': {'source': source, 'target': target, 'behaviour':behaviour, 'weight': weight, 'original_weight': original_weight},
                 'classes': "edge" + source
             }
-            for source, target, weight, original_weight in edge_data
+            for source, target, behaviour, weight, original_weight in edge_data
         ]
     else:
         edges = [
             {
-                'data': {'source': source, 'target': target, 'weight': weight, 'original_weight': original_weight},
+                'data': {'source': source, 'target': target, 'behaviour':behaviour, 'weight': weight, 'original_weight': original_weight},
                 'classes': "edge" + target
             }
-            for source, target, weight, original_weight in edge_data
+            for source, target, behaviour, weight, original_weight in edge_data
         ]
     return edges
 
@@ -367,15 +417,30 @@ def get_participant_edges(edge_data, colour_type, colour_source):
             ]
     return edges
 
-def get_original_nodes(node_data):
-    original_nodes = [
-        {
-            'data': {'id': short, 'label': label, 'freq': str(freq), 'size': size},
-            'position': {'x': 20 * lat, 'y': -20 * long},
-            'classes': selector_class['selector'][1:]
-        }
-        for short, label, freq, long, lat, size, selector_class in node_data
-    ]
+def get_original_nodes(node_data, node_type, leader):
+    if node_type == 'Behaviours':
+        original_nodes = [
+            {
+                'data': {'id': short, 'label': label, 'freq': str(freq), 'size': size},
+                'position': {'x': 20 * lat, 'y': -20 * long},
+                'classes': "node" + short
+            }
+            for short, label, freq, long, lat, size, selector_class in node_data
+        ]
+    else:
+        original_nodes = [
+            {
+                'data': {'id': short, 'label': label, 'freq': str(freq), 'size': size},
+                'position': {'x': 20 * lat, 'y': -20 * long},
+                'classes': "nodeParticipant"
+            }
+            for short, label, freq, long, lat, size, selector_class in node_data
+        ]
+        # Change leader node class
+        if leader != '':
+            for node in original_nodes:
+                if node['data']['id'] in leader:
+                    node['classes'] = "nodeLeader"
     return original_nodes
 
 def get_original_edges(edge_data, node_type, colour_type, colour_source):
@@ -383,18 +448,18 @@ def get_original_edges(edge_data, node_type, colour_type, colour_source):
         if colour_source == "Source":
             original_edges = [
                 {
-                    'data': {'source': source, 'target': target, 'weight': weight, 'original_weight': original_weight},
+                    'data': {'source': source, 'target': target, 'behaviour':behaviour, 'weight': weight, 'original_weight': original_weight},
                     'classes': "edge" + source
                 }
-                for source, target, weight, original_weight in edge_data
+                for source, target, behaviour, weight, original_weight in edge_data
             ]
         else:
             original_edges = [
                 {
-                    'data': {'source': source, 'target': target, 'weight': weight, 'original_weight': original_weight},
+                    'data': {'source': source, 'target': target,'behaviour':behaviour, 'weight': weight, 'original_weight': original_weight},
                     'classes': "edge" + target
                 }
-                for source, target, weight, original_weight in edge_data
+                for source, target, behaviour, weight, original_weight in edge_data
             ]
     else:
         if colour_type == 'Behaviours':
@@ -425,16 +490,23 @@ def get_original_edges(edge_data, node_type, colour_type, colour_source):
     return original_edges
 
 def get_meetings_for_team(database, team):
-    events, entities, teams, behaviours, leader = read_files(database)
+    events, entities, teams, behaviours, leader, meetings = read_files(database)
     meetings = ['All']
 
-    if team != '':
+    if team != 'All':
         # Iterate through events
         for index, event in events.iterrows():
             if event['sequenceId'].split('_')[1] == team:
                 meetings.append(event['sequenceId'].split('_')[0])
         meetings = list(set(meetings))
         meetings.sort()
+
+    else:
+        meetings = events['sequenceId'].unique()
+        meetings = [meeting.split('_')[0] for meeting in meetings]
+        meetings = list(set(meetings))
+        meetings.sort()
+        meetings.append('All')
 
     options = [
         {'label': name.capitalize(), 'value': name}

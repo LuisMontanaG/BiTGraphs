@@ -2,6 +2,7 @@ from dash import Dash, html, Input, Output, callback, dcc, ctx
 import dash_cytoscape as cyto
 import dash_bootstrap_components as dbc
 from dash.exceptions import PreventUpdate
+from scipy.cluster.hierarchy import leaders
 
 from data_handler import *
 
@@ -12,9 +13,10 @@ team = 'All'
 meeting = 'All'
 colour_type = 'Behaviours'
 colour_source = 'Source'
+team_compare = 'All'
+meeting_compare = 'All'
 
-teams, node_data, edge_data, nodes, edges, selector_node_classes, selector_edge_classes, min_weight, max_weight, weight_bins, leader = load_dataset(database, node_type, edge_type, team, meeting, colour_type, colour_source)
-
+teams, meetings, node_data, edge_data, nodes, edges, selector_node_classes, selector_edge_classes, min_weight, max_weight, weight_bins, leader = load_dataset(database, node_type, edge_type, team, meeting, colour_type, colour_source)
 app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
 
 default_stylesheet = [
@@ -22,7 +24,7 @@ default_stylesheet = [
     {
         'selector': 'node',
         'style': {
-            'background-color': '#00000',
+            #'background-color': '#00000',
             'label': 'data(label)',
             'font-size': '20px',
             'text-halign':'center',
@@ -35,6 +37,22 @@ database_dropdown = html.Div([
     html.P("Database: "),
     dcc.Dropdown(
         id='dropdown-update-database',
+        value='GEC2017',
+        clearable=False,
+        options=[
+        {'label': name, 'value': name}
+        for name in ['GEC2017', 'GEC2018', 'EYH2017', 'EYH2018', 'IDP2019', 'IDP2020']
+        ],
+        className='dash-bootstrap',
+        style={'width': '300px'},
+    )],
+    style = {'display': 'inline-block', 'margin-left': '20px'},
+)
+
+database_dropdown_compare = html.Div([
+    html.P("Database: "),
+    dcc.Dropdown(
+        id='dropdown-update-database-compare',
         value='GEC2017',
         clearable=False,
         options=[
@@ -60,26 +78,55 @@ team_dropdown = html.Div([
         style={'width': '300px'},
         className='dash-bootstrap'
     )],
-    style = {'display': 'inline-block', 'margin-left': '20px'},
-    id='div-update-team'
+    style = {'display': 'inline-block', 'margin-left': '20px'}
+)
+
+team_dropdown_compare_2 = html.Div([
+    html.P("Team 2:"),
+    dcc.Dropdown(
+        id = 'dropdown-update-team-compare-2',
+        value='All',
+        clearable=False,
+        options=[
+            {'label': name, 'value': name}
+            for name in teams
+        ],
+        style={'width': '300px'},
+        className='dash-bootstrap'
+    )],
+    style = {'display': 'inline-block', 'margin-left': '20px'}
 )
 
 meeting_dropdown = html.Div([
     html.P("Meeting:"),
     dcc.Dropdown(
         id = 'dropdown-update-meeting',
-        #value='All',
+        value='All',
         clearable=False,
-        # options=[
-        #     {'label': name, 'value': name}
-        #     for name in (['All'],)
-        # ],
-        options=[],
+        options=[
+            {'label': name, 'value': name}
+            for name in meetings
+        ],
         style={'width': '300px'},
         className='dash-bootstrap'
     )],
-    style = {'display': 'inline-block', 'margin-left': '20px'},
-    id='div-update-meeting'
+    style = {'display': 'inline-block', 'margin-left': '20px'}
+)
+
+meeting_dropdown_compare_2 = html.Div([
+    html.P("Meeting 2:"),
+    dcc.Dropdown(
+        id = 'dropdown-update-meeting-compare-2',
+        value='All',
+        clearable=False,
+        options=[
+            {'label': name, 'value': name}
+            for name in meetings
+        ],
+        style={'width': '300px'},
+        className='dash-bootstrap'
+    )],
+    style = {'display': 'inline-block', 'margin-left': '20px'}
 )
 
 layout_dropdown = html.Div([
@@ -95,7 +142,7 @@ layout_dropdown = html.Div([
         style={'width': '300px'},
         className='dash-bootstrap'
     )
-], style={'margin-left': '20px', 'margin-top': '10px'})
+], style = {'display': 'inline-block', 'margin-left': '20px'})
 
 node_type_radio = html.Div([html.P("Node type:", style = {'display': 'inline-block'}),
     html.Div(dcc.RadioItems(['Behaviours', 'Participants'], id='radio-update-nodes', value='Behaviours', inline=True, inputStyle={'margin-right': '10px', 'margin-left': '10px'}), style={'display': 'inline-block'})
@@ -105,11 +152,11 @@ edge_type_radio = html.Div([html.P("Edge weight:", style = {'display': 'inline-b
     html.Div(dcc.RadioItems(['Frequency', 'Probability'], id='radio-update-edges', value='Frequency', inline=True, inputStyle={'margin-right': '10px', 'margin-left': '10px'}), style={'display': 'inline-block'})
 ], style={'margin-left': '20px', 'margin-top': '20px', 'display': 'inline-block'})
 
-colour_type_radio = html.Div([html.P("Colours:", style = {'display': 'inline-block'}),
+colour_type_radio = html.Div([html.P("Colour by:", style = {'display': 'inline-block'}),
     html.Div(dcc.RadioItems(['Behaviours', 'Participants'], id='radio-update-colour_type', value='Behaviours', inline=True, inputStyle={'margin-right': '10px', 'margin-left': '10px'}), style={'display': 'inline-block'})
 ], style={'margin-left': '20px', 'margin-top': '20px', 'display': 'inline-block'})
 
-colour_source_radio = html.Div([html.P("Colours:", style = {'display': 'inline-block'}),
+colour_source_radio = html.Div([html.P("Colour by:", style = {'display': 'inline-block'}),
     html.Div(dcc.RadioItems(['Source', 'Target'], id='radio-update-colour-source', value='Source', inline=True, inputStyle={'margin-right': '10px', 'margin-left': '10px'}), style={'display': 'inline-block'})
 ], style={'margin-left': '20px', 'margin-top': '20px', 'display': 'inline-block'})
 
@@ -126,7 +173,7 @@ graph = html.Div([
                 'radius': 200},
         elements = edges+nodes,
         stylesheet = selector_node_classes + selector_edge_classes + default_stylesheet,
-        style={'width': '100%', 'height': '950px'},
+        style={'width': '100%', 'height': '780px'},
     )
 ])
 
@@ -147,10 +194,9 @@ tooltip = html.Div([
     html.P(id='tooltip')
 ], style={'margin-left': '10px'})
 
-leader = html.Div([
-    html.P(id='leader')], style={'margin-left': '10px', 'display': 'inline-block'})
+graph_tab = html.Div([database_dropdown, team_dropdown, meeting_dropdown, layout_dropdown, leader, options_div, graph, weight_slider, tooltip])
 
-app.layout = html.Div([database_dropdown, team_dropdown, meeting_dropdown, leader, options_div, layout_dropdown, graph, weight_slider, tooltip])
+app.layout = graph_tab
 
 @callback(
         Output('tooltip', 'children'),
@@ -168,15 +214,22 @@ def mouseoverNodeData(node_data, edge_data):
             return node_data['id'] + ", with frequency: " + str(node_data['freq'])
         elif input == 'Edge':
             if node_type == 'Behaviours':
-                return edge_data['source'].upper() + " -> " + edge_data['target'].upper() + ": " + str(edge_data['original_weight'])
+                if edge_type == 'Frequency':
+                    return edge_data['source'].upper() + " -> " + edge_data['target'].upper() + ": " + str(edge_data['original_weight'])
+                else:
+                    return edge_data['source'].upper() + " -> " + edge_data['target'].upper() + ": " + str(edge_data['original_weight']) + " (" + str(edge_data['weight']) + "%)"
             else:
-                return edge_data['source'] + " -> " + edge_data['target'] + ", " + edge_data['behaviour'] + ": " + str(edge_data['original_weight'])
+                if edge_type == 'Frequency':
+                    return edge_data['source'] + " -> " + edge_data['target'] + ", " + edge_data['behaviour'] + ": " + str(edge_data['original_weight'])
+                else:
+                    return edge_data['source'] + " -> " + edge_data['target'] + ", " + edge_data['behaviour'] + ": " + str(edge_data['original_weight']) + " (" + str(edge_data['weight']) + "%)"
+
 
 @callback(Output('BiT', 'elements', allow_duplicate=True),
             Input('BiT', 'selectedNodeData'), prevent_initial_call=True)
 def select_node(selected_nodes):
     if len(selected_nodes) == 0:
-        return get_original_edges(edge_data, node_type, colour_type, colour_source) + get_original_nodes(node_data)
+        return get_original_edges(edge_data, node_type, colour_type, colour_source) + get_original_nodes(node_data, node_type, leader)
     else:
         current_edges = []
         for node in selected_nodes:
@@ -187,7 +240,7 @@ def select_node(selected_nodes):
                 else:
                     if edge['data']['target'] == node['id']:
                         current_edges.append(edge)
-        return current_edges + get_original_nodes(node_data)
+        return current_edges + get_original_nodes(node_data, node_type, leader)
 
 @callback(Output('BiT', 'layout'),
               Input('dropdown-update-layout', 'value'))
@@ -207,8 +260,11 @@ def update_database(value):
     Output('weight-slider-output', 'children')],
     Input('weight-slider', 'value'))
 def update_graph(selected_weight):
+    global nodes, edges
     if selected_weight == min_weight:
-        return get_original_edges(edge_data, node_type, colour_type, colour_source) + get_original_nodes(node_data), "Weight threshold: " + str(selected_weight)
+        nodes = get_original_nodes(node_data, node_type, leader)
+        edges = get_original_edges(edge_data, node_type, colour_type, colour_source)
+        return edges + nodes, "Weight threshold: " + str(selected_weight)
     else:
         # Remove edges with weight less than selected_weight
         current_edges = []
@@ -219,7 +275,9 @@ def update_graph(selected_weight):
             else:
                 if log2(selected_weight[0]) <= edge['data']['weight'] <= log2(selected_weight[1]):
                     current_edges.append(edge)
-        return current_edges + get_original_nodes(node_data), "Weight threshold: " + str(selected_weight[0]) + " - " + str(selected_weight[1])
+        nodes = get_original_nodes(node_data, node_type, leader)
+        edges = current_edges
+        return edges + nodes, "Weight threshold: " + str(selected_weight[0]) + " - " + str(selected_weight[1])
 
 @callback(Input('radio-update-nodes', 'value'),
     prevent_initial_call=True)
@@ -247,7 +305,7 @@ def update_colour_source(value):
 
 @callback(
     [Output('dropdown-update-meeting', 'options')],
-    Input('dropdown-update-team', 'value'))
+    Input('dropdown-update-team', 'value'), prevent_initial_call=True)
 def update_meeting_display(value):
     if value != '':
         global team
@@ -267,17 +325,16 @@ def update_graph_with_meeting(value):
              Output('weight-slider', 'min'),
              Output('weight-slider', 'max'),
              Output('weight-slider', 'marks'),
-             Output('weight-slider', 'value'),
-             Output('leader', 'children')],
+             Output('weight-slider', 'value')],
             Input('update-button', 'n_clicks'),
             prevent_initial_call=True)
 def update_graph_with_button(n_clicks):
-    global teams, node_data, edge_data, nodes, edges, selector_node_classes, selector_edge_classes, min_weight, max_weight, weight_bins, leader
+    global teams, meetings, node_data, edge_data, nodes, edges, selector_node_classes, selector_edge_classes, min_weight, max_weight, weight_bins, leader
     valid = check_valid_options(node_type, colour_type, team)
     if valid:
-        teams, node_data, edge_data, nodes, edges, selector_node_classes, selector_edge_classes, min_weight, max_weight, weight_bins, leader = load_dataset(
+        teams, meetings, node_data, edge_data, nodes, edges, selector_node_classes, selector_edge_classes, min_weight, max_weight, weight_bins, leader = load_dataset(
         database, node_type, edge_type, team, meeting, colour_type, colour_source)
-        return edges + nodes, selector_node_classes + selector_edge_classes + default_stylesheet, min_weight, max_weight, weight_bins, [min_weight, max_weight], leader
+        return edges + nodes, selector_node_classes + selector_edge_classes + default_stylesheet, min_weight, max_weight, weight_bins, [min_weight, max_weight]
     else:
         raise PreventUpdate
 
