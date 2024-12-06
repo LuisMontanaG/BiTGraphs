@@ -34,8 +34,15 @@ default_stylesheet = [
             'font-size': '20px',
             'text-halign':'center',
             'text-valign':'center'
+        },
+    },
+        {
+            'selector': 'label',
+            'style': {
+                'content': 'data(label)',
+                'color': 'white',
+            }
         }
-    }
 ]
 
 legend_stylesheet = [
@@ -71,7 +78,7 @@ database_dropdown = html.Div([
         for name in ['GEC2017', 'GEC2018', 'EYH2017', 'EYH2018', 'IDP2019', 'IDP2020']
         ],
         className='dash-bootstrap',
-        style={'width': '300px'},
+        style={'width': '200px'},
     )],
     style = {'display': 'inline-block', 'margin-left': '20px'},
 )
@@ -87,7 +94,7 @@ database_dropdown_compare = html.Div([
         for name in ['GEC2017', 'GEC2018', 'EYH2017', 'EYH2018', 'IDP2019', 'IDP2020']
         ],
         className='dash-bootstrap',
-        style={'width': '300px'},
+        style={'width': '200px'},
     )],
     style = {'display': 'inline-block', 'margin-left': '20px'},
 )
@@ -102,7 +109,7 @@ team_dropdown = html.Div([
             {'label': name, 'value': name}
             for name in teams
         ],
-        style={'width': '300px'},
+        style={'width': '200px'},
         className='dash-bootstrap'
     )],
     style = {'display': 'inline-block', 'margin-left': '20px'}
@@ -118,7 +125,7 @@ team_dropdown_compare = html.Div([
             {'label': name, 'value': name}
             for name in teams
         ],
-        style={'width': '300px'},
+        style={'width': '200px'},
         className='dash-bootstrap'
     )],
     style = {'display': 'inline-block', 'margin-left': '20px'}
@@ -134,7 +141,7 @@ meeting_dropdown = html.Div([
             {'label': name, 'value': name}
             for name in meetings
         ],
-        style={'width': '300px'},
+        style={'width': '200px'},
         className='dash-bootstrap'
     )],
     style = {'display': 'inline-block', 'margin-left': '20px'}
@@ -150,7 +157,7 @@ meeting_dropdown_compare = html.Div([
             {'label': name, 'value': name}
             for name in meetings
         ],
-        style={'width': '300px'},
+        style={'width': '200px'},
         className='dash-bootstrap'
     )],
     style = {'display': 'inline-block', 'margin-left': '20px'}
@@ -166,7 +173,7 @@ layout_dropdown = html.Div([
             {'label': name.capitalize(), 'value': name}
             for name in ['grid', 'random', 'circle', 'cose', 'concentric']
         ],
-        style={'width': '300px'},
+        style={'width': '200px'},
         className='dash-bootstrap'
     )
 ], style = {'display': 'inline-block', 'margin-left': '20px'})

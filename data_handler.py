@@ -780,7 +780,8 @@ def get_selector_classes_comparison(node_names, behaviours, colors, node_size_ma
                     'curve-style': 'bezier',
                     'control-point-step-size': 100,
                     'width': edge_size_map,
-                    'line-style': 'dashed'
+                    'line-style': 'dashed',
+                    'line-dash-pattern': [6, 10]
                 }
             }
         )
