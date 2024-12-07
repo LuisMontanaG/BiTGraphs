@@ -20,6 +20,7 @@ teams, meetings, node_data, edge_data, nodes, edges, selector_node_classes, sele
 legend_nodes = get_legend_nodes(node_names, selector_node_classes, colour_type, behaviours)
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
+server = app.server
 
 default_stylesheet = [
     # Group selectors for nodes
