@@ -641,7 +641,7 @@ def get_selector_classes(node_names, behaviours, colors, node_size_map, edge_siz
         {
             'selector': '.nodeParticipant',
             'style': {
-                'background-color': "white",
+                'background-color': "#44444",
                 'line-color': "white",
                 'width': node_size_map,
                 'height': node_size_map
@@ -652,7 +652,7 @@ def get_selector_classes(node_names, behaviours, colors, node_size_map, edge_siz
         {
             'selector': '.nodeLeader',
             'style': {
-                'background-color': "white",
+                'background-color': "#444444",
                 'line-color': "FFFFFF",
                 'shape': "star",
                 'width': 100,

@@ -3,7 +3,7 @@ import dash_cytoscape as cyto
 import dash_bootstrap_components as dbc
 from dash.exceptions import PreventUpdate
 
-from data_handler import *
+from app import *
 
 database = 'GEC2017'
 graph_type = 'Graph'
