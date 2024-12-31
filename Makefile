@@ -25,12 +25,12 @@ run_app:
 	ls -a pages_files
 	ls -a pages_files/assets
 
-	find pages_files -exec sed -i.bak 's|_dash-component-suites|BiTComparisonGraphs\\/_dash-component-suites|g' {} \;
-	find pages_files -exec sed -i.bak 's|_dash-layout|BiTComparisonGraphs/_dash-layout.json|g' {} \;
-	find pages_files -exec sed -i.bak 's|_dash-dependencies|BiTComparisonGraphs/_dash-dependencies.json|g' {} \;
-	find pages_files -exec sed -i.bak 's|_reload-hash|BiTComparisonGraphs/_reload-hash|g' {} \;
-	find pages_files -exec sed -i.bak 's|_dash-update-component|BiTComparisonGraphs/_dash-update-component|g' {} \;
-	find pages_files -exec sed -i.bak 's|assets|BiTComparisonGraphs/assets|g' {} \;
+	find pages_files -exec sed -i.bak 's|_dash-component-suites|BitGraphs\\/_dash-component-suites|g' {} \;
+	find pages_files -exec sed -i.bak 's|_dash-layout|BitGraphs/_dash-layout.json|g' {} \;
+	find pages_files -exec sed -i.bak 's|_dash-dependencies|BitGraphs/_dash-dependencies.json|g' {} \;
+	find pages_files -exec sed -i.bak 's|_reload-hash|BitGraphs/_reload-hash|g' {} \;
+	find pages_files -exec sed -i.bak 's|_dash-update-component|BitGraphs/_dash-update-component|g' {} \;
+	find pages_files -exec sed -i.bak 's|assets|BitGraphs/assets|g' {} \;
 
 	mv pages_files/_dash-layout pages_files/_dash-layout.json
 	mv pages_files/_dash-dependencies pages_files/_dash-dependencies.json
