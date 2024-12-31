@@ -13,10 +13,10 @@ jobs:
 
       - name: Setup Pages
         if: github.ref == 'refs/heads/master'
-        uses: actions/configure-pages@master
+        uses: actions/configure-pages@main
 
       - name: Setup python
-        uses: actions/setup-python@master
+        uses: actions/setup-python@main
         with:
           python-version: '3.12'
           architecture: 'x64'
@@ -35,7 +35,7 @@ jobs:
 
       - name: Upload Artifact
         if: github.ref == 'refs/heads/master'
-        uses: actions/upload-pages-artifact@master
+        uses: actions/upload-pages-artifact@main
         with:
           path: "./pages_files"
 
@@ -55,4 +55,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@master
+        uses: actions/deploy-pages@main
