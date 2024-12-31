@@ -12,11 +12,11 @@ jobs:
         uses: actions/checkout@main
 
       - name: Setup Pages
-        if: github.ref == 'refs/heads/main'
-        uses: actions/configure-pages@main
+        if: github.ref == 'refs/heads/master'
+        uses: actions/configure-pages@master
 
       - name: Setup python
-        uses: actions/setup-python@main
+        uses: actions/setup-python@master
         with:
           python-version: '3.12'
           architecture: 'x64'
@@ -34,13 +34,13 @@ jobs:
           make run_app
 
       - name: Upload Artifact
-        if: github.ref == 'refs/heads/main'
-        uses: actions/upload-pages-artifact@main
+        if: github.ref == 'refs/heads/master'
+        uses: actions/upload-pages-artifact@master
         with:
           path: "./pages_files"
 
   deploy-pages:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     needs: run_app
     
@@ -55,4 +55,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@main
+        uses: actions/deploy-pages@master
