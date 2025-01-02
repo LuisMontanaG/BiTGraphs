@@ -399,4 +399,4 @@ def update_graph_with_button(n_clicks):
         raise PreventUpdate
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
