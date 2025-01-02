@@ -6,19 +6,23 @@ NODE_MAP_MIN_SIZE = 40
 NODE_MAP_MAX_SIZE = 150
 EDGE_MAP_MIN_SIZE = 1
 EDGE_MAP_MAX_SIZE = 20
+NORMALISE_MULTIPLIER = 100
 
 events_file = 'Events.csv'
 entities_file = 'EntityAttributes.csv'
-participants_file = 'Participants.sav'
+teams_file = 'SequenceAttributes.csv'
+variable_separation_file = 'Variables.csv'
 
-def load_dataset(dataset_name, node_type, edge_type, team, meeting, colour_type, colour_source):
+def load_dataset(group_by, dataset_name, node_type, edge_type, team, meeting, colour_type, colour_source, normalise, show_stats):
     events, entities, teams, behaviours, participants, meetings = read_files(dataset_name)
+    if group_by != 'Teams':
+        teams = read_teams_from_file(dataset_name, group_by, team)
     if node_type == 'Behaviours':
-        node_names, acronyms, acronyms_dict, freq, sizes, node_size_map, leader, node_stats = get_behaviour_node_data(events, teams, team, meeting, participants)
-        edge_data, min_weight, max_weight, weight_bins, edge_size_map, edge_stats = get_behaviour_edge_data(edge_type, teams, events, team, meeting)
+        node_names, acronyms, acronyms_dict, freq, sizes, node_size_map, leader, node_stats = get_behaviour_node_data(group_by, events, teams, team, meeting, participants, normalise, show_stats)
+        edge_data, min_weight, max_weight, weight_bins, edge_size_map, edge_stats = get_behaviour_edge_data(group_by, edge_type, teams, events, team, meeting, normalise, show_stats)
     else:
-        node_names, acronyms, acronyms_dict, freq, sizes, node_size_map, entity_list, leader, node_stats = get_participant_node_data(events, entities, team, meeting, participants)
-        edge_data, min_weight, max_weight, weight_bins, edge_size_map, edge_stats = get_participant_edge_data(edge_type, events, team, meeting, entity_list)
+        node_names, acronyms, acronyms_dict, freq, sizes, node_size_map, entity_list, leader, node_stats = get_participant_node_data(events, entities, team, meeting, participants, normalise)
+        edge_data, min_weight, max_weight, weight_bins, edge_size_map, edge_stats = get_participant_edge_data(edge_type, events, team, meeting, entity_list, normalise)
     colors = get_colors(node_names, behaviours, colour_type)
     selector_node_classes, selector_edge_classes = get_selector_classes(node_names, behaviours, colors, node_size_map, edge_size_map, colour_type)
     node_data, nodes = get_nodes(node_names, acronyms, freq, sizes, node_type, leader, colour_type, node_stats)
@@ -26,13 +30,15 @@ def load_dataset(dataset_name, node_type, edge_type, team, meeting, colour_type,
         edges = get_behaviour_edges(edge_data, colour_source, edge_stats)
     else:
         edges = get_participant_edges(edge_data, colour_type, colour_source)
-    return teams, meetings, node_data, edge_data, nodes, edges, selector_node_classes, selector_edge_classes, min_weight, max_weight, weight_bins, leader, node_names, behaviours, node_stats, edge_stats
+    return teams, meetings, node_data, edge_data, nodes, edges, selector_node_classes, selector_edge_classes, min_weight, max_weight, weight_bins, leader, node_names, behaviours, node_stats, edge_stats, node_size_map
 
 def read_files(dataset_name):
     events = pd.read_csv(dataset_name + '/' + events_file)
     entities = pd.read_csv(dataset_name + '/' + entities_file)
     # Keep only sequenceId, event and entityId columns in events
     events = events[['sequenceId', 'event', 'entityId']]
+    # Remove event Online, if present
+    events = events[events['event'] != 'Online']
     # Keep only entityId, ParameterKey and ParameterValue columns in entities
     entities = entities[['entityId', 'ParameterKey', 'ParameterValue']]
 
@@ -50,8 +56,28 @@ def read_files(dataset_name):
 
     # Participants
     if '2017' in dataset_name:
-        participants = pd.read_spss(dataset_name + '/' + participants_file)
-        participants = participants[['teamid', 'nameinfile', 'leader_meeting']]
+        entities_file_df = pd.read_csv(dataset_name + '/' + entities_file)
+        # Keep only rows where ParameterKey is 'name' or 'leader_meeting'
+        participants = entities_file_df[entities_file_df['ParameterKey'].isin(['name', 'leader_meeting'])]
+        # Create a dictionary with entityIds as keys and name and leader_meeting as values
+        dict = {}
+        for index, row in participants.iterrows():
+            if row['entityId'] in dict:
+                dict[row['entityId']].append(row['ParameterValue'])
+            else:
+                dict[row['entityId']]= [row['sequenceId']]
+                dict[row['entityId']].append(row['ParameterValue'])
+
+        # Create a DataFrame with columns entityId, nameinfile and leader_meeting
+        participants = pd.DataFrame.from_dict(dict, orient='index')
+        participants.reset_index(inplace=True)
+        participants.columns = ['entityId', 'teamid', 'nameinfile', 'leader_meeting']
+        # Convert leader_meeting first to float and then to int
+        participants['leader_meeting'] = participants['leader_meeting'].astype(float).astype(int)
+        # Remove column entityId
+        participants.drop(columns='entityId', inplace=True)
+        # Get teamid by splitting teamid by ';', keeping only the first element and splitting it by '_', keeping only the second element
+        participants['teamid'] = participants['teamid'].str.split(';').str[0].str.split('_').str[1]
     else:
         participants = []
 
@@ -64,26 +90,53 @@ def read_files(dataset_name):
 
     return events, entities, teams, behaviours, participants, meetings
 
-def get_behaviour_node_data(events, team_list, team, meeting, participants):
+def read_teams_from_file(database, variable, group_name):
+    with open(database + '/' + variable_separation_file, 'r') as file:
+        lines = file.readlines()
+    is_variable = False
+    is_group = False
+    teams = []
+    for line in lines:
+        if 'Attribute' in line:
+            if variable in line:
+                is_variable = True
+            else:
+                is_variable = False
+            continue
+        if is_variable:
+            if group_name in line:
+                is_group = True
+                continue
+        if is_group:
+            teams = line.split(',')
+            teams = [team for team in teams if team != 'NA\n']
+            teams = [team.split('_')[1].strip() for team in teams]
+            break
+    return teams
+
+def get_behaviour_node_data(group_by, events, team_list, team, meeting, participants, normalise, show_stats):
     # Remove All from teams (if present)
     teams = team_list.copy()
     if 'All' in teams:
         teams.remove('All')
     leader = ''
-    if team != 'All':
+    if group_by == 'Teams':
+        if team != 'All':
+            # Keep only rows where sequenceId contains team
+            events = events[events['sequenceId'].str.split('_').str[1] == team]
+            # Keep only rows where meeting is equal to the selected meeting
+            if meeting != 'All':
+                events = events[events['sequenceId'].str.split('_').str[0] == meeting]
+                # Get participants in the selected team
+                leader = participants[(participants['teamid'] == team) & (participants['leader_meeting'] == int(meeting))]['nameinfile']
+                if len(leader) > 0:
+                    leader = "Leader: " + ",".join(leader)
+    else:
         # Keep only rows where sequenceId contains team
-        events = events[events['sequenceId'].str.split('_').str[1] == team]
-        # Keep only rows where meeting is equal to the selected meeting
+        events = events[events['sequenceId'].str.split('_').str[1].isin(teams)]
         if meeting != 'All':
+            # Keep only rows where meeting is equal to the selected meeting
             events = events[events['sequenceId'].str.split('_').str[0] == meeting]
-            # Get participants in the selected team
-            leader = participants[(participants['teamid'] == team) & (participants['leader_meeting'] == int(meeting))]['nameinfile']
-            if len(leader) > 0:
-                leader = "Leader: " + ",".join(leader)
-
-    elif meeting != 'All':
-        # Keep only rows where meeting is equal to the selected meeting
-        events = events[events['sequenceId'].str.split('_').str[0] == meeting]
 
     # Get node names
     node_names = events['event'].unique()
@@ -102,71 +155,74 @@ def get_behaviour_node_data(events, team_list, team, meeting, participants):
     stats = {}
     for name in node_names:
         stats[name] = ''
-
-    if team == 'All':
-        team_freqs = {}
-        for t in teams:
-            team_events = events[events['sequenceId'].str.split('_').str[1] == t]
-            team_freq = team_events['event'].value_counts()
-            # If one node_name is not present in team_freq, add it with value 0
-            for name in node_names:
-                if name not in team_freq:
-                    team_freq[name] = 0
-            team_freq = team_freq[node_names]
-            team_freqs[t] = team_freq
-        # Get the team with the highest frequency of each behaviour
-        for name in node_names:
-            max_freq = 0
-            max_team = ''
-            min_freq = 1000000
-            min_team = ''
-            sum = 0
+    if show_stats:
+        if team == 'All':
+            team_freqs = {}
             for t in teams:
-                if team_freqs[t][name] > max_freq:
-                    max_freq = team_freqs[t][name]
-                    max_team = t
-                if team_freqs[t][name] < min_freq:
-                    min_freq = team_freqs[t][name]
-                    min_team = t
-                sum += team_freqs[t][name]
-            stats[name] += 'Most frequent team: ' + max_team + ' (' + str(max_freq) + ')'
-            stats[name] += ' Least frequent team: ' + min_team + ' (' + str(min_freq) + ')'
-            # Get average frequency
-            stats[name] += ' Average frequency: ' + str(round(sum / len(teams),2))
-    if meeting == 'All':
-        # Get unique sequenceIds
-        sequenceIds = events['sequenceId'].unique()
-        # Get frequency of each behaviour in each meeting
-        meeting_freqs = {}
-        for s in sequenceIds:
-            meeting_events = events[events['sequenceId'] == s]
-            meeting_freq = meeting_events['event'].value_counts()
-            # If one node_name is not present in meeting_freq, add it with value 0
+                team_events = events[events['sequenceId'].str.split('_').str[1] == t]
+                team_freq = team_events['event'].value_counts()
+                # If one node_name is not present in team_freq, add it with value 0
+                for name in node_names:
+                    if name not in team_freq:
+                        team_freq[name] = 0
+                team_freq = team_freq[node_names]
+                team_freqs[t] = team_freq
+            # Get the team with the highest frequency of each behaviour
             for name in node_names:
-                if name not in meeting_freq:
-                    meeting_freq[name] = 0
-            meeting_freq = meeting_freq[node_names]
-            meeting_freqs[s] = meeting_freq
-        # Get the meeting with the highest frequency of each behaviour
-        for name in node_names:
-            max_freq = 0
-            max_meeting = ''
-            min_freq = 1000000
-            min_meeting = ''
-            sum = 0
-            for m in sequenceIds:
-                if meeting_freqs[m][name] > max_freq:
-                    max_freq = meeting_freqs[m][name]
-                    max_meeting = m
-                if meeting_freqs[m][name] < min_freq:
-                    min_freq = meeting_freqs[m][name]
-                    min_meeting = m
-                sum += meeting_freqs[m][name]
-            stats[name] += ' Most frequent meeting: ' + max_meeting + ' (' + str(max_freq) + ')'
-            stats[name] += ' Least frequent meeting: ' + min_meeting + ' (' + str(min_freq) + ')'
+                max_freq = 0
+                max_team = ''
+                min_freq = 1000000
+                min_team = ''
+                sum = 0
+                for t in teams:
+                    if team_freqs[t][name] > max_freq:
+                        max_freq = team_freqs[t][name]
+                        max_team = t
+                    if team_freqs[t][name] < min_freq:
+                        min_freq = team_freqs[t][name]
+                        min_team = t
+                    sum += team_freqs[t][name]
+                stats[name] += 'Most frequent team: ' + max_team + ' (' + str(max_freq) + ')'
+                stats[name] += ' Least frequent team: ' + min_team + ' (' + str(min_freq) + ')'
+                # Get average frequency
+                stats[name] += ' Average frequency: ' + str(round(sum / len(teams),2))
+        if meeting == 'All':
+            # Get unique sequenceIds
+            sequenceIds = events['sequenceId'].unique()
+            # Get frequency of each behaviour in each meeting
+            meeting_freqs = {}
+            for s in sequenceIds:
+                meeting_events = events[events['sequenceId'] == s]
+                meeting_freq = meeting_events['event'].value_counts()
+                # If one node_name is not present in meeting_freq, add it with value 0
+                for name in node_names:
+                    if name not in meeting_freq:
+                        meeting_freq[name] = 0
+                meeting_freq = meeting_freq[node_names]
+                meeting_freqs[s] = meeting_freq
+            # Get the meeting with the highest frequency of each behaviour
+            for name in node_names:
+                max_freq = 0
+                max_meeting = ''
+                min_freq = 1000000
+                min_meeting = ''
+                sum = 0
+                for m in sequenceIds:
+                    if meeting_freqs[m][name] > max_freq:
+                        max_freq = meeting_freqs[m][name]
+                        max_meeting = m
+                    if meeting_freqs[m][name] < min_freq:
+                        min_freq = meeting_freqs[m][name]
+                        min_meeting = m
+                    sum += meeting_freqs[m][name]
+                stats[name] += ' Most frequent meeting: ' + max_meeting + ' (' + str(max_freq) + ')'
+                stats[name] += ' Least frequent meeting: ' + min_meeting + ' (' + str(min_freq) + ')'
 
     # Get frequency of events
     freq = events['event'].value_counts()
+    # If normalise is True, divide by the number of events and multiply by NORMALISE_MULTIPLIER
+    if normalise:
+        freq = (freq / len(events)) * NORMALISE_MULTIPLIER
     # If 'Break' is in freq, remove it
     if 'Break' in freq:
         freq = freq.drop('Break')
@@ -178,7 +234,7 @@ def get_behaviour_node_data(events, team_list, team, meeting, participants):
     size_map = "mapData(size," + str(min(sizes)) + "," + str(max(sizes)) + "," + str(NODE_MAP_MIN_SIZE) + "," + str(NODE_MAP_MAX_SIZE) + ")"
     return node_names, acronyms, acronyms_dict, freq, sizes, size_map, leader, stats
 
-def get_participant_node_data(events, entities, team, meeting, participants_attributes):
+def get_participant_node_data(events, entities, team, meeting, participants_attributes, normalise):
     # Get entityIds of participants in the team.
     # Keep only rows where sequenceId split by '_' is equal to team
     entityIds = events[events['sequenceId'].str.split('_').str[1] == team]['entityId'].unique()
@@ -220,6 +276,9 @@ def get_participant_node_data(events, entities, team, meeting, participants_attr
             leader = "Leader: " + ",".join(leader)
 
     freq = events['entityId'].value_counts()
+    # If normalise is True, divide by the number of events and multiply by NORMALISE_MULTIPLIER
+    if normalise:
+        freq = (freq / len(events)) * NORMALISE_MULTIPLIER
 
     # Replace entityIds with names
     freq.index = entities[entities['entityId'].isin(freq.index)]['ParameterValue']
@@ -229,18 +288,19 @@ def get_participant_node_data(events, entities, team, meeting, participants_attr
     size_map = "mapData(size," + str(min(sizes)) + "," + str(max(sizes)) + "," + str(NODE_MAP_MIN_SIZE) + "," + str(NODE_MAP_MAX_SIZE) + ")"
     return node_names, acronyms, acronyms_dict, freq, sizes, size_map, entities, leader, stats
 
-def get_behaviour_edge_data(edge_type, team_list, events, team, meeting):
+def get_behaviour_edge_data(group_by, edge_type, team_list, events, team, meeting, normalise, show_stats):
     # Remove All from teams (if present)
     teams = team_list.copy()
     if 'All' in teams:
         teams.remove('All')
-    if team != 'All':
+    if group_by == 'Teams':
+        if team != 'All':
+            # Keep only rows where sequenceId contains team
+            events = events[events['sequenceId'].str.split('_').str[1] == team]
+    else:
         # Keep only rows where sequenceId contains team
-        events = events[events['sequenceId'].str.split('_').str[1] == team]
-        # Keep only rows where meeting is equal to the selected meeting
-        if meeting != 'All':
-            events = events[events['sequenceId'].str.split('_').str[0] == meeting]
-    elif meeting != 'All':
+        events = events[events['sequenceId'].str.split('_').str[1].isin(teams)]
+    if meeting != 'All':
         # Keep only rows where meeting is equal to the selected meeting
         events = events[events['sequenceId'].str.split('_').str[0] == meeting]
     # Get edges
@@ -274,100 +334,111 @@ def get_behaviour_edge_data(edge_type, team_list, events, team, meeting):
     for source,target in list(edges.keys()):
         stats[source,target] = ''
 
-    if team == 'All':
-        team_freqs = {}
-        for t in teams:
-            team_freq = {}
-            team_events = events[events['sequenceId'].str.split('_').str[1] == t]
-            # Regenerate index
-            team_events = team_events.reset_index(drop=True)
-            for i in range(1, len(team_events)):
-                if (team_events['event'][i - 1], team_events['event'][i]) in team_freq:
-                    team_freq[(team_events['event'][i - 1], team_events['event'][i])] += 1
-                else:
-                    team_freq[(team_events['event'][i - 1], team_events['event'][i])] = 1
-            # If one source, target pair is not present in team_freq, add it with value 0
-            for name in list(edges.keys()):
-                if name not in team_freq:
-                    team_freq[name] = 0
-            team_freqs[t] = team_freq
-        # Get the team with the highest frequency of each behaviour
-        for source,target in list(edges.keys()):
-            max_freq = 0
-            max_team = ''
-            min_freq = 1000000
-            min_team = ''
-            sum = 0
+    if show_stats:
+        if team == 'All':
+            team_freqs = {}
             for t in teams:
-                if team_freqs[t][source,target] > max_freq:
-                    max_freq = team_freqs[t][source,target]
-                    max_team = t
-                if team_freqs[t][source,target] < min_freq:
-                    min_freq = team_freqs[t][source,target]
-                    min_team = t
-                sum += team_freqs[t][source,target]
-            stats[source,target] += 'Most frequent team: ' + max_team + ' (' + str(max_freq) + ')'
-            stats[source,target] += ' Least frequent team: ' + min_team + ' (' + str(min_freq) + ')'
-            # Get average frequency
-            stats[source,target] += ' Average frequency: ' + str(round(sum / len(teams),2))
-    if meeting == 'All':
-        # Get unique sequenceIds
-        sequenceIds = events['sequenceId'].unique()
-        # Get frequency of each behaviour in each meeting
-        meeting_freqs = {}
-        for s in sequenceIds:
-            meeting_freq = {}
-            meeting_events = events[events['sequenceId'] == s]
-            # Regenerate index
-            meeting_events = meeting_events.reset_index(drop=True)
-            for i in range(1, len(meeting_events)):
-                if (meeting_events['event'][i - 1], meeting_events['event'][i]) in meeting_freq:
-                    meeting_freq[(meeting_events['event'][i - 1], meeting_events['event'][i])] += 1
-                else:
-                    meeting_freq[(meeting_events['event'][i - 1], meeting_events['event'][i])] = 1
-            # If one node_name is not present in meeting_freq, add it with value 0
-            for name in list(edges.keys()):
-                if name not in meeting_freq:
-                    meeting_freq[name] = 0
-            meeting_freqs[s] = meeting_freq
-        # Get the meeting with the highest frequency of each behaviour
-        for source,target in list(edges.keys()):
-            max_freq = 0
-            max_meeting = ''
-            min_freq = 1000000
-            min_meeting = ''
-            sum = 0
-            for m in sequenceIds:
-                if meeting_freqs[m][source,target] > max_freq:
-                    max_freq = meeting_freqs[m][source,target]
-                    max_meeting = m
-                if meeting_freqs[m][source,target] < min_freq:
-                    min_freq = meeting_freqs[m][source,target]
-                    min_meeting = m
-                sum += meeting_freqs[m][source,target]
-            stats[source,target] += ' Most frequent meeting: ' + max_meeting + ' (' + str(max_freq) + ')'
-            stats[source,target] += ' Least frequent meeting: ' + min_meeting + ' (' + str(min_freq) + ')'
+                team_freq = {}
+                team_events = events[events['sequenceId'].str.split('_').str[1] == t]
+                # Regenerate index
+                team_events = team_events.reset_index(drop=True)
+                for i in range(1, len(team_events)):
+                    if (team_events['event'][i - 1], team_events['event'][i]) in team_freq:
+                        team_freq[(team_events['event'][i - 1], team_events['event'][i])] += 1
+                    else:
+                        team_freq[(team_events['event'][i - 1], team_events['event'][i])] = 1
+                # If one source, target pair is not present in team_freq, add it with value 0
+                for name in list(edges.keys()):
+                    if name not in team_freq:
+                        team_freq[name] = 0
+                team_freqs[t] = team_freq
+            # Get the team with the highest frequency of each behaviour
+            for source,target in list(edges.keys()):
+                max_freq = 0
+                max_team = ''
+                min_freq = 1000000
+                min_team = ''
+                sum = 0
+                for t in teams:
+                    if team_freqs[t][source,target] > max_freq:
+                        max_freq = team_freqs[t][source,target]
+                        max_team = t
+                    if team_freqs[t][source,target] < min_freq:
+                        min_freq = team_freqs[t][source,target]
+                        min_team = t
+                    sum += team_freqs[t][source,target]
+                stats[source,target] += 'Most frequent team: ' + max_team + ' (' + str(max_freq) + ')'
+                stats[source,target] += ' Least frequent team: ' + min_team + ' (' + str(min_freq) + ')'
+                # Get average frequency
+                stats[source,target] += ' Average frequency: ' + str(round(sum / len(teams),2))
+        if meeting == 'All':
+            # Get unique sequenceIds
+            sequenceIds = events['sequenceId'].unique()
+            # Get frequency of each behaviour in each meeting
+            meeting_freqs = {}
+            for s in sequenceIds:
+                meeting_freq = {}
+                meeting_events = events[events['sequenceId'] == s]
+                # Regenerate index
+                meeting_events = meeting_events.reset_index(drop=True)
+                for i in range(1, len(meeting_events)):
+                    if (meeting_events['event'][i - 1], meeting_events['event'][i]) in meeting_freq:
+                        meeting_freq[(meeting_events['event'][i - 1], meeting_events['event'][i])] += 1
+                    else:
+                        meeting_freq[(meeting_events['event'][i - 1], meeting_events['event'][i])] = 1
+                # If one node_name is not present in meeting_freq, add it with value 0
+                for name in list(edges.keys()):
+                    if name not in meeting_freq:
+                        meeting_freq[name] = 0
+                meeting_freqs[s] = meeting_freq
+            # Get the meeting with the highest frequency of each behaviour
+            for source,target in list(edges.keys()):
+                max_freq = 0
+                max_meeting = ''
+                min_freq = 1000000
+                min_meeting = ''
+                sum = 0
+                for m in sequenceIds:
+                    if meeting_freqs[m][source,target] > max_freq:
+                        max_freq = meeting_freqs[m][source,target]
+                        max_meeting = m
+                    if meeting_freqs[m][source,target] < min_freq:
+                        min_freq = meeting_freqs[m][source,target]
+                        min_meeting = m
+                    sum += meeting_freqs[m][source,target]
+                stats[source,target] += ' Most frequent meeting: ' + max_meeting + ' (' + str(max_freq) + ')'
+                stats[source,target] += ' Least frequent meeting: ' + min_meeting + ' (' + str(min_freq) + ')'
 
     weights = list(edges.values())
     min_weight = min(weights)
     max_weight = max(weights)
 
     # Create 10 bins in the range of min_weight and max_weight
-    weight_bins = np.linspace(min_weight, max_weight, 20)
+    weight_bins = np.linspace(min_weight, max_weight + 1, 20)
     # Create a dictionary with the bins as keys and the bins as values
     weight_bins = {str(int(bin)): str(int(bin)) for bin in weight_bins}
 
     # Convert dictionary to a list of 4-tuples
     if edge_type == 'Frequency':
-        edge_data = [(key[0], key[1], "", log2(value), value) for key, value in edges.items()]
-        edge_size_map = "mapData(weight," + str(log2(min_weight)) + "," + str(log2(max_weight)) + "," + str(EDGE_MAP_MIN_SIZE) + "," + str(EDGE_MAP_MAX_SIZE) + ")"
+        if not normalise:
+            edge_data = [(key[0], key[1], "", log2(value), value) for key, value in edges.items()]
+            edge_size_map = "mapData(weight," + str(log2(min_weight)) + "," + str(log2(max_weight)) + "," + str(EDGE_MAP_MIN_SIZE) + "," + str(EDGE_MAP_MAX_SIZE) + ")"
+        else:
+            edge_data = [(key[0], key[1], "", (value / len(events)) * NORMALISE_MULTIPLIER, value) for key, value in edges.items()]
+            min_weight = (min_weight / len(events)) * NORMALISE_MULTIPLIER
+            max_weight = (max_weight / len(events)) * NORMALISE_MULTIPLIER
+            # Create 10 bins in the range of min_weight and max_weight
+            weight_bins = np.linspace(min_weight, max_weight + 1, 20)
+            # Create a dictionary with the bins as keys and the bins as values
+            weight_bins = {str(int(bin)): str(int(bin)) for bin in weight_bins}
+
+            edge_size_map = "mapData(weight," + str((min_weight / len(events)) * NORMALISE_MULTIPLIER) + "," + str((max_weight / len(events)) * NORMALISE_MULTIPLIER) + "," + str(EDGE_MAP_MIN_SIZE) + "," + str(EDGE_MAP_MAX_SIZE) + ")"
     else:
         edge_data = [(key[0], key[1], "", value, int(round((value / 100) * source_sum[key[0]]))) for key, value in edges.items()]
         edge_size_map = "mapData(weight," + str(min_weight) + "," + str(max_weight) + "," + str(EDGE_MAP_MIN_SIZE) + "," + str(EDGE_MAP_MAX_SIZE) + ")"
     return edge_data, min_weight, max_weight, weight_bins, edge_size_map, stats
 
-def get_participant_edge_data(edge_type, events, team, meeting, entity_list):
-
+def get_participant_edge_data(edge_type, events, team, meeting, entity_list, normalise):
     # Get events rows where sequenceId contains team
     events = events[events['sequenceId'].str.split('_').str[1] == team]
     # Remove rows with entityId -1
@@ -423,8 +494,18 @@ def get_participant_edge_data(edge_type, events, team, meeting, entity_list):
     #weights = [weight / max_weight for weight in weights]
     # Convert dictionary to a list of 5-tuples
     if edge_type == 'Frequency':
-        edge_data = [(key[0], key[1], key[2], log2(value), value) for key, value in edges.items()]
-        edge_size_map = "mapData(weight," + str(log2(min_weight)) + "," + str(log2(max_weight)) + "," + str(EDGE_MAP_MIN_SIZE) + "," + str(EDGE_MAP_MAX_SIZE) + ")"
+        if not normalise:
+            edge_data = [(key[0], key[1], key[2], log2(value), value) for key, value in edges.items()]
+            edge_size_map = "mapData(weight," + str(log2(min_weight)) + "," + str(log2(max_weight)) + "," + str(EDGE_MAP_MIN_SIZE) + "," + str(EDGE_MAP_MAX_SIZE) + ")"
+        else:
+            edge_data = [(key[0], key[1], key[2], (value / len(events)) * NORMALISE_MULTIPLIER, value) for key, value in edges.items()]
+            edge_size_map = "mapData(weight," + str((min_weight / len(events)) * NORMALISE_MULTIPLIER) + "," + str((max_weight / len(events)) * NORMALISE_MULTIPLIER) + "," + str(EDGE_MAP_MIN_SIZE) + "," + str(EDGE_MAP_MAX_SIZE) + ")"
+            min_weight = (min_weight / len(events)) * NORMALISE_MULTIPLIER
+            max_weight = (max_weight / len(events)) * NORMALISE_MULTIPLIER
+            # Create 10 bins in the range of min_weight and max_weight
+            weight_bins = np.linspace(min_weight, max_weight + 1, 20)
+            # Create a dictionary with the bins as keys and the bins as values
+            weight_bins = {str(int(bin)): str(int(bin)) for bin in weight_bins}
     else:
         edge_data = [(key[0], key[1], key[2], value, int(round((value / 100) * source_sum[key[0]]))) for key, value in edges.items()]
         edge_size_map = "mapData(weight," + str(min_weight) + "," + str(max_weight) + "," + str(EDGE_MAP_MIN_SIZE) + "," + str(EDGE_MAP_MAX_SIZE) + ")"
@@ -684,28 +765,76 @@ def get_original_edges(edge_data, node_type, colour_type, colour_source, stats):
             ]
     return original_edges
 
-def get_meetings_for_team(database, team):
-    events, entities, teams, behaviours, leader, meetings = read_files(database)
-    meetings = ['All']
+def get_meetings_for_team(database, group_by, team):
+    events, entities, teams, behaviours, participants, meetings = read_files(database)
+    meetings = []
 
-    if team != 'All':
-        # Iterate through events
-        for index, event in events.iterrows():
-            if event['sequenceId'].split('_')[1] == team:
-                meetings.append(event['sequenceId'].split('_')[0])
-        meetings = list(set(meetings))
-        meetings.sort()
-
-    else:
+    if team is None:
+        meetings.append('All')
+    elif team == 'All':
         meetings = events['sequenceId'].unique()
         meetings = [meeting.split('_')[0] for meeting in meetings]
         meetings = list(set(meetings))
         meetings.sort()
-        meetings.append('All')
+        meetings.insert(0, 'All')
+    elif any(char.isdigit() for char in team):
+        # Get events where sequenceId contains team
+        events = events[events['sequenceId'].str.split('_').str[1] == team]
+        meetings = events['sequenceId'].unique()
+        meetings = [meeting.split('_')[0] for meeting in meetings]
+
+        meetings = list(set(meetings))
+        meetings.sort()
+        meetings.insert(0, 'All')
+    else:  # Team is a group (variable values control, feedback, etc.)
+        team_list = read_teams_from_file(database, group_by, team)
+        # Get events where sequenceId contains team
+        events = events[events['sequenceId'].str.split('_').str[1].isin(team_list)]
+        meetings = events['sequenceId'].unique()
+        meetings = [meeting.split('_')[0] for meeting in meetings]
+
+        meetings = list(set(meetings))
+        meetings.sort()
+        meetings.insert(0, 'All')
 
     options = [
         {'label': name.capitalize(), 'value': name}
         for name in meetings
+    ]
+    return options
+
+def get_teams_for_group(database, variable):
+    if variable == 'Teams':
+        return get_teams_for_database(database)
+    else:
+        return read_team_groups_from_file(database, variable)
+
+def get_teams_for_database(database):
+    events, entities, teams, behaviours, participants, meetings = read_files(database)
+    options = [
+        {'label': name, 'value': name}
+        for name in teams
+    ]
+    return options
+
+def read_team_groups_from_file(database, variable):
+    with open(database + '/' + variable_separation_file, 'r') as file:
+        lines = file.readlines()
+
+    is_variable = False
+    names = []
+    for line in lines:
+        if 'Attribute' in line:
+            if variable in line:
+                is_variable = True
+            else:
+                is_variable = False
+        if is_variable:
+            if line.startswith('ids'):
+                names.append(line.split(':')[1].strip())
+    options = [
+        {'label': name, 'value': name}
+        for name in names
     ]
     return options
 
